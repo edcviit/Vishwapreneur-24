@@ -2,10 +2,11 @@ import React, { useEffect, useRef } from "react";
 import "./Guest2.css";
 import ScrollAnimation from "../../Animations/ScrollAnimation";
 import { AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
 // import ''
 
 const Guest2 = () => {
+  const navigate = useNavigate();
   const cardContainerRef = useRef(null);
   useEffect(() => {
     const cardContainer = cardContainerRef.current;
@@ -249,11 +250,12 @@ const Guest2 = () => {
             </div>
           ))}
         </div>
-        <Link to="/new-guest">
-          <button class="space-button" style={{ marginTop: "40px" }}>
+        
+          <button onClick={()=>{
+            navigate("/guests" );
+          }} class="space-button"  style={{ marginTop: "40px" }} >
             View More
           </button>
-        </Link>
       </div>
     </AnimatePresence>
   );

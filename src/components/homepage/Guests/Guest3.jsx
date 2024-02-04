@@ -7,7 +7,7 @@ import { AnimatePresence } from "framer-motion";
 const Guest3 = () => {
   const cardContainerRef = useRef(null);
   useEffect(() => {
-    const cardContainer = cardContainerRef.current;
+    window.scrollTo(0, 0);
     const cards = document.querySelectorAll(".card");
 
     const observerOptions = {

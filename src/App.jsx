@@ -6,20 +6,7 @@ import Footer from "./components/homepage/Footer/Footer";
 import Navbar from "./components/homepage/Navbar/Navbar";
 import { Routes, Route, Navigate } from "react-router-dom";
 const Guest3 = lazy(() => import("./components/homepage/Guests/Guest3"));
-import Register from "./components/homepage/Registeration/Register";
 import Loader1 from "./components/Preloader/loader1";
-const TeamPage = lazy(() =>
-  import("./components/TeamPage/TeamPage")
-);
-
-const SponsorsAll = lazy(() =>
-  import("./components/SponsorsPartners/SponsorsBig")
-);
-const Guest = lazy(() => import("./components/guests/GuestInternal"));
-const About = lazy(() => import("./components/about/About"));
-const Contact = lazy(() => import("./components/contact/Contact"));
-const Gallery = lazy(() => import("./components/gallery/Gallery"));
-const landing = lazy(() => import("./Landing"));
 
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
@@ -64,19 +51,7 @@ function App() {
             <Route
               path="/"
               element={
-                <Suspense
-                  fallback={
-                    <>
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      lpading
-                    </>
-                  }
-                >
+                <Suspense fallback={<Loader1 />}>
                   <Landing />
                 </Suspense>
               }
@@ -84,12 +59,7 @@ function App() {
             <Route
               path="/#location"
               element={
-                <Suspense
-                  fallback={
-                    <>Loading
-                    </>
-                  }
-                >
+                <Suspense fallback={<Loader1 />}>
                   <Landing />
                 </Suspense>
               }
@@ -97,12 +67,12 @@ function App() {
             <Route
               path="/guests"
               element={
-                <Suspense fallback={<>loading</>}>
+                <Suspense fallback={<Loader1 />}>
                   <Guest3 />
                 </Suspense>
               }
             />
-          
+
             {/* <Route exact path="/team" element={<TeamPage />} /> */}
 
             <Route path="/*" element={<Navigate to="/" />} />
