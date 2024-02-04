@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const variants = {
     open: {
-      clipPath: "circle(12000px at 50px 50px)",
+      clipPath: "circle(120000px at 50px 50px)",
       transition: {
         type: "spring",
         stiffness: 20,
@@ -136,10 +136,10 @@ const Navbar = () => {
           key={links.length}
           className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-white transition duration-300"
           onClick={() => {
-            navigate("/register");
+            navigate("/team");
           }}
         >
-          Register
+          Team
         </li>
       </ul>
       <div
@@ -184,11 +184,11 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
                 key={links.length}
                 onClick={() => {
-                  navigate("/register");
+                  navigate("/team");
                   setNav(!nav);
                 }}
               >
-                Register
+                Team
               </motion.li>
             </motion.div>
           ) : (
@@ -221,11 +221,11 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
                 key={links.length}
                 onClick={() => {
-                  navigate("/register");
+                  navigate("/team");
                   setNav(!nav);
                 }}
               >
-                Register
+                Team
               </motion.li>
             </motion.div>
           )}

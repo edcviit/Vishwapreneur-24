@@ -15,7 +15,8 @@ import RegistrationForm from "./components/FormFlow/Registration";
 import RegistrationSuccess from "./components/FormFlow/Success";
 import Guest3 from "./components/homepage/Guests/Guest3";
 import Register from "./components/homepage/Registeration/Register";
-
+import TeamPage from "./components/TeamPage/TeamPage";
+// import Navbar from "./components/homepage/Navbar/Navbar";
 const SponsorsAll = lazy(() =>
   import("./components/SponsorsPartners/SponsorsBig")
 );
@@ -27,6 +28,7 @@ const Gallery = lazy(() => import("./components/gallery/Gallery"));
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/#location" element={<Landing />} />
         <Route path="/" element={<Landing />} />
@@ -54,7 +56,7 @@ function App() {
             </Suspense>
           }
         />
-
+        <Route exact path="/team" element = {<TeamPage />} />
         <Route exact path="/new-guest" element={<Guest3 />} />
         <Route
           path="/contact"

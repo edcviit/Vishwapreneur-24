@@ -137,17 +137,17 @@ const TeamPage = () => {
     {
       img: " ",
       name: "Ayush",
-      whoIsHe: "Operation & Supply Management",
+      whoIsHe: "Operation & Supply Chain",
     },
     {
       img: " ",
       name: "Aditya Patil",
-      whoIsHe: "Operation & Supply Management",
+      whoIsHe: "Operation & Supply Chain",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
       name: "Vyankatesh",
-      whoIsHe: "Operation & Supply Management",
+      whoIsHe: "Operation & Supply Chain",
     },
   ];
   const marketing = [
@@ -176,27 +176,27 @@ const TeamPage = () => {
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966713/kishan-min_v5cosq.webp",
       name: "Kishan",
-      whoIsHe: "Sales and Customer Experience",
+      whoIsHe: "Sales & Customer Experience",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966713/kishan-min_v5cosq.webp",
       name: "Kishan",
-      whoIsHe: "Sales and Customer Experience",
+      whoIsHe: "Sales & Customer Experience",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/pratham-min_ns1nhd.webp",
       name: "Pratham",
-      whoIsHe: "Sales and Customer Experience",
+      whoIsHe: "Sales & Customer Experience",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
       name: "Kaushik",
-      whoIsHe: "Sales and Customer Experience",
+      whoIsHe: "Sales & Customer Experience",
     },
     {
       img: " ",
       name: "Soham",
-      whoIsHe: "Sales and Customer Experience",
+      whoIsHe: "Sales & Customer Experience",
     },
   ];
   const technical = [
@@ -217,6 +217,31 @@ const TeamPage = () => {
     }
   ];
 
+  const eventHeads = [
+    {
+        img:"https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg",
+        name:"Parth Chavhan",
+        whoIsHe:"Convenor"
+    },
+    {
+        img:"https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg",
+        name:"Aakash Chavhan",
+        whoIsHe:"Co-Convenor"
+    },
+  ]
+
+  const domainSections = [
+    { title: "Event Heads", members: eventHeads },
+    { title: "Curation", members: curation },
+    { title: "Sponsorship", members: sponsership },
+    { title: "Public Relation", members: publicrelation },
+    { title: "Operation & Supply Management", members: opretionandsupply },
+    { title: "Marketing", members: marketing },
+    { title: "Sales & Customer Experience", members: salesandcust },
+    { title: "Technical", members: technical },
+  ];
+
+
   return (
     <div className="Team ">
       <br />
@@ -225,11 +250,11 @@ const TeamPage = () => {
       <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
         Our Team
       </h1>
-      <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
+      {/* <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
        Event heads
       </h1>
-      <subHeading title="Event Heads" />
-      <div className="flex items-center justify-around mt-6 mb-16 ">
+      <subHeading title="Event Heads" /> */}
+      {/* <div className="flex items-center justify-around mt-6 mb-16 ">
         <TeamCard
           img="https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg"
           name="Parth Chavhan"
@@ -240,11 +265,11 @@ const TeamPage = () => {
           name="Parth Chavhan"
           whoIsHe="Convenor"
         />
-      </div>
-      <h1 className="sub-heading  pt-5  text-transparent bg-clip-text text-2xl font-bold text-center py-8">
+      </div> */}
+      {/* <h1 className="sub-heading  pt-5  text-transparent bg-clip-text text-2xl font-bold text-center py-8">
         Curation
-      </h1>
-      <div className="flex items-center justify-around mt-6 mb-16 ">
+      </h1> */}
+      {/* <div className="flex items-center justify-around mt-6 mb-16 ">
         <TeamCard
           img="https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg"
           name="Parth Chavhan"
@@ -255,8 +280,8 @@ const TeamPage = () => {
           name="Parth Chavhan"
           whoIsHe="Convenor"
         />
-      </div>
-      <div className="teamPage">
+      </div> */}
+      {/* <div className="teamPage">
         {team.map((member) => (
           <>
             <TeamCard
@@ -266,8 +291,24 @@ const TeamPage = () => {
             />
           </>
         ))}
-      </div>
-      <br />
+      </div> */}
+      {/* <br /> */}
+      {domainSections.map((section) => (
+        <>
+          <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
+            {section.title}
+          </h1>
+          <div className="flex items-center justify-around mt-6 mb-16 My_card_wrapper">
+            {section.members.map((member) => (
+              <TeamCard
+                img={member.img}
+                name={member.name}
+                whoIsHe={member.whoIsHe}
+              />
+            ))}
+          </div>
+        </>
+      ))}
     </div>
   );
 };
@@ -285,7 +326,7 @@ return (
 const TeamCard = ({ img, name, whoIsHe }) => {
   return (
     <>
-      <div className="h-[10rem] flex items-center">
+      <div className="h-[10rem] flex items-center" style={{width:"230px" , marginTop:"76px"}}>
         {/* <img src="./scifi.png" alt="" /> */}
         <div className="Teamcard">
           <div className="imgBx">
