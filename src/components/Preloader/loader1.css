@@ -1,0 +1,23 @@
+.loader_screen{
+    /* background: #333;  */
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.loader_screen img{
+    scale:  4; /* You can use any other property which is available in CSS */
+    height: 50%;
+}
+@media (max-width: 768px){
+    .loader_screen img{
+        scale: 7;
+    }
+
+    .loader_screen h1{
+        margin-top: 100px;
+        font-size: 21px;
+    }
+}
