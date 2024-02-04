@@ -133,7 +133,7 @@ const Footer = () => {
               </p>
               {/* ... (rest of the Download App section) */}
               <a
-                href="#"
+                href="https://play.google.com/store/apps/details?id=com.edcviit.edcviit" target='_blank'
                 className="text-lg border-b border-white hover:border-opacity-50 "
               >
                 <span className="flex items-center hover:scale-105">
