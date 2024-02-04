@@ -56,7 +56,7 @@ function App() {
             </Suspense>
           }
         />
-        <Route exact path="/team" element = {<TeamPage />} />
+        {/* <Route exact path="/team" element = {<TeamPage />} /> */}
         <Route exact path="/new-guest" element={<Guest3 />} />
         <Route
           path="/contact"

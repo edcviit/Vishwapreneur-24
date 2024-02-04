@@ -2,17 +2,24 @@ import React, { useState, useEffect } from "react";
 const Gallery = () => {
   const initialImages = [
     "https://res.cloudinary.com/edcviitcom/image/upload/v1706247438/vp21/g2_xbem3z.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g4_obhq8o.webp",
+    // "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g4_obhq8o.webp",
     "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g6_jvkfse.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g3_vhxbtf.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g1_omirdm.webp",
+    // "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g3_vhxbtf.webp",
+    // "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g1_omirdm.webp",
     "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g5_lcewae.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247438/vp21/g2_xbem3z.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g4_obhq8o.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g6_jvkfse.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g3_vhxbtf.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g1_omirdm.webp",
-    "https://res.cloudinary.com/edcviitcom/image/upload/v1706247310/vp21/g5_lcewae.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_208_-min_npvlyk.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_207_-min_jrhpvo.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_210_-min_twulqj.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_209_-min_rr9dhk.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_212_-min_amwboh.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_211_-min_lpuzng.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046413/vp24/Screenshot_213_-min_lvjevr.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046412/vp24/Screenshot_214_-min_aqtqfn.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046412/vp24/Screenshot_215_-min_zg4gi5.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046412/vp24/Screenshot_216_-min_tvtauj.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046412/vp24/Screenshot_205_-min_bouyxz.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046412/vp24/Screenshot_206_-min_dekgvj.webp",
+    "https://res.cloudinary.com/edcviitcom/image/upload/v1707046412/vp24/Screenshot_204_-min_kde4yt.webp",
   ];
 
   const getUniqueIndices = (length) => {
