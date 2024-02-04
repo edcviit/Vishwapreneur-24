@@ -85,11 +85,14 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div onClick={() => navigate("/")}>
-        <img
+        {/* <img
           src="https://res.cloudinary.com/da5mmxnn3/image/upload/v1703221409/VP%2724/Vishwapreneur_24_nfl766.png"
           className="w-[10rem] md:w-[27rem] lg:w-[30rem] filter brightness-120 contrast-150"
           alt="Logo"
-        />
+        /> */}
+        <h1 className="main-heading  text-transparent bg-clip-text font-bold py-8 logoheading">
+        VISHWAPRENEUR'24
+              </h1>
       </div>
 
       <ul className="hidden md:flex">
