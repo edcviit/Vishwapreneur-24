@@ -82,6 +82,7 @@ const Navbar = () => {
       setOtherThanHomepage(true);
     }
   }, []);
+  
   return (
     <nav className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div onClick={() => navigate("/")}>
