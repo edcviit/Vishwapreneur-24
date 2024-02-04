@@ -90,6 +90,9 @@ const Navbar = () => {
           className="w-[10rem] md:w-[27rem] lg:w-[30rem] filter brightness-120 contrast-150"
           alt="Logo"
         />
+        {/* <h1 className="main-heading  text-transparent bg-clip-text font-bold py-8 logoheading">
+        VISHWAPRENEUR'24
+              </h1> */}
       </div>
 
       <ul className="hidden md:flex">

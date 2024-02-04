@@ -53,3 +53,21 @@
     padding-left: 2.5rem;
   }
 }
+/* .main-heading{
+  background: rgb(103,95,209);
+background: linear-gradient(90deg, rgba(103,95,209,1) 0%, rgba(236,143,221,1) 50%, rgba(103,95,209,1) 100%);
+  font-family: 'BatmanForever';
+  font-size: 1.8rem;
+} */
+.logoheading{
+  align-items: start;
+  justify-content: flex-start;
+  
+  width: 80vw;
+}
+@media screen and (max-width: 992px) {
+  
+.main-heading{
+  font-size: 1.4rem;
+}
+}
