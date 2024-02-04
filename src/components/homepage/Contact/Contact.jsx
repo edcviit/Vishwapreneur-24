@@ -36,7 +36,7 @@ const Contact = () => {
             title="Queries"
             subtitle="contact@vishwapreneur.in"
             href="mailto:contact@vishwapreneur.in "
-            phone="+91 9284320165"
+            phone="+91 8530389474"
             Icon={FaEnvelope}
           />
         </div>
