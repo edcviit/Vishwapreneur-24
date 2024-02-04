@@ -124,8 +124,9 @@ import imagel from '../../../assets/GroupL.png'
 import imager from '../../../assets/GroupR.png'
 import vplog from '../../../assets/vp_hpe1ut.svg'
 import './Hero.css'
-import Button from "../Button/Button";
+// import Button from "../Button/Button";
 import { Link } from 'react-router-dom';
+import Button2 from "../Button2/Btn"
 
 
 const Hero = () => {
@@ -142,7 +143,7 @@ const Hero = () => {
                 <div class="layer"></div>
                 </div>
         </div>
-          <motion.div className='absolute z-10'
+          <motion.div className='absolute z-10 px-3'
         //   <motion.div className='absolute z-10 top-[15rem]  transform -translate-x-1/2'
             // initial={{ opacity: 0, scale: 0.5 }}
             // // animate={controlsZoom}
@@ -154,7 +155,7 @@ const Hero = () => {
           </motion.div>
         </AnimatePresence>
         <div className="my_register_button">
-          <Button></Button>
+          <Button2></Button2>
           <p id="tutorial" style={{ color: 'white', paddingTop: "30px" }}>
             <Link to="/How_to_register" style={{ textDecoration: 'none', color: 'white' }}>
                 How to register?
