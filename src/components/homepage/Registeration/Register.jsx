@@ -10,7 +10,7 @@ const Register = () => {
     </div>
 
     <div className="px-6 md:px-16 w-screen">
-        <div className="flex flex-col md:flex-row  bg-blue-950 px-4 md:px-16 py-12 rounded-3xl text-slate-100  justify-center gap-12 text-whitish r-gradient">
+        <div className="flex flex-col md:flex-row  bg-blue-950 px-4 md:px-16 py-12 rounded-3xl text-slate-100  justify-center gap-12 r-gradient">
           <div className="flex flex-col gap-8 md:pr-6 md:border-r ">
             {/* <p className="text-sm">
               <h3 className="text-xl font-semibold text-pinkish">For Other Than Vishwakarma University</h3>

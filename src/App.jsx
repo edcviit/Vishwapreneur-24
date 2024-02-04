@@ -1,25 +1,13 @@
 import { React, lazy, Suspense } from "react";
 import { useState, useEffect } from "react";
-
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import "./App.css";
 import Landing from "./Landing";
-// import HaveYouPaid from './components/FormFlow/HaveYouPaid';
-// import Login from './components/SigninUp/Login';
-// import Signup from './components/SigninUp/Signup';
-// import SignupPage from './components/SigninUp/SignupPage';
 import Footer from "./components/homepage/Footer/Footer";
 import Navbar from "./components/homepage/Navbar/Navbar";
 import { Routes, Route, Navigate } from "react-router-dom";
-import RegistrationForm from "./components/FormFlow/Registration";
-import RegistrationSuccess from "./components/FormFlow/Success";
-import Guest3 from "./components/homepage/Guests/Guest3";
+const Guest3 = lazy(() => import("./components/homepage/Guests/Guest3"));
 import Register from "./components/homepage/Registeration/Register";
-// import TeamPage from "./components/TeamPage/TeamPage";
-// import Loader from "./components/Preloader/Loader";
 import Loader1 from "./components/Preloader/loader1";
-// import Navbar from "./components/homepage/Navbar/Navbar";
 const TeamPage = lazy(() =>
   import("./components/TeamPage/TeamPage")
 );
@@ -68,78 +56,60 @@ function App() {
   return (
     <div>
       {isPageLoaded ? (
-      <>
-      <Navbar />
-      <Routes>
-        <Route path="/#location" element={<Landing />} />
-        <Route path="/" element={<Landing />} />
-        <Route
-          path="/"
-          element={
-            <Suspense fallback={<><br /><br /><br /><br /><br /><br />lpading</>}>
-              <Landing />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/#location"
-          element={
-            <Suspense fallback={<><br /><br /><br /><br /><br /><br />lpading</>}>
-              <Landing />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/sponsors"
-          element={
-            <Suspense fallback={<>loading</>}>
-              <SponsorsAll />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/guests"
-          element={
-            <Suspense fallback={<>loading</>}>
-              <Guest />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/about"
-          element={
-            <Suspense fallback={<>loading</>}>
-              <About />
-            </Suspense>
-          }
-        />
-        <Route exact path="/team" element = {<TeamPage />} />
-        <Route exact path="/new-guest" element={<Guest3 />} />
-        <Route
-          path="/contact"
-          element={
-            <Suspense fallback={<>loading</>}>
-              <Contact />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/gallery"
-          element={
-            <Suspense fallback={<>loading</>}>
-              <Gallery />
-            </Suspense>
-          }
-        />
+        <>
+          <Navbar />
+          <Routes>
+            <Route path="/#location" element={<Landing />} />
+            <Route path="/" element={<Landing />} />
+            <Route
+              path="/"
+              element={
+                <Suspense
+                  fallback={
+                    <>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      lpading
+                    </>
+                  }
+                >
+                  <Landing />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/#location"
+              element={
+                <Suspense
+                  fallback={
+                    <>Loading
+                    </>
+                  }
+                >
+                  <Landing />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/guests"
+              element={
+                <Suspense fallback={<>loading</>}>
+                  <Guest3 />
+                </Suspense>
+              }
+            />
+          
+            {/* <Route exact path="/team" element={<TeamPage />} /> */}
 
-        {/* Form Flow */}
-        <Route path="/register" element={<RegistrationForm />} />
-        <Route exact path="/How_to_register" element={<Register />} />
-        <Route path="/RegistrationSuccess" element={<RegistrationSuccess />} />
-        <Route path="*" element={<Navigate to="/" />} />
-      </Routes>
-      <Footer />
-      </>
+            <Route path="/*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+          <Footer />
+        </>
       ) : (
         <Loader1 />
       )}
