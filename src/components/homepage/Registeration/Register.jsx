@@ -15,7 +15,7 @@ const Register = () => {
             {/* <p className="text-sm">
               <h3 className="text-xl font-semibold text-pinkish">For Other Than Vishwakarma University</h3>
               
-              <li><a href="https://learner.vierp.in/event">Visit learner.vierp.in/event</a></li>
+              <li><a href="https://learner.vierp.in/events">Visit learner.vierp.in/event</a></li>
               <li>Click on sign-up button on the bottom left corner</li>
                         <li>Enter your email address & verify the OTP received </li>
                         
@@ -36,7 +36,7 @@ const Register = () => {
                     For other than Vishwakarma University
             </h3>
             
-            <li><a href="https://learner.vierp.in/event">Visit learner.vierp.in/event</a></li>
+            <li><a href="https://learner.vierp.in/events">Visit learner.vierp.in/events</a></li>
               <li>Click on sign-up button on the bottom left corner</li>
                         <li>Enter your email address & verify the OTP received </li>
                         

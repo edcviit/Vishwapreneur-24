@@ -20,6 +20,7 @@ import SponsorsMedia from "./components/homepage/SponsorsMedia/SponsorsMedia";
 import Navbar from "./components/homepage/Navbar/Navbar";
 import Gallery3 from "./components/homepage/Gallery/Gallery3";
 import { useEffect } from "react";
+
 function Landing() {
   useEffect(() => {
     // window.scrollTo(0, 0);

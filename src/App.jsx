@@ -7,6 +7,9 @@ import Navbar from "./components/homepage/Navbar/Navbar";
 import { Routes, Route, Navigate } from "react-router-dom";
 const Guest3 = lazy(() => import("./components/homepage/Guests/Guest3"));
 import Loader1 from "./components/Preloader/loader1";
+const Register = lazy(() =>
+  import("./components/homepage/Registeration/Register")
+);
 
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
@@ -69,6 +72,14 @@ function App() {
               element={
                 <Suspense fallback={<Loader1 />}>
                   <Guest3 />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/How_to_register"
+              element={
+                <Suspense fallback={<Loader1 />}>
+                  <Register />
                 </Suspense>
               }
             />

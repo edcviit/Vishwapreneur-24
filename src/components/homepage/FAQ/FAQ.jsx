@@ -113,7 +113,7 @@ const FaqAccordion = () => {
                 <p class="answer">
                   You can register for the summit by visiting the website or
                   directly by signing up on{" "}
-                  <a class="link-reg" href="https://learner.vierp.in/event">
+                  <a class="link-reg" href="https://learner.vierp.in/events">
                     VISHWAPRENEUR{" "}
                   </a>
                 </p>
