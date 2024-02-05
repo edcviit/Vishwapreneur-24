@@ -244,36 +244,51 @@ const Media2 = () => {
     return { left: `${offsetX}px`, top: `${offsetY}px` };
   };
 
-  const socialIcons = [
-    {
-      platform: 'twitter',
-      link: 'https://twitter.com/edcviit',
-      postLink: 'https://twitter.com/edcviit/status/1737772197538664771?ref_src=twsrc%5Etfw',
-      icon: 'ion-logo-twitter',
-      followers:1200
-    },
-    {
-      platform: 'linkedin',
-      link: 'https://www.linkedin.com/company/entrepreneurship-development-cell-viit/',
-      postLink: 'https://www.linkedin.com/embed/feed/update/urn:li:share:7004407189981278208',
-      icon: 'ion-logo-linkedin',
-      followers:2000
-    },
-    {
-      platform: 'instagram',
-      link: 'https://www.instagram.com/edcviit/',
-      postLink: 'https://www.instagram.com/reel/C0_20RWr5q6/?utm_source=ig_embed&utm_campaign=loading',
-      icon: 'ion-logo-instagram',
-       followers:3000
-    },
-    {
-      platform: 'youtube',
-      link: 'https://www.youtube.com/@edcviit',
-      postLink: 'https://www.youtube.com/embed/bpmOhuTNu9Y?list=TLGGbLwNZcabL30yMzEyMjAyMw',
-      icon: 'ion-logo-youtube',
-      followers:5000
-    },
-  ];
+  // const socialIcons = [
+    //   {
+      //     platform: 'youtube',
+      //     link: 'https://www.youtube.com/@edcviit',
+      //     postLink: 'https://www.youtube.com/embed/bpmOhuTNu9Y?list=TLGGbLwNZcabL30yMzEyMjAyMw',
+      //     icon: 'ion-logo-youtube',
+      //     followers:5000
+      //   },
+      // ];
+      
+      
+    const socialIcons = [
+      {
+        platform: 'youtube',
+        link: 'https://www.youtube.com/@edcviit',
+        postLink: 'https://www.youtube.com/embed/bpmOhuTNu9Y?list=TLGGbLwNZcabL30yMzEyMjAyMw',
+        icon: 'ion-logo-youtube',
+        followers:5000
+      },
+      
+      {
+        platform: 'instagram',
+        link: 'https://www.instagram.com/edcviit/',
+        postLink: 'https://www.instagram.com/reel/C0_20RWr5q6/?utm_source=ig_embed&utm_campaign=loading',
+        icon: 'ion-logo-instagram',
+        followers:3000
+      },
+      {
+        platform: 'linkedin',
+        link: 'https://www.linkedin.com/company/entrepreneurship-development-cell-viit/',
+        postLink: 'https://www.linkedin.com/embed/feed/update/urn:li:share:7004407189981278208',
+        icon: 'ion-logo-linkedin',
+        followers:2000
+      },
+        {
+          platform: 'twitter',
+          link: 'https://twitter.com/edcviit',
+          postLink: 'https://twitter.com/edcviit/status/1737772197538664771?ref_src=twsrc%5Etfw',
+          icon: 'ion-logo-twitter',
+          followers:1200
+        },
+      
+      
+    ]
+
 
   return (
     <div className="relative mt-32">

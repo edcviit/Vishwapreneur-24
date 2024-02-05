@@ -255,7 +255,7 @@ const Guest2 = () => {
             navigate("/guests");
           }}
           class="space-button"
-          style={{ marginTop: "40px" }}
+          style={{ marginTop: "40px" ,borderColor:"#7c008d"}}
         >
           View More
         </button>
