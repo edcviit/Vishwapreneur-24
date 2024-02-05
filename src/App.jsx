@@ -47,7 +47,7 @@ function App() {
     <div>
       {isPageLoaded ? (
         <>
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             <Route path="/#location" element={<Landing />} />
             <Route path="/" element={<Landing />} />

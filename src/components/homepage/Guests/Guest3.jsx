@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./Guest2.css";
 import ScrollAnimation from "../../Animations/ScrollAnimation";
 import { AnimatePresence } from "framer-motion";
+import Navbar from "../Navbar/Navbar";
 // import ''
 
 const Guest3 = () => {
@@ -272,39 +273,44 @@ const Guest3 = () => {
   ];
 
   return (
-    <div id="guest" name="guest">
-      <AnimatePresence>
-        <div className="main-container pt-12" style={{ marginBottom: "40px" }}>
-          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-            Previous Guests
-          </h1>
+    <>
+    <Navbar/>
+      <div id="guest" name="guest">
+        <AnimatePresence>
+          <div
+            className="main-container pt-12"
+            style={{ marginBottom: "40px" }}
+          >
+            <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
+              Previous Guests
+            </h1>
 
-          <div className="card-container" ref={cardContainerRef}>
-            {guests.map((guest, index) => (
-              <div key={index} className="card cursor-default">
-                <ScrollAnimation>
-                  <div className="card-body ">
-                    {/* Add class called  si-buttons-scifi to card-body*/}
-                    {/* <shine className="shine"></shine> */}
-                    <div className="card-images ">
-                      {/* <img src={img} alt="card background" className="card-bg" /> */}
-                      <img
-                        src={guest.img}
-                        alt="card figure"
-                        className="card-figure border-r-4 glass-bg-01"
-                        style={{ borderRadius: "50%" }}
-                      />
-                    </div>
-                    <div className="card-info">
-                      <h2 className="card-name">{guest.name}</h2>
-                      <p
-                        className="card-description"
-                        style={{ color: "white" }}
-                      >
-                        {guest.content}
-                      </p>
+            <div className="card-container" ref={cardContainerRef}>
+              {guests.map((guest, index) => (
+                <div key={index} className="card cursor-default">
+                  <ScrollAnimation>
+                    <div className="card-body ">
+                      {/* Add class called  si-buttons-scifi to card-body*/}
+                      {/* <shine className="shine"></shine> */}
+                      <div className="card-images ">
+                        {/* <img src={img} alt="card background" className="card-bg" /> */}
+                        <img
+                          src={guest.img}
+                          alt="card figure"
+                          className="card-figure border-r-4 glass-bg-01"
+                          style={{ borderRadius: "50%" }}
+                        />
+                      </div>
+                      <div className="card-info">
+                        <h2 className="card-name">{guest.name}</h2>
+                        <p
+                          className="card-description"
+                          style={{ color: "white" }}
+                        >
+                          {guest.content}
+                        </p>
 
-                      {/* <div className="card-media">
+                        {/* <div className="card-media">
                     <a href={guest.linkedinLink}>
                       <i className="uil uil-facebook-f"></i>
                     </a>
@@ -315,15 +321,16 @@ const Guest3 = () => {
                       <i className="uil uil-instagram"></i>
                     </a>
                   </div> */}
+                      </div>
                     </div>
-                  </div>
-                </ScrollAnimation>
-              </div>
-            ))}
+                  </ScrollAnimation>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </AnimatePresence>
-    </div>
+        </AnimatePresence>
+      </div>
+    </>
   );
 };
 
