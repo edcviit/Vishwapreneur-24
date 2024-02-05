@@ -286,8 +286,11 @@ const Media2 = () => {
       >
         {socialIcons.map((icon) => (
           <motion.div
+          onClick={()=>{
+            window.open(icon.link, "_blank");
+          }}
             key={icon.platform}
-            className="m-8 border-white rounded-lg p-3 text-center h-fit place-content-center hover:transform hover:translate-y-[-2px] hover:transition-transform hover:ease-in-out hover:duration-400 duration-700 hover:border-[0px] hover:shadow-white hover:shadow-sm"
+            className="m-8 border-white rounded-lg p-3 cursor-pointer text-center h-fit place-content-center hover:transform hover:translate-y-[-2px] hover:transition-transform hover:ease-in-out hover:duration-400 duration-700 hover:border-[0px] hover:shadow-white hover:shadow-sm"
           >
             <i
               className={`${icon.icon} ion-3x `}
@@ -300,11 +303,11 @@ const Media2 = () => {
             ></div>
             <span>
               {icon.platform === "linkedin"
-                ? "Linkedin Fans"
+                ? "Linkedin "
                 : `${
                     icon.platform.charAt(0).toUpperCase() +
                     icon.platform.slice(1)
-                  } Fans`}
+                  } `}
             </span>
           </motion.div>
         ))}
