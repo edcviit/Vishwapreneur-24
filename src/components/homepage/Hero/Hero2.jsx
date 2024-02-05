@@ -1,7 +1,7 @@
 
 import React, { useRef, useLayoutEffect } from "react";
 import { AnimatePresence, motion, useAnimation } from 'framer-motion';
-import vplog from '../../../assets/vp_hpe1ut.svg'
+// import vplog from '../../../assets/vp_hpe1ut.svg'
 import './Hero.css'
 import { Link } from 'react-router-dom';
 import Button2 from "../Button2/Btn"
@@ -29,7 +29,7 @@ const Hero = () => {
             // exit={{ opacity: 0, scale: 0.5 }}
           >
 
-            <motion.img src={vplog} className='h-96 opacity-100' alt="" />
+            <motion.img src="https://res.cloudinary.com/di40y80dw/image/upload/v1707118068/vp_hpe1ut_ygtazn.svg" className='h-96 opacity-100' alt="" />
           </motion.div>
         </AnimatePresence>
         <div className="my_register_button">
