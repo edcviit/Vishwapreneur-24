@@ -58,10 +58,10 @@ const Guest3 = () => {
       const cardName = card.querySelector(".card-name");
       const cardDescription = card.querySelector(".card-description");
       const cardMedia = card.querySelector(".card-media");
-      cardFigure.style.transform = "translate3d(0 , 0 , 150px)";
-      cardName.style.transform = "translate3d(0 , 0 , 180px)";
-      cardDescription.style.transform = "translate3d(0 , 0 , 170px)";
-      cardMedia.style.transform = "translate3d(0 , 0 , 140px)";
+      cardFigure.style.transform = "translate3d(0 , 0 , 5px)";
+      cardName.style.transform = "translate3d(0 , 0 , 6px)";
+      cardDescription.style.transform = "translate3d(0 , 0 , 7px)";
+      cardMedia.style.transform = "translate3d(0 , 0 , 4px)";
       card.style.transition = "none";
     };
 
@@ -272,20 +272,16 @@ const Guest3 = () => {
   ];
 
   return (
-    <div id="guest"  name="guest">
+    <div id="guest" name="guest">
       <AnimatePresence>
-        <div
-          className="main-container pt-12"
-         
-          style={{ marginBottom: "40px" }}
-        >
+        <div className="main-container pt-12" style={{ marginBottom: "40px" }}>
           <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
             Previous Guests
           </h1>
 
           <div className="card-container" ref={cardContainerRef}>
             {guests.map((guest, index) => (
-              <div key={index} className="card">
+              <div key={index} className="card cursor-default">
                 <ScrollAnimation>
                   <div className="card-body ">
                     {/* Add class called  si-buttons-scifi to card-body*/}

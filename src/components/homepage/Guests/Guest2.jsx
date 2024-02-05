@@ -212,10 +212,9 @@ const Guest2 = () => {
 
         <div className="card-container" ref={cardContainerRef}>
           {guests.map((guest, index) => (
-            
             <div key={index} className="card">
               <ScrollAnimation>
-                <div className="card-body ">
+                <div className="card-body cursor-default ">
                   {/* Add class called  si-buttons-scifi to card-body*/}
                   {/* <shine className="shine"></shine> */}
                   <div className="card-images ">
@@ -250,12 +249,16 @@ const Guest2 = () => {
             </div>
           ))}
         </div>
-        
-          <button onClick={()=>{
-            navigate("/guests" );
-          }} class="space-button"  style={{ marginTop: "40px" }} >
-            View More
-          </button>
+
+        <button
+          onClick={() => {
+            navigate("/guests");
+          }}
+          class="space-button"
+          style={{ marginTop: "40px" }}
+        >
+          View More
+        </button>
       </div>
     </AnimatePresence>
   );

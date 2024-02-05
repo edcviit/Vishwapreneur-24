@@ -10,6 +10,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding-top: 25px;
+  cursor: default;
 }
 .bgImage {
   /* backgroundImage: url("https://res.cloudinary.com/da5mmxnn3/image/upload/v1703939672/VP%2724/earth-seen-from-space_o2egfs.webp") */
