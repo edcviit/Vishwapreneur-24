@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import './Footer.css'
-import image from '../../../assets/Footerimg.svg'
 import image2 from '../../../assets/footer 1.png'
 import "@fortawesome/fontawesome-free/css/all.css";
 
