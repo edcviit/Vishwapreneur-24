@@ -9,14 +9,9 @@ const Loader1 = () => {
   return (
     <div className="flex flex-col h-screen w-screen  items-center justify-center loader_screen ">
       <img src={svgg} alt="Loading" />
-      <div className="center-container ">
+      {/* <div className="center-container ">
         <label htmlFor="slow" />
 
-        {/* <input className='sl' id="slow" type="checkbox"/>
-          <div className='tt'>
-          Agree to Terms and Conditions
-          </div> */}
-        {/* </label> */}
         <button className="btn rounded-xl py-3" onClick={handleClick}>
           Register
           <span className=" " aria-hidden="true">
@@ -152,7 +147,7 @@ const Loader1 = () => {
             ></span>
           </span>
         </button>
-      </div>
+      </div> */}
 
       {/* <h1 class="linear-wipe main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8" style={{color:"#655FD1"}}>VISHWAPRENEUR'24...</h1> */}
     </div>
