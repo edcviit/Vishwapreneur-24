@@ -43,9 +43,9 @@ const Footer = () => {
                   <li className="mb-2 hover:scale-105">
                     <a href="https://edcviit.com/ourteam">Our Team</a>
                   </li>
-                  <li className="mb-2 hover:scale-105">
-                    <a href="/#termsConditions">Privacy Policy</a>
-                  </li>
+                    {/* <li className="mb-2 hover:scale-105">
+                      <a href="/#termsConditions">Privacy Policy</a>
+                    </li> */}
                   <li className="mb-2 hover:scale-105">
                     <a href="/#termsConditions">Terms and Conditions</a>
                   </li>
