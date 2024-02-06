@@ -27,7 +27,7 @@ const FaqAccordion = () => {
     {
         id:3 ,
         question:"What is the purpose of Vishwapreneur?",
-        answer:"The purpose of the summit is to provide a platform for budding entrepreneurs to seek motivation and guidance through the experiences of successful business tycoons"
+        answer:"The purpose of the summit is to provide a platform for budding entrepreneurs to seek motivation and guidance through the experiences of successful business tycoons."
     },
     {
         id:4,
@@ -42,7 +42,7 @@ const FaqAccordion = () => {
     {
         id:6,
         question:"How can I register for the summit?",
-        answer:"You can register for the summit by visiting the website or directly by signing up on"
+        answer:"You can register for the summit by visiting the website or directly by signing up on Vishwapreneur."
     }
     
   ];
