@@ -42,6 +42,7 @@ const Loader = () => {
             <h1 className="attention">VISHWAPRENEUR'24</h1>
       </div>
       
+      
       <div id="loader-wrapper">
       <div className="container">
             <div className="trigger" />

@@ -47,7 +47,14 @@ function App() {
     <div>
       {isPageLoaded ? (
         <>
-          {/* <Navbar /> */}
+          <Navbar />
+          <div class="bg">
+                <div class="star-field">
+                  <div class="layer"></div>
+                  <div class="layer"></div>
+                  <div class="layer"></div>
+                </div>
+            </div>
           <Routes>
             <Route path="/#location" element={<Landing />} />
             <Route path="/" element={<Landing />} />

@@ -25,7 +25,7 @@ const About = () => {
                 ></iframe>
               </div>
 
-              <div className=" lg:py-10">
+              <div className=" lg:py-10 text-center">
                 <p className="text-gray-300 mx-6 text-lg lg:text-xl lg:mx-16 lg:pl-10">
                   Vishwapreneur is a National Level Entrepreneurial Summit
                   showcasing entrepreneurs, creators, and innovative minds of
