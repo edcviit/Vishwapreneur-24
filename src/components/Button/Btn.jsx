@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 const ParticleButton = () => { 
   const handleClick = () => {
-    window.location.href = 'https://learner.vierp.in/event';
+    window.location.href = 'https://learner.vierp.in/events';
   };
     return (
   
