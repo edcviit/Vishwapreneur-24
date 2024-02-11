@@ -1,7 +1,4 @@
-import { useScroll, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import { useRef } from "react";
-
 
 const Gallery2 = () => {
   let newImages = [
