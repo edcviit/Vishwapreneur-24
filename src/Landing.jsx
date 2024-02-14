@@ -23,7 +23,9 @@ import Navbar from "./components/homepage/Navbar/Navbar";
 import Gallery3 from "./components/homepage/Gallery/Gallery3";
 import { useEffect,useState } from "react";
 import ParticleButton from "./components/Button/Btn";
+import Timer from "./components/homepage/Timer/Timer";
 
+import { Link } from 'react-router-dom';
 function Landing() {
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -53,9 +55,22 @@ function Landing() {
       {isMobileView ? <Hero4 /> : <Hero3 />}
       
       {!isMobileView && <div className="bg-black w-screen h-screen"></div>}
+      <div className="with_register_buttton">
       <div className="flex justify-center items-center" style={{ marginTop: '50px' }}>
-  <ParticleButton></ParticleButton>
-</div>
+              <ParticleButton></ParticleButton>
+      </div>
+      {/* <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
+                  <Link to="/How_to_register" style={{ textDecoration: 'none', color: 'white' }}>
+                      How to register?
+                  </Link>
+              </p> */}
+      </div>
+      
+      <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
+                  <Link to="/How_to_register" style={{ textDecoration: 'none', color: 'white' , display:'flex' , justifyContent:'center' , alignItems:'center'}}>
+                      How to register?
+                  </Link>
+              </p>
 
 
          {/* <ParticleButton></ParticleButton> */}
@@ -73,6 +88,11 @@ function Landing() {
 
          <About></About>
       </div>
+      {/* <div className="web_timer">
+      <Timer /> 
+      </div> */}
+      
+      
       <div className="mt-0">
 
       <Guest2></Guest2>
