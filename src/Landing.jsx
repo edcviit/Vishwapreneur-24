@@ -23,7 +23,7 @@ import Navbar from "./components/homepage/Navbar/Navbar";
 import Gallery3 from "./components/homepage/Gallery/Gallery3";
 import { useEffect,useState } from "react";
 import ParticleButton from "./components/Button/Btn";
-import Timer from "./components/homepage/Timer/Timer";
+// import Timer from "./components/homepage/Timer/Timer";
 
 import { Link } from 'react-router-dom';
 function Landing() {
