@@ -23,7 +23,7 @@ import Navbar from "./components/homepage/Navbar/Navbar";
 import Gallery3 from "./components/homepage/Gallery/Gallery3";
 import { useEffect,useState } from "react";
 import ParticleButton from "./components/Button/Btn";
-import Timer from "./components/homepage/Timer/Timer";
+// import Timer from "./components/homepage/Timer/Timer";
 
 import { Link } from 'react-router-dom';
 function Landing() {
@@ -57,7 +57,7 @@ function Landing() {
       {!isMobileView && <div className="bg-black w-screen h-screen"></div>}
       <div className="with_register_buttton">
       <div className="flex justify-center items-center" style={{ marginTop: '50px' }}>
-              <ParticleButton></ParticleButton>
+              <ParticleButton link="https://vishwapreneur.in/register"/>
       </div>
       {/* <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
                   <Link to="/How_to_register" style={{ textDecoration: 'none', color: 'white' }}>
