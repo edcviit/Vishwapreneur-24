@@ -68,7 +68,7 @@ const Register = () => {
             </li>
             <li>Click on Pay Event Fees</li>
             <li>Select Organising institute as VIIT,Pune from dropdown menu</li>
-            <li>Select event as VISHWAPRENEUR 23 from dropdown</li>
+            <li>Select event as VISHWAPRENEUR 24 from dropdown</li>
             <li>
               Select the type of ticket as either VIP-external or
               Regular-external
