@@ -1,11 +1,11 @@
-import React from 'react'
-import './Register.css'
-import Navbar from '../Navbar/Navbar'
+import React from "react";
+import "./Register.css";
+import Navbar from "../Navbar/Navbar";
 
 const Register = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <h1 id="heading-of-tutorials">How to Register?</h1>
       <div class="tutorial-video">
         <center>
@@ -44,6 +44,14 @@ const Register = () => {
             <h3 className="text-xl font-semibold text-pinkish">
               For other than Vishwakarma University
             </h3>
+            <a
+              href="https://learner.vierp.in/events"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <button className="button-85" role="button">
+                Register
+              </button>
+            </a>
 
             <li>
               <a href="https://learner.vierp.in/events">
@@ -75,11 +83,19 @@ const Register = () => {
             </li>
             <li>Please make sure to note down your Reference number</li>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-8">
             <h3 className="text-xl font-semibold text-pinkish">
               For Students Of Vishwakarma University
             </h3>
-
+            <a
+              href="https://learner.vierp.in/"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <button className="button-85" role="button">
+                Register
+              </button>
+            </a>
+            {/* <ParticleButton link="https://learner.vierp.in/events" /> */}
             <li>Login to learner.vierp using your PRN number and password</li>
             <li>
               Click on dropdown menu on the top left corner of the dashboard
@@ -103,6 +119,6 @@ const Register = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Register
+export default Register;

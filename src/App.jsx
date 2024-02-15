@@ -83,7 +83,7 @@ function App() {
               }
             />
             <Route
-              path="/How_to_register"
+              path="/register"
               element={
                 <Suspense fallback={<Loader1 />}>
                   <Register />

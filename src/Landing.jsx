@@ -57,7 +57,7 @@ function Landing() {
       {!isMobileView && <div className="bg-black w-screen h-screen"></div>}
       <div className="with_register_buttton">
       <div className="flex justify-center items-center" style={{ marginTop: '50px' }}>
-              <ParticleButton></ParticleButton>
+              <ParticleButton link="https://vishwapreneur.in/register"/>
       </div>
       {/* <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
                   <Link to="/How_to_register" style={{ textDecoration: 'none', color: 'white' }}>
