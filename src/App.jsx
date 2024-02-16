@@ -14,6 +14,8 @@ const TeamPage = lazy(() =>
   import("./components/TeamPage/TeamPage")
 );
 
+import TeamPage from './components/TeamPage/TeamPage';
+
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
@@ -102,7 +104,7 @@ function App() {
               }
             />
 
-            {/* <Route exact path="/team" element={<TeamPage />} /> */}
+            <Route exact path="/team" element={<TeamPage />} />
 
             <Route path="/*" element={<Navigate to="/" />} />
             <Route path="*" element={<Navigate to="/" />} />
