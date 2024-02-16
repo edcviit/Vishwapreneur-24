@@ -2,245 +2,282 @@ import React from "react";
 import "./team.css";
 
 const TeamPage = () => {
-  const team = [
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/darshan-min_jcnx2t.webp",
-      name: "Darshan Kotecha",
-      whoIsHe: "Sales Head",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966711/atharva-min_acrz3x.webp",
-      name: "Atharva Shinde",
-      whoIsHe: "Curator",
-    },
-    {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702976878/compressed%20team%20img/gtnxrcavr7nikgrbaoam_2_af2kkx.webp",
-      name: "Sanwara Chandak",
-      whoIsHe: "Curator",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/sakshi-min_u9uqnj.webp",
-      name: "Sakshi Bedmutha",
-      whoIsHe: "CEO of JetsetGo",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966711/shravani-min_gotuka.webp",
-      name: "Shravani Dhobale",
-      whoIsHe: "Founder  Media",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966713/kishan-min_v5cosq.webp",
-      name: "Kishan",
-      whoIsHe: "Founder & CEO",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/pratham-min_ns1nhd.webp",
-      name: "Pratham Patil",
-      whoIsHe: "Blockchain &",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/amey-min_qlknit.webp",
-      name: "Amey Kottawar",
-      whoIsHe: "Founder ",
-    },
-    {
-      img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677265053/Speakers/vishnukorde-01_pfjft1.png",
-      name: "Mr. Vishnu Korde",
-      whoIsHe: "CEO & Chief ",
-      content:
-        "Alumni of Harvard University. Skilled in Cryptography, Development operation, Business Planning, Team Management, Product Management, Negotiation, Analytical Skills, and Customer Relationship Management (CRM).",
-    },
-    {
-      img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676441222/Speakers/hairsh_vp23_parbuy.jpg",
-      name: "Mr. Harish Uthayakumar",
-      whoIsHe: "Co-Founder ",
-      content:
-        "Featured in Forbes 30U30 Asia, the co-founder of Bluelearn, India's largest and smartest student community.",
-    },
-    {
-      img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676449856/Speakers/rishabh-jain_vp23_myt1sc.jpg",
-      name: "Mr. Rishabh Jain",
-      whoIsHe: "Creator at",
-      content:
-        "Entrepreneur at Qriyo (EdTech Company) and Quick Payroll (Free Payroll app for MSME's). Has over 3 million subscribers on YouTube.",
-    },
-    {
-      img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676449220/Speakers/ashokramchandran_vp23_nynaor.jpg",
-      name: "Mr. Ashok Ramchandran",
-      whoIsHe: "CEO & President ",
-      content:
-        "He has 30+ years of experience in the corporate world, was named one of India’s brightest business leaders under the age of 40, In the Economic Times 40 under Forty.",
-    },
-    {
-      img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676440812/Speakers/anantlodha_ywriun-removebg-preview_kgngpz.jpg",
-      name: "Mr. Anant Ladha",
-      whoIsHe: "Founder at ",
-      content:
-        "A national bestselling author and the Founder and CEO of Invest Aaj for Kal, a channel with over 2M+ subscribers.",
-    },
-
-    {
-      img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676441340/Speakers/shreyanssancheti_vp23_ncbxln.jpg",
-      name: "Mr. Shreyans Sancheti",
-      whoIsHe: "Co-Founder",
-      content:
-        "A TEDx Speaker, BITS Pilani Goa Alumni, and the Co-Founder of Bluelearn, the largest and smartest student community.",
-    },
-  ];
   const curation = [
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702976878/compressed%20team%20img/gtnxrcavr7nikgrbaoam_2_af2kkx.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505807/new%20vp%20compressed/photo_1_2024-02-08_12-48-43_akmldw_cvgiqt.webp",
       name: "Sanwara Chandak",
       whoIsHe: "Curator",
+      linkedinLink: "https://www.linkedin.com/in/sanwara-chandak-a81ab322a/",
+      twitterLink: "https://twitter.com/ChandakSawara",
+      mailLink: "sanwara.22110035@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
-      name: "Vedant",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505796/new%20vp%20compressed/photo_10_2024-02-08_12-48-43_opje6h_g3injf.webp",
+      name: "Vedant Vedpathak",
       whoIsHe: "Curator",
+      linkedinLink: "https://www.linkedin.com/in/vedant-vedpathak-18411422b/",
+      twitterLink: "https://twitter.com/VedpathakVedant",
+      mailLink: "vedant.22110246@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968685/compressed%20team%20img/xkac7biufspehaup1n0f_p477uu.webp",
-      name: "Vaibhav",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505788/new%20vp%20compressed/Screenshot_2024-02-09_184225_xz25qx_rcvuwr.webp",
+      name: "Vaibhav Sawate",
       whoIsHe: "Curator",
+      linkedinLink: "https://www.linkedin.com/in/vaibhav-sawate04",
+      twitterLink: "https://x.com/theratinme",
+      mailLink: "vaibhav.22110326@viit.ac.in",
     },
   ];
-  const sponsership = [
+  const sponsorship = [
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702976878/compressed%20team%20img/gtnxrcavr7nikgrbaoam_2_af2kkx.webp",
-      name: "Atharva",
-      whoIsHe: "Sponsership",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505802/new%20vp%20compressed/photo_5_2024-02-08_12-48-43_mcsybw_tpsxlj_z6txqe.webp",
+      name: "Atharva Shinde",
+      whoIsHe: "sponsorship",
+      linkedinLink:
+        "https://www.linkedin.com/in/atharva-shinde-ab9459228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink:
+        "https://twitter.com/Atharva68716615?t=kkxydCRnm_MDSOhqFqnTNg&s=09",
+      mailLink: "atharva7110@gmail.com",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/sakshi-min_u9uqnj.webp",
-      name: "Sakshi",
-      whoIsShe: "Sponsership",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505799/new%20vp%20compressed/photo_9_2024-02-08_12-48-43_dx4bt0_nqotky.webp",
+      name: "Sakshi Bedmutha",
+      whoIsHe: "Sponsorship",
+      linkedinLink:
+        "https://www.linkedin.com/in/sakshi-bedmutha-0a420322a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink:
+        "https://x.com/sakshi_bedmutha?t=vAfs63jYKKjGcM6LxhooeA&s=09",
+      mailLink: "sakshi.22110686@viit.ac.in",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505791/new%20vp%20compressed/photo_15_2024-02-08_12-48-43_hzziol_d5opxb_prlrwe.webp",
+      name: "Ketan Choudhari",
+      whoIsHe: "sponsorship",
+      linkedinLink:
+        "https://www.linkedin.com/in/ketan-choudhari-101146216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink: "",
+      mailLink: "ketan.22110060@gmail.com",
     },
   ];
   const publicrelation = [
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968686/compressed%20team%20img/o3tmibbbiuxr9cpv781e_1_b0joht.webp",
-      name: "Malhar",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505790/new%20vp%20compressed/photo_18_2024-02-08_12-48-43_kvbmi2_my7qqf.webp",
+      name: "Malhar Dhakulkar",
       whoIsHe: "Public Relation",
+      linkedinLink: "https://www.linkedin.com/in/malhar-dhakulkar-302346253/",
+      twitterLink: "https://twitter.com/MALHAR0704",
+      mailLink: "malhar.22110506@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/amey-min_qlknit.webp",
-      name: "Amey",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505800/new%20vp%20compressed/photo_7_2024-02-08_12-48-43_qdeogx_zuvyae.webp",
+      name: "Amey kottawar",
       whoIsHe: "Public Relation",
+      linkedinLink: "http://linkedin.com/in/amey-kottawar-b8473b211",
+      twitterLink: "https://twitter.com/AmeyKottawar",
+      mailLink: "amey.22110236@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968685/compressed%20team%20img/idku65dij5n6svftd0xy_x1az5o.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505813/new%20vp%20compressed/bhagyashree-old-removebg-preview_we3qna_urnb1b.webp",
       name: "Bhagyashree",
-      whoIsShe: "Public Relation",
+      whoIsHe: "Public Relation",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
     },
+  ];
+  const hr = [
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707506923/new%20vp%20compressed/Screenshot_2024-02-10_005727_bbooph.webp",
+      name: "Triambak Kapoor",
+      whoIsHe: "HR",
+      linkedinLink: "https://www.linkedin.com/in/triambak-kapoor-22bb7b22a/",
+      twitterLink: "",
+      mailLink: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505805/new%20vp%20compressed/photo_3_2024-02-08_12-48-43_q34vqh_uttdkj.webp",
+      name: "Swarnima Yogi",
+      whoIsHe: "HR",
+      linkedinLink: "https://www.linkedin.com/in/swarnima-yogi-90141b22a/",
+      twitterLink: "",
+      mailLink: "swarnima.22110483@viit.ac.in",
+    },
+   
   ];
   const opretionandsupply = [
     {
       img: " ",
       name: "Ayush",
       whoIsHe: "Operation & Supply Chain",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
     },
     {
       img: " ",
       name: "Aditya Patil",
       whoIsHe: "Operation & Supply Chain",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
-      name: "Vyankatesh",
+      name: "Vyankatesh ",
       whoIsHe: "Operation & Supply Chain",
+      linkedinLink:
+        "https://www.linkedin.com/in/vyankatesh-kumbhakarna-480b38229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink: "https://x.com/vyankatesh1444?t=_X93Nj5mOuScD0eYS1qYZw&s=09",
+      mailLink: "vyankatesh.22110041@viit.ac.in",
     },
   ];
   const marketing = [
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968687/compressed%20team%20img/jlao1taztkjbiskyjrt7_zeap1w.webp",
-      name: "Parth",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505786/new%20vp%20compressed/Screenshot_2024-02-09_192333_j912iw_rwlmtc.webp",
+      name: "Parth Sukhia    ",
       whoIsHe: "Marketing",
+      linkedinLink: "https://www.linkedin.com/in/parth-sukhia-65935927b",
+      twitterLink:
+        "https://twitter.com/ParthSukhia?t=JPA3lkxV7rAOFTds7-rgFw&s=09",
+      mailLink: "parth.22110274@viit.ac.in",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
       name: "Akash",
       whoIsHe: "Marketing",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966707/shailesh-min_exe525.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505786/new%20vp%20compressed/photo_16_2024-02-08_12-48-43_ng1fef_ce0d6k.webp",
       name: "Shailesh",
       whoIsHe: "Marketing",
+      linkedinLink: "https://www.linkedin.com/in/shailesh-pallod-2b7105241",
+      twitterLink: "https://x.com/rudeme11?t=JkbFkZi4zacPMriY-L9MrQ&s=09",
+      mailLink: "shailesh.22110362@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968685/compressed%20team%20img/hglbx0pfveyoxee9ow0m_1_f7ug1h.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505803/new%20vp%20compressed/photo_4_2024-02-08_12-48-43_xg0yjc_nmp4pe.webp",
       name: "Manas",
       whoIsHe: "Marketing",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
     },
+    {
+      img: "",
+      name: "Deepak Ghume",
+      whoIsHe: "Marketing",
+      linkedinLink: "https://www.linkedin.com/in/deepak-ghume-35537628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink: "https://twitter.com/deeapakghume",
+      mailLink: "deepak.22220159@viit.ac.in",
+    }
   ];
   const salesandcust = [
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966713/kishan-min_v5cosq.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505792/new%20vp%20compressed/photo_14_2024-02-08_12-48-43_z1xg5b_fck3h4.webp",
       name: "Kishan",
       whoIsHe: "Sales & Customer Experience",
+      linkedinLink:
+        "https://www.linkedin.com/in/kishan-gyamlani-130217227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink: "https://x.com/Kishan_2445?t=_OxfwIHtz-E4c_3bSRz6jQ&s=09",
+      mailLink: "kishan.22110802@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966713/kishan-min_v5cosq.webp",
-      name: "Kishan",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505795/new%20vp%20compressed/photo_12_2024-02-08_12-48-43_w8hlbe_p0vnoi.webp",
+      name:"",
       whoIsHe: "Sales & Customer Experience",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966708/pratham-min_ns1nhd.webp",
-      name: "Pratham",
-      whoIsHe: "Sales & Customer Experience",
+      linkedinLink:
+        "https://www.linkedin.com/in/pratham-patil-4826a422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink:
+        "https://twitter.com/_Pratham18_?t=dH-901vGaqu26r6StnAeAA&s=09",
+      mailLink: "pratham.22111326@viit.ac.in ",
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
-      name: "Kaushik",
+      name: "Kaushik Munde",
       whoIsHe: "Sales & Customer Experience",
+      linkedinLink: "https://www.linkedin.com/in/kaushik-munde-18923b22a/",
+      twitterLink: "",
+      mailLink: "kaushik.22111149@viit.ac.in",
     },
     {
-      img: " ",
-      name: "Soham",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505812/new%20vp%20compressed/animesh_new_gaj5d1_i2ulgs.webp",
+      name: "Animesh Kothawade",
       whoIsHe: "Sales & Customer Experience",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505811/new%20vp%20compressed/darshan_new_kbbnaj.webp ",
+      name: "Darshan Kotecha ",
+      whoIsHe: "Sales & Customer Experience",
+      linkedinLink:
+        "https://www.linkedin.com/in/darshan-kotecha-46a967244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink: "https://x.com/Darshank79?t=1zDMlWjlliSNTZSvxrAqlQ&s=09",
+      mailLink: "darshan.22110342@viit.ac.in",
     },
   ];
   const technical = [
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968685/compressed%20team%20img/uqwojhtweuqj2wab2lgf_ecwcho.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505809/new%20vp%20compressed/mayur-new_ovsrpl_fknd6k.webp",
       name: "Mayur",
       whoIsHe: "Technical",
+      linkedinLink: "http://www.linkedin.com/in/mayur-kailas-nimkande",
+      twitterLink: "https://twitter.com/Mayur_nimkande?s=09",
+      mailLink: "mayur.22110922@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968686/compressed%20team%20img/vgjgpijs94hksvc00n1a_r0bea9.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505787/new%20vp%20compressed/rohan_new_ncd8a5.webp",
       name: "Rohan",
       whoIsHe: "Technical",
+      linkedinLink: "https://www.linkedin.com/in/rohan-vaidya-359680190",
+      twitterLink: "https://twitter.com/vaidya_jiii",
+      mailLink: "rohan.22110021@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1702968686/compressed%20team%20img/vgjgpijs94hksvc00n1a_r0bea9.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505808/new%20vp%20compressed/devesh_new_q2zx0s_rws5hv.webp",
       name: "Devesh",
       whoIsHe: "Technical",
-    }
+      linkedinLink:
+        "https://www.linkedin.com/in/devesh-rathi-46538822a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
+      twitterLink: "https://twitter.com/dev_rathi37241",
+      mailLink: "deveshdiliprathi@gmail.com",
+    },
   ];
 
   const eventHeads = [
     {
-        img:"https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg",
-        name:"Parth Chavhan",
-        whoIsHe:"Convenor"
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505798/new%20vp%20compressed/photo_11_2024-02-08_12-48-43_yqn9sz_dvnwrv.webp",
+      name: "Parth Chavhan",
+      whoIsHe: "Convenor",
+      linkedinLink: "https://www.linkedin.com/in/parth-chavan-46448b210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      twitterLink: "",
+      mailLink: "parthchavan214@gmail.com",
     },
     {
-        img:"https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg",
-        name:"Aakash Chavhan",
-        whoIsHe:"Co-Convenor"
-    },
-  ]
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505794/new%20vp%20compressed/photo_13_2024-02-08_12-48-43_msja0p_uzlrbx.webp",
+      name: "Aakash Dudhane",
+      whoIsHe: "Co-Convenor",
+      linkedinLink:"https://www.linkedin.com/in/akash-dudhane-b0b30920b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADVC1vsBQ5RCKXZHfYYoSH0QntwLTxXB55Q&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bn9Gb3eqvROy0Yk9GdkrD8g%3D%3D",
+      twitterLink: "",
+      mailLink: "",
+    }, 
+  ];
 
   const domainSections = [
     { title: "Event Heads", members: eventHeads },
     { title: "Curation", members: curation },
-    { title: "Sponsorship", members: sponsership },
+    { title: "Sponsorship", members: sponsorship },
     { title: "Public Relation", members: publicrelation },
+    { title: "HR", members: hr },
     { title: "Operation & Supply Management", members: opretionandsupply },
     { title: "Marketing", members: marketing },
     { title: "Sales & Customer Experience", members: salesandcust },
     { title: "Technical", members: technical },
   ];
-
 
   return (
     <div className="Team ">
@@ -304,6 +341,9 @@ const TeamPage = () => {
                 img={member.img}
                 name={member.name}
                 whoIsHe={member.whoIsHe}
+                linkedinLink={member.linkedinLink}
+                twitterLink = {member.twitterLink}
+                mailLink = {member.mailLink}
               />
             ))}
           </div>
@@ -313,21 +353,23 @@ const TeamPage = () => {
   );
 };
 
-const subHeading =({title})=>{
-return (
-  <>
-    <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
-      {title}
-    </h1>
-  </>
-);
-}
-
-const TeamCard = ({ img, name, whoIsHe }) => {
+const subHeading = ({ title }) => {
   return (
     <>
-      <div className="h-[10rem] flex items-center" style={{width:"230px" , marginTop:"76px"}}>
-        {/* <img src="./scifi.png" alt="" /> */}
+      <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
+        {title}
+      </h1>
+    </>
+  );
+};
+
+const TeamCard = ({ img, name, whoIsHe, linkedinLink, twitterLink, mailLink }) => {
+  const handleMailClick = () => {
+    window.open(`mailto:${mailLink}`, '_blank');
+  };
+  return (
+    <>
+      <div className="h-[10rem] flex items-center" style={{ width: "230px", marginTop: "76px" }}>
         <div className="Teamcard">
           <div className="imgBx">
             <img src={img} alt="" />
@@ -340,21 +382,19 @@ const TeamCard = ({ img, name, whoIsHe }) => {
                 <span>{whoIsHe}</span>
               </h2>
               <div className="flex w-full justify-between px-10 py-4 ">
-                <img
-                  className="h-8 rounded-xl"
-                  src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
-                  alt=""
-                />
+                <a href={linkedinLink} target="_blank" rel="noopener noreferrer" style={{cursor:"pointer"}}>
+                  <img className="h-8 rounded-xl" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="" />
+                </a>
                 <img
                   className="h-8 rounded-xl"
                   src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
                   alt=""
+                  onClick={handleMailClick}
+                  style={{ cursor: 'pointer' }}
                 />
-                <img
-                  className="h-8 rounded-xl"
-                  src="https://img.freepik.com/premium-vector/x-new-social-network-black-app-icon-twitter-rebranded-as-x-twitter-s-logo-was-changed_277909-568.jpg"
-                  alt=""
-                />
+                <a href={twitterLink} target="_blank" rel="noopener noreferrer" style={{cursor:"pointer"}}>
+                  <img className="h-8 rounded-xl" src="https://img.freepik.com/premium-vector/x-new-social-network-black-app-icon-twitter-rebranded-as-x-twitter-s-logo-was-changed_277909-568.jpg" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -363,4 +403,5 @@ const TeamCard = ({ img, name, whoIsHe }) => {
     </>
   );
 };
+
 export default TeamPage;

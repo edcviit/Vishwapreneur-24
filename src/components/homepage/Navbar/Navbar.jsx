@@ -73,6 +73,7 @@ const Navbar = () => {
       id: 5,
       link: "contact",
     },
+    
   ];
 
   useEffect(() => {
@@ -97,6 +98,7 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex list-none">
+        
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -131,7 +133,9 @@ const Navbar = () => {
                 </Link>
               </>
             )}
+            
           </li>
+          
         ))}
         {/* <li
           key={links.length}
@@ -215,7 +219,7 @@ const Navbar = () => {
                   </Link>
                 </motion.li>
               ))}
-              {/* <motion.li
+              <motion.li
                 variants={itemVarients}
                 className="px-4 cursor-pointer capitalize py-6 text-4xl"
                 whileHover={{ scale: 1.1 }}
@@ -227,7 +231,7 @@ const Navbar = () => {
                 }}
               >
                 Team
-              </motion.li> */}
+              </motion.li>
             </motion.div>
           )}
         </motion.ul>
