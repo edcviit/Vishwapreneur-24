@@ -3,8 +3,8 @@ import React from "react";
 const SponsorCard = ({ img }) => {
   return (
     <>
-      <span className="mx-8 justify-center items-center md:w-200px md:h-200px h-100% w-100%">
-        <div className="md:max-w-200 rounded overflow-hidden shadow-lg backdrop-blur-sm inline-block bg-white">
+      <span className="mx-8 flex justify-center items-center md:w-[200px] md:h-[200px] h-[100px] w-[100px] min-w-100%">
+        <div className="min-w-100% rounded overflow-hidden shadow-lg backdrop-blur-sm inline-block bg-white">
           <img className="brightness-75 bg-white" src={img} alt="brand Logo" />
         </div>
       </span>
@@ -13,51 +13,81 @@ const SponsorCard = ({ img }) => {
 };
 const SponsorsMedia = () => {
   let ListOfSponsors = [
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389607/Sponsors%20and%20PR/r29wfuwam0vt4ie5cfe0.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389608/Sponsors%20and%20PR/qleucrldkztyn5zbjl4g.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389633/Sponsors%20and%20PR/ruvxktrtw0qjjcigpor0.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389633/Sponsors%20and%20PR/gvdnhnkneyvitetkflnq.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389633/Sponsors%20and%20PR/ww9yluhpq5ronnjax6pe.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389633/Sponsors%20and%20PR/zrq2einlwtysfwfr598a.webp",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676206111/VP-23/sponsors-photo/peterengland-01_sgqpek.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/ather-01_vapcah.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677481571/VP-23/sponsors-photo/hero_new-01_etsbgs.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/stackos-01_mhietf.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676870630/VP-23/sponsors-photo/balaji-01_akpawr.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/haldiram-01_ki7j2w.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676870630/VP-23/sponsors-photo/budhani-01_h2vmka.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/smita-01_rudjre.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/growthschool-01_mhrxpp.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676204645/VP-23/sponsors-photo/bliss_coffee-01_z9wsyq.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965398/VP-23/sponsors-photo/interview_buddy-01_yd0371.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677038643/VP-23/sponsors-photo/wellness-01_xaj2v6.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677481571/VP-23/sponsors-photo/my_nutrition-01_jajigx.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677478746/VP-23/sponsors-photo/nufurn-01_umzvwp.png",
+    // {
+    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp",
+    //   link: "https://google.com"
+    // },
+    // {
+    //   img: 
+    //   "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/ghbucwukzav2f63jmqyv.webp",
+    //   link: "https://google.com"
+    // },
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/ghbucwukzav2f63jmqyv.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/indtdbdyvuqne7jqt8xz.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/oujirgalpbgpkr66aipo.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/f9wchu6pvannqhnxom7z.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708014297/Sponsors_webp/j209kuroisn3hd0scp9y.png",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/kyvyyi7gjsgheqsjlnzu.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/oafgn40qgljd2ydfts2w.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/zlaq2cgxmphe6u6mnhxl.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/pvxaq7j6hwzpvcwsvrwg.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/d9dkdoowhgdqovyoada2.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ooz63xbjc9jfjp9j0yww.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/gru2nflgjncvm5s7c7rq.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/daklik83d25fpbjhcptm.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/clkhde4wtshuruzn9b0i.webp",
+    //repeat
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/ghbucwukzav2f63jmqyv.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/indtdbdyvuqne7jqt8xz.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/oujirgalpbgpkr66aipo.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/f9wchu6pvannqhnxom7z.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708014297/Sponsors_webp/j209kuroisn3hd0scp9y.png",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/kyvyyi7gjsgheqsjlnzu.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/oafgn40qgljd2ydfts2w.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/zlaq2cgxmphe6u6mnhxl.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/pvxaq7j6hwzpvcwsvrwg.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/d9dkdoowhgdqovyoada2.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ooz63xbjc9jfjp9j0yww.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/gru2nflgjncvm5s7c7rq.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/daklik83d25fpbjhcptm.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/clkhde4wtshuruzn9b0i.webp",
   ];
   let ListOfMediaPartners = [
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/samana-01_lh82tl.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/Akash_logo_s5ifiz.jpg",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/area37-01_q4qd2t.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/punyanagari-01_m2dg8k.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/dais-01_dycp5b.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677652119/VP-23/mediap-photos/collegedunia-01_ykivhy.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/teoi-01_ngjhgs.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/campustimes-01_hw6xpz.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/tgh-01_n1rihs.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676281999/VP-23/mediap-photos/radiocity-01_zyl0oa.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676351949/VP-23/mediap-photos/edtimes-01_lkmh1m.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/highereducation-01_rdcdif.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/knowafest-01_ju3fzv.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/noticebard-01_xr1a20.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/startupfyi-01_p4fxc0.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676204666/VP-23/mediap-photos/cryptonewsz-01_vifskr.png",
-    // "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676352855/VP-23/mediap-photos/indianstartupstories-01_qy6igq.png",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389632/Sponsors%20and%20PR/ccfctr9xshiv1vdcb2bs.webp",
-    "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707884982/partners/dauksspgpises9sehctr.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389632/Sponsors%20and%20PR/owxnr963gwomiwle2odp.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389632/Sponsors%20and%20PR/tr7wqrgqrcbz4zeknjun.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389631/Sponsors%20and%20PR/evvrmdfhfdvx8yzrlspz.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1707389631/Sponsors%20and%20PR/xmjrrwi8svdmh59ilczr.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003436/Parteners/y2gedmgbptiikgp4auev.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/hpyyofmhvq05bzfkthmi.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/plsqklqh8yhtec6mqpyv.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003436/Parteners/sxeebenslrzkugnafkxv.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/mxjvj21hxlj8pr4vpqz0.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/p3tnwcixgvziwxkgtqjy.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708015947/Parteners/om2mwltvomr8tg35ixke.png",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708017541/Parteners/eoptm6fv7sersqfmxakb.png",/*tgh*/
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/oenvwavqufn9mnqyqvkd.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/j65lz2mbx2piln7kz2jr.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/plcxyf7gsgtdm4y0awvc.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003436/Parteners/fu4otcyc1ijpjcdkvyxy.webp",/*prabhat*/
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708018109/Parteners/fz8l9u3jmflviqzwyukt.png", /*0unstop*/
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708018193/Parteners/mgkcx8khmcrtuiihm3aw.png",/*silicon india*/
+    //repeat
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003436/Parteners/y2gedmgbptiikgp4auev.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/hpyyofmhvq05bzfkthmi.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/plsqklqh8yhtec6mqpyv.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003436/Parteners/sxeebenslrzkugnafkxv.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/mxjvj21hxlj8pr4vpqz0.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/p3tnwcixgvziwxkgtqjy.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708015947/Parteners/om2mwltvomr8tg35ixke.png",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708017541/Parteners/eoptm6fv7sersqfmxakb.png",/*tgh*/
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/oenvwavqufn9mnqyqvkd.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/j65lz2mbx2piln7kz2jr.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/plcxyf7gsgtdm4y0awvc.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003436/Parteners/fu4otcyc1ijpjcdkvyxy.webp",/*prabhat*/
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708018109/Parteners/fz8l9u3jmflviqzwyukt.png", /*0unstop*/
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708018193/Parteners/mgkcx8khmcrtuiihm3aw.png",/*silicon india*/
 
 
   ];
@@ -68,11 +98,11 @@ const SponsorsMedia = () => {
           Our Sponsors
         </h1>
         <div className="relative flex overflow-x-hidden justify-center items-center">
-          <div className="py-12  animate-marquee md:animate-none md:flex items-center  whitespace-nowrap ">
+          <div className="py-12 flex animate-marquee  items-center  whitespace-nowrap ">
             {ListOfSponsors.map((img, index) => (
-           
-                <SponsorCard key={`sponsor${index}`} img={img} />
-            
+
+              <SponsorCard key={`sponsor${index}`} img={img} />
+
             ))}
           </div>
         </div>
@@ -80,7 +110,7 @@ const SponsorsMedia = () => {
           Media Partners
         </h1>
         <div className="relative flex overflow-x-hidden bg-black">
-          <div className="py-12 animate-marquee2 md:animate-none md:flex items-center whitespace-nowrap ">
+          <div className="py-12 animate-marquee2 flex items-center whitespace-nowrap ">
             {ListOfMediaPartners.map((img, index) => (
               <SponsorCard key={`media${index}`} img={img} />
             ))}
