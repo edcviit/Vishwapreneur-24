@@ -52,77 +52,78 @@ const FaqAccordion = () => {
   };
 
   return (
-    
-        <div>
-          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-              FAQ'S
-          </h1>
-          <div className="faqs p-16">
-            <div className="questions">
-              <motion.div
-                ref={ref}
-                className="top"
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                initial={{ opacity: 0, translateY: 50 }}
-                animate={inView ? { opacity: 1, translateY: 0 } : {}}
-                transition={{ duration: 0.3, delay: 0.2 }}
-              >
-                {faqItems.slice(0, 2).map((item) => (
-                  <FAQItem1
-                    key={item.id}
-                    id={item.id}
-                    question={item.question}
-                    answer={item.answer}
-                    isSelected={selectedItem === item.id}
-                    onItemClick={handleItemClick}
-                  />
-                ))}
-              </motion.div>
-              <motion.div
-                ref={ref}
-                className="mid"
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                initial={{ opacity: 0, translateY: 50 }}
-                animate={inView ? { opacity: 1, translateY: 0 } : {}}
-                transition={{ duration: 0.3, delay: 0.4 }}
-              >
-                {faqItems.slice(2, 4).map((item) => (
-                  <FAQItem1
-                    key={item.id}
-                    id={item.id}
-                    question={item.question}
-                    answer={item.answer}
-                    isSelected={selectedItem === item.id}
-                    onItemClick={handleItemClick}
-                  />
-                ))}
-              </motion.div>
-              <motion.div
-                ref={ref}
-                className="bottom"
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                initial={{ opacity: 0, translateY: 50 }}
-                animate={inView ? { opacity: 1, translateY: 0 } : {}}
-                transition={{ duration: 0.3, delay: 0.6 }}
-              >
-                {faqItems.slice(4).map((item) => (
-                  <FAQItem1
-                    key={item.id}
-                    id={item.id}
-                    question={item.question}
-                    answer={item.answer}
-                    isSelected={selectedItem === item.id}
-                    onItemClick={handleItemClick}
-                  />
-                ))}
-              </motion.div>
-            </div>
-          </div>
+    <div>
+      <div class="nine">
+        <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-8">
+          FAQ'S
+        </h1>
+      </div>
+      <div className="faqs p-16 pt-1">
+        <div className="questions">
+          <motion.div
+            ref={ref}
+            className="top"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            initial={{ opacity: 0, translateY: 50 }}
+            animate={inView ? { opacity: 1, translateY: 0 } : {}}
+            transition={{ duration: 0.3, delay: 0.2 }}
+          >
+            {faqItems.slice(0, 2).map((item) => (
+              <FAQItem1
+                key={item.id}
+                id={item.id}
+                question={item.question}
+                answer={item.answer}
+                isSelected={selectedItem === item.id}
+                onItemClick={handleItemClick}
+              />
+            ))}
+          </motion.div>
+          <motion.div
+            ref={ref}
+            className="mid"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            initial={{ opacity: 0, translateY: 50 }}
+            animate={inView ? { opacity: 1, translateY: 0 } : {}}
+            transition={{ duration: 0.3, delay: 0.4 }}
+          >
+            {faqItems.slice(2, 4).map((item) => (
+              <FAQItem1
+                key={item.id}
+                id={item.id}
+                question={item.question}
+                answer={item.answer}
+                isSelected={selectedItem === item.id}
+                onItemClick={handleItemClick}
+              />
+            ))}
+          </motion.div>
+          <motion.div
+            ref={ref}
+            className="bottom"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            initial={{ opacity: 0, translateY: 50 }}
+            animate={inView ? { opacity: 1, translateY: 0 } : {}}
+            transition={{ duration: 0.3, delay: 0.6 }}
+          >
+            {faqItems.slice(4).map((item) => (
+              <FAQItem1
+                key={item.id}
+                id={item.id}
+                question={item.question}
+                answer={item.answer}
+                isSelected={selectedItem === item.id}
+                onItemClick={handleItemClick}
+              />
+            ))}
+          </motion.div>
         </div>
-      );
+      </div>
+    </div>
+  );
     };
 
 export default FaqAccordion;

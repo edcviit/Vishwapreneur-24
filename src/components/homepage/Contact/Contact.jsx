@@ -7,9 +7,11 @@ const Contact = () => {
     <div name="contact" id="contact" className="mt-12">
       <div className="p-4 ">
         {/* <div className="p-4 bg-black"> */}
-        <p className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-          Contact Us
-        </p>
+        <div class="nine">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16">
+            Contact Us
+          </h1>
+        </div>
         <div className="grid gap-4 grid-col-1 md:grid-cols-2 lg:grid-cols-4 px-10">
           <Card
             title="Speaking Opportunities"

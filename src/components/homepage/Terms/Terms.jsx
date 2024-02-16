@@ -4,14 +4,16 @@ import "./Terms.css"; // Import your CSS file for Terms
 const Terms = () => {
   return (
     <>
-      <h1
-        name="termsConditions"
-        id="termsConditions"
-        className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8"
-      >
-        Terms and Conditions
-      </h1>
-
+      <div class="nine">
+        <h1
+          name="termsConditions"
+          id="termsConditions"
+          className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center "
+        >
+          Terms and Conditions
+        </h1>
+      </div>
+    
       <div className="px-6 md:px-16 w-screen">
         <div className="flex flex-col md:flex-row  bg-blue-950 px-4 md:px-16 py-12 rounded-3xl text-slate-100  justify-center gap-12  r-gradient">
           <div className="flex flex-col gap-8 md:pr-6 md:border-r ">

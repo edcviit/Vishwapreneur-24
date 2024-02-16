@@ -10,6 +10,9 @@ import Loader1 from "./components/Preloader/loader1";
 const Register = lazy(() =>
   import("./components/homepage/Registeration/Register")
 );
+const TeamPage = lazy(() =>
+  import("./components/TeamPage/TeamPage")
+);
 
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
@@ -87,6 +90,14 @@ function App() {
               element={
                 <Suspense fallback={<Loader1 />}>
                   <Register />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/team"
+              element={
+                <Suspense fallback={<Loader1 />}>
+                  <TeamPage />
                 </Suspense>
               }
             />

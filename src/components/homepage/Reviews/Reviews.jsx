@@ -95,9 +95,11 @@ const Reviews = () => {
 
   return (
     <>
-      <h1 className="main-heading   bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center pt-16">
-        Reviews
-      </h1>
+      <div class="nine">
+        <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center ">
+          Reviews
+        </h1>
+      </div>
 
       <div className=" md:min-h-[40vh]  min-h-[50vh] max-w-screen-lg mx-auto mt-8 p-4 bg-transparent rounded-md shadow-md  flex flex-col gap-3 md:flex md:flex-row-reverse">
         <div
@@ -127,7 +129,6 @@ const Reviews = () => {
           </h2>
         </div>
       </div>
-      
     </>
   );
 };

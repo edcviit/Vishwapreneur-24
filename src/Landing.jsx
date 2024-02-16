@@ -67,7 +67,7 @@ function Landing() {
       </div>
       
       <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
-                  <Link to="/How_to_register" style={{ textDecoration: 'none', color: 'white' , display:'flex' , justifyContent:'center' , alignItems:'center'}}>
+                  <Link to="/register" style={{ textDecoration: 'none', color: 'white' , display:'flex' , justifyContent:'center' , alignItems:'center'}}>
                       How to register?
                   </Link>
               </p>

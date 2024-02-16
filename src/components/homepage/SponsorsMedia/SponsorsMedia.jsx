@@ -94,21 +94,23 @@ const SponsorsMedia = () => {
   return (
     <>
       <div className=" group mt-44">
-        <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
-          Our Sponsors
-        </h1>
+        <div class="nine">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-8">
+            Our Sponsors
+          </h1>
+        </div>
         <div className="relative flex overflow-x-hidden justify-center items-center">
           <div className="py-12 flex animate-marquee  items-center  whitespace-nowrap ">
             {ListOfSponsors.map((img, index) => (
-
               <SponsorCard key={`sponsor${index}`} img={img} />
-
             ))}
           </div>
         </div>
-        <h1 className="main-heading text-4xl font-bold text-center py-8">
-          Media Partners
-        </h1>
+        <div class="nine">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-8">
+            Media Partners
+          </h1>
+        </div>
         <div className="relative flex overflow-x-hidden bg-black">
           <div className="py-12 animate-marquee2 flex items-center whitespace-nowrap ">
             {ListOfMediaPartners.map((img, index) => (

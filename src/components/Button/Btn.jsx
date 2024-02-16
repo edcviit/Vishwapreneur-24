@@ -1,13 +1,14 @@
 import React from "react";
 import './style.css';
+import { useNavigate } from "react-router-dom";
+
 const ParticleButton = ({link}) => { 
+  const navigate = useNavigate();
   const handleClick = () => {
-    window.location.href = link;
+    navigate("/register")
   };
     return (
-  
-      <div className='center-container mt-0 flex justify-centrer items-center'>
-        
+      <div className='center-container mt-0 flex justify-centrer items-center'> 
         <label htmlFor="slow"/>
       
           {/* <input className='sl' id="slow" type="checkbox"/> */}

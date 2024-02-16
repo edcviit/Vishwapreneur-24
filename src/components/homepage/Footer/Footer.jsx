@@ -7,14 +7,14 @@ import "@fortawesome/fontawesome-free/css/all.css";
 const Footer = () => {
   return (
     <div
-      className={` relative footer-section  `}
+      className={` relative footer-section  mt-24`}
       // className={` relative footer-section border-[1px] border-slate-300   `}
     >
       {/* <div className='bg-gradient-to-b from-black via-transperent to-white w-fit h-fit w-'> */}
       {/* <img src={image2} className=' absolute  bottom-0 h-[39rem] md:h-[50rem]  object-cover md:object-fill md:w-[100vw]  opacity-85' style={{zIndex:"-1",webkitMaskImage: "WebkitGradient(linear, top,  bottom,from(rgba(0,0,0,0)) to(rgba(0,0,0,1)))",backgroundImage: "linear-gradient(to bottom,#000000,#000000, #6766b4,#bb57a1)" }} alt="" /> */}
       {/* <img src={image2} className=' absolute -z-10 bottom-0 h-[39rem] md:h-[50rem] w-[100vw] ' style={{ webkitMaskImage: "-webkit-gradient(linear, top,  bottom,from(rgba(0,0,0,0)),via(rgba(0,0,0,0.5)), to(rgba(0,0,0,1)))"}} alt="" /> */}
       {/* </div> */}
-      <footer className=" text-white py-12 border-2 border-white p-2">
+      <footer className=" text-white py-12 border rounded-t-3xl backdrop-blur-sm border-white p-2">
         {/* <div className={`z-50    `} style={{ backgroundImage: `url(${image})`, width:screen, height:"20rem"}}></div> */}
         <div className={`w-full h-full  relative m-15 `}>
           <div className="container mx-auto flex flex-col items-center">
@@ -43,7 +43,7 @@ const Footer = () => {
                   <li className="mb-2 hover:scale-105">
                     <a href="https://edcviit.com/ourteam">Our Team</a>
                   </li>
-                    {/* <li className="mb-2 hover:scale-105">
+                  {/* <li className="mb-2 hover:scale-105">
                       <a href="/#termsConditions">Privacy Policy</a>
                     </li> */}
                   <li className="mb-2 hover:scale-105">

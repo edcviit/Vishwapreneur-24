@@ -143,7 +143,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
-      name: "Akash",
+      name: "Akash Kalshetti",
       whoIsHe: "Marketing",
       linkedinLink: "",
       twitterLink: "",
@@ -151,7 +151,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505786/new%20vp%20compressed/photo_16_2024-02-08_12-48-43_ng1fef_ce0d6k.webp",
-      name: "Shailesh",
+      name: "Shailesh Pallod",
       whoIsHe: "Marketing",
       linkedinLink: "https://www.linkedin.com/in/shailesh-pallod-2b7105241",
       twitterLink: "https://x.com/rudeme11?t=JkbFkZi4zacPMriY-L9MrQ&s=09",
@@ -159,25 +159,25 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505803/new%20vp%20compressed/photo_4_2024-02-08_12-48-43_xg0yjc_nmp4pe.webp",
-      name: "Manas",
+      name: "Manas Shenge",
       whoIsHe: "Marketing",
       linkedinLink: "",
       twitterLink: "",
       mailLink: "",
     },
-    {
-      img: "",
-      name: "Deepak Ghume",
-      whoIsHe: "Marketing",
-      linkedinLink: "https://www.linkedin.com/in/deepak-ghume-35537628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      twitterLink: "https://twitter.com/deeapakghume",
-      mailLink: "deepak.22220159@viit.ac.in",
-    }
+    // {
+    //   img: "",
+    //   name: "Deepak Ghume",
+    //   whoIsHe: "Marketing",
+    //   linkedinLink: "https://www.linkedin.com/in/deepak-ghume-35537628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //   twitterLink: "https://twitter.com/deeapakghume",
+    //   mailLink: "deepak.22220159@viit.ac.in",
+    // }
   ];
   const salesandcust = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505792/new%20vp%20compressed/photo_14_2024-02-08_12-48-43_z1xg5b_fck3h4.webp",
-      name: "Kishan",
+      name: "Kishan Gyamlani",
       whoIsHe: "Sales & Customer Experience",
       linkedinLink:
         "https://www.linkedin.com/in/kishan-gyamlani-130217227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -186,7 +186,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505795/new%20vp%20compressed/photo_12_2024-02-08_12-48-43_w8hlbe_p0vnoi.webp",
-      name:"",
+      name:"Pratham Patil",
       whoIsHe: "Sales & Customer Experience",
       linkedinLink:
         "https://www.linkedin.com/in/pratham-patil-4826a422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -223,7 +223,7 @@ const TeamPage = () => {
   const technical = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505809/new%20vp%20compressed/mayur-new_ovsrpl_fknd6k.webp",
-      name: "Mayur",
+      name: "Mayur Nimkande",
       whoIsHe: "Technical",
       linkedinLink: "http://www.linkedin.com/in/mayur-kailas-nimkande",
       twitterLink: "https://twitter.com/Mayur_nimkande?s=09",
@@ -231,7 +231,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505787/new%20vp%20compressed/rohan_new_ncd8a5.webp",
-      name: "Rohan",
+      name: "Rohan Vaidya",
       whoIsHe: "Technical",
       linkedinLink: "https://www.linkedin.com/in/rohan-vaidya-359680190",
       twitterLink: "https://twitter.com/vaidya_jiii",
@@ -239,7 +239,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505808/new%20vp%20compressed/devesh_new_q2zx0s_rws5hv.webp",
-      name: "Devesh",
+      name: "Devesh Rathi",
       whoIsHe: "Technical",
       linkedinLink:
         "https://www.linkedin.com/in/devesh-rathi-46538822a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
@@ -271,12 +271,12 @@ const TeamPage = () => {
     { title: "Event Heads", members: eventHeads },
     { title: "Curation", members: curation },
     { title: "Sponsorship", members: sponsorship },
-    { title: "Public Relation", members: publicrelation },
-    { title: "HR", members: hr },
-    { title: "Operation & Supply Management", members: opretionandsupply },
     { title: "Marketing", members: marketing },
     { title: "Sales & Customer Experience", members: salesandcust },
+    { title: "Public Relation", members: publicrelation },
+    { title: "Human Resource", members: hr },
     { title: "Technical", members: technical },
+    { title: "Operation & Supply Management", members: opretionandsupply },
   ];
 
   return (

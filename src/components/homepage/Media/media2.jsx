@@ -284,26 +284,25 @@ const Media2 = () => {
           postLink: 'https://twitter.com/edcviit/status/1737772197538664771?ref_src=twsrc%5Etfw',
           icon: 'ion-logo-twitter',
           followers:1200
-        },
-      
-      
+        }, 
     ]
-
-
+    
   return (
     <div className="relative mt-32">
-      <h1 className="main-heading pt-10 mb-0 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-2">
-        Social Media Footfall
-      </h1>
+      <div class="nine">
+        <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center ">
+          Social Media
+        </h1>
+      </div>
       <div
         ref={countersRef}
         className="flex-col gap-y-36 p-10 md:flex-row lg:flex w-screen h-fit text-white place-content-around hover:cursor-default"
       >
         {socialIcons.map((icon) => (
           <motion.div
-          onClick={()=>{
-            window.open(icon.link, "_blank");
-          }}
+            onClick={() => {
+              window.open(icon.link, "_blank");
+            }}
             key={icon.platform}
             className="m-8 border-white rounded-lg p-3 cursor-pointer text-center h-fit place-content-center hover:transform hover:translate-y-[-2px] hover:transition-transform hover:ease-in-out hover:duration-400 duration-700 hover:border-[0px] hover:shadow-white hover:shadow-sm"
           >

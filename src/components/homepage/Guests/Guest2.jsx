@@ -1,7 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React, {  useRef } from "react";
 import "./Guest2.css";
-import ScrollAnimation from "../../Animations/ScrollAnimation";
-import { AnimatePresence } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 // import ''
 
@@ -18,7 +16,7 @@ const Guest2 = () => {
     },
     {
       img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620798/vpGuests/chinukala-removebg-preview_cb29sb.webp",
-      name: "Mrs. Chinu Kala",
+      name: "Chinu Kala",
       whoIsHe: "Founder & CEO, Rubans Accessories",
       content: "",
     },
@@ -29,38 +27,82 @@ const Guest2 = () => {
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620798/vpGuests/harshilKaria-removebg-preview_efmpa0.webp",
-      name: "Mr. Harshil Karia",
-      whoIsHe: "Founder, Schbang",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081686/Guests/Screenshot__232_-removebg-preview_vusptn.webp",
+      name: "V Krishnan",
+      whoIsHe: "Co-founder &",
+      whoIsHe2: "Group President, JustDial ",
       content: "",
     },
-    {
-      img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620798/vpGuests/ayushWadhwa-removebg-preview_or1zfx.webp",
-      name: "Mr. Ayush Wadhwa",
-      whoIsHe: "Founder, OWLED",
-      content: "",
-    },
+
     {
       img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620797/vpGuests/mikhilInani-removebg-preview_hoxqzk.webp",
-      name: "Mr. Mikhil Inani",
+      name: "Mikhil Inani",
       whoIsHe: "CEO, Apollo Finvest, ",
       whoIsHe2: "Co-Founder, PharmEasy ",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081684/Guests/paritosh_anand_1-removebg-preview_hxdyyz.webp",
+      name: "Paritosh Anand",
+      whoIsHe: "Founder, WeSmile Media",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081675/Guests/2f2c895f-8212-4b11-af81-2ffda04b5c7e_1-removebg-preview_ab5rfo.webp",
+      name: "Abhishek Kar",
+      whoIsHe: "Content Creator",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081680/Guests/image_133-removebg-preview_qzbn06.webp",
+      name: "Mahak Garg",
+      whoIsHe: "Director, Masters Union",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081678/Guests/image_132-removebg-preview_eozu6g.webp",
+      name: "Ankit Madaan",
+      whoIsHe: "Founder, CollabX",
+      whoIsHe2: "Founder, Hasley India",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081682/Guests/image_134-removebg-preview_lytiwy.webp",
+      name: "Rajesh Desai",
+
+      whoIsHe: "CoFounder, CEO &",
+      whoIsHe2: "MD, Lyra Network Asia",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081676/Guests/channels4_profile_1-removebg-preview_rz36xz.webp",
+      name: "Atharva Sudame",
+
+      whoIsHe: "Content Creator",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081677/Guests/channels4_profile__1__1-removebg-preview_cm6wtp.webp",
+      name: "Bhanu Pathak",
+
+      whoIsHe: "Content Creator",
       content: "",
     },
   ];
 
   return (
-    <AnimatePresence>
       <div className="main-container pt-12" name="guest2" id="guest">
-        <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-          Guests
-        </h1>
+        <div class="nine">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16">
+            Guests
+          </h1>
+        </div>
 
         <div className="card-container" ref={cardContainerRef}>
           {guests.map((guest, index) => (
             <div key={index} className="card">
-              <ScrollAnimation>
-                <div className="card-body cursor-default ">
+             
+                <div className="card-body pt-3 cursor-default ">
                   {/* Add class called  si-buttons-scifi to card-body*/}
                   {/* <shine className="shine"></shine> */}
                   <div className="card-images ">
@@ -69,7 +111,7 @@ const Guest2 = () => {
                       src={guest.img}
                       alt="card figure"
                       className="card-figure border-r-4 glass-bg-01"
-                      style={{ borderRadius: "50%", height: "13rem" }}
+                      style={{ borderRadius: "50%", height: "12rem" }}
                     />
                   </div>
                   <div className="card-info">
@@ -81,7 +123,6 @@ const Guest2 = () => {
                     </p>
                   </div>
                 </div>
-              </ScrollAnimation>
             </div>
           ))}
         </div>
@@ -96,7 +137,6 @@ const Guest2 = () => {
           Previous Guests
         </button>
       </div>
-    </AnimatePresence>
   );
 };
 
