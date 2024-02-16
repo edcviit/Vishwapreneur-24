@@ -27,7 +27,7 @@ const Guest2 = () => {
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081686/Guests/Screenshot__232_-removebg-preview_vusptn.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108956/Guests/new17/Screenshot__232_-removebg-preview_j4apni.webp",
       name: "V Krishnan",
       whoIsHe: "Co-founder &",
       whoIsHe2: "Group President, JustDial ",
@@ -42,19 +42,19 @@ const Guest2 = () => {
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081684/Guests/paritosh_anand_1-removebg-preview_hxdyyz.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108954/Guests/new17/paritosh_anand_1-removebg-preview_a1tpkn.webp",
       name: "Paritosh Anand",
       whoIsHe: "Founder, WeSmile Media",
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081675/Guests/2f2c895f-8212-4b11-af81-2ffda04b5c7e_1-removebg-preview_ab5rfo.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108952/Guests/new17/2f2c895f-8212-4b11-af81-2ffda04b5c7e_1-removebg-preview_uaer5g.webp",
       name: "Abhishek Kar",
       whoIsHe: "Content Creator",
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081680/Guests/image_133-removebg-preview_qzbn06.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108952/Guests/new17/image_133-removebg-preview_q2keek.webp",
       name: "Mahak Garg",
       whoIsHe: "Director, Masters Union",
       content: "",
@@ -67,7 +67,7 @@ const Guest2 = () => {
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081682/Guests/image_134-removebg-preview_lytiwy.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108953/Guests/new17/image_134-removebg-preview_gdbd3u.webp",
       name: "Rajesh Desai",
 
       whoIsHe: "CoFounder, CEO &",
@@ -75,14 +75,14 @@ const Guest2 = () => {
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081676/Guests/channels4_profile_1-removebg-preview_rz36xz.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108974/Guests/new17/channels4_profile_1-removebg-preview_fk8fno.webp",
       name: "Atharva Sudame",
 
       whoIsHe: "Content Creator",
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081677/Guests/channels4_profile__1__1-removebg-preview_cm6wtp.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108957/Guests/new17/channels4_profile__1__1-removebg-preview_ptfihq.webp",
       name: "Bhanu Pathak",
 
       whoIsHe: "Content Creator",
