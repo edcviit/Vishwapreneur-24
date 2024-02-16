@@ -11,6 +11,8 @@ const Register = lazy(() =>
   import("./components/homepage/Registeration/Register")
 );
 
+import TeamPage from './components/TeamPage/TeamPage';
+
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
@@ -91,7 +93,7 @@ function App() {
               }
             />
 
-            {/* <Route exact path="/team" element={<TeamPage />} /> */}
+            <Route exact path="/team" element={<TeamPage />} />
 
             <Route path="/*" element={<Navigate to="/" />} />
             <Route path="*" element={<Navigate to="/" />} />
