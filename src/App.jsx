@@ -14,7 +14,6 @@ const TeamPage = lazy(() =>
   import("./components/TeamPage/TeamPage")
 );
 
-import TeamPage from './components/TeamPage/TeamPage';
 
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
