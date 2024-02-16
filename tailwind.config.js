@@ -4,21 +4,21 @@ export default {
   theme: {
     extend: {
       animation: {
-        marquee: "marquee 30s linear infinite",
-        marquee2: "marquee2 30s linear infinite",
+        marquee: "marquee 50s linear infinite",
+        marquee2: "marquee2 60s linear infinite",
         marqueeInternal1: "marqueeInternal1 60s linear infinite",
         marqueeInternal2: "marqueeInternal2 60s linear infinite",
       },
       keyframes: {
         marquee: {
           "0%": { transform: "translateX(0%)" },
-          "50%": { transform: "translateX(-500%)" },
+          "50%": { transform: "translateX(-40%)" },
           "100%": { transform: "translateX(0%)" },
         },
         marquee2: {
-          "0%": { transform: "translateX(-450%)" },
+          "0%": { transform: "translateX(-90%)" },
           "50%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-450%)" },
+          "100%": { transform: "translateX(-90%)" },
         },
         marqueeInternal1: {
           "0%": { transform: "translateX(0%)" },

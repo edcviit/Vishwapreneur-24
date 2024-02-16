@@ -18,12 +18,13 @@ body {
   /* background-color: #a655d8; */
   /* margin: 1em; */
   /* background-color: #23429e; */
-  border-color: #7c008d;
+  border-color: #ffffff;
   border: solid 1px ;
   padding: 1.5em 3.25em;
   border-radius: 5em;
   box-shadow: inset 0 0 2rem #a655d8;
-  background: radial-gradient(#7a8095,  #6201d9) padding-box, radial-gradient(#a0c2ed, 35%, #a0c2ed00 70%) 50% 0/80% 50% repeat-y;
+  background-color: #7942be;
+  /* background: radial-gradient(#7a8095,  #6201d9) padding-box, radial-gradient(#a0c2ed, 35%, #a0c2ed00 70%) 50% 0/80% 50% repeat-y; */
   color: #ffffff;
   font: 700  montserrat, sans-serif;
   /* width: 15rem;
