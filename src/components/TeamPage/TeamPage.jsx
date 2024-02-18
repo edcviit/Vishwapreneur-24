@@ -78,7 +78,15 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505813/new%20vp%20compressed/bhagyashree-old-removebg-preview_we3qna_urnb1b.webp",
-      name: "Bhagyashree",
+      name: "Bhagyashree Tambake",
+      whoIsHe: "Public Relation",
+      linkedinLink: "",
+      twitterLink: "",
+      mailLink: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708259353/new%20vp%20compressed/h6caboowxm9gyh1lycjw.webp",
+      name: "Shravani Dhobale",
       whoIsHe: "Public Relation",
       linkedinLink: "",
       twitterLink: "",
@@ -94,6 +102,7 @@ const TeamPage = () => {
       twitterLink: "",
       mailLink: "",
     },
+
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505805/new%20vp%20compressed/photo_3_2024-02-08_12-48-43_q34vqh_uttdkj.webp",
       name: "Swarnima Yogi",
@@ -104,37 +113,37 @@ const TeamPage = () => {
     },
    
   ];
-  const opretionandsupply = [
-    {
-      img: " ",
-      name: "Ayush",
-      whoIsHe: "Operation & Supply Chain",
-      linkedinLink: "",
-      twitterLink: "",
-      mailLink: "",
-    },
-    {
-      img: " ",
-      name: "Aditya Patil",
-      whoIsHe: "Operation & Supply Chain",
-      linkedinLink: "",
-      twitterLink: "",
-      mailLink: "",
-    },
-    {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
-      name: "Vyankatesh ",
-      whoIsHe: "Operation & Supply Chain",
-      linkedinLink:
-        "https://www.linkedin.com/in/vyankatesh-kumbhakarna-480b38229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      twitterLink: "https://x.com/vyankatesh1444?t=_X93Nj5mOuScD0eYS1qYZw&s=09",
-      mailLink: "vyankatesh.22110041@viit.ac.in",
-    },
-  ];
+  // const opretionandsupply = [
+  //   {
+  //     img: "",
+  //     name: "Ayush",
+  //     whoIsHe: "Operation & Supply Chain",
+  //     linkedinLink: "",
+  //     twitterLink: "",
+  //     mailLink: "",
+  //   },
+  //   {
+  //     img: " ",
+  //     name: "Aditya Patil",
+  //     whoIsHe: "Operation & Supply Chain",
+  //     linkedinLink: "",
+  //     twitterLink: "",
+  //     mailLink: "",
+  //   },
+  //   {
+  //     img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
+  //     name: "Vyankatesh ",
+  //     whoIsHe: "Operation & Supply Chain",
+  //     linkedinLink:
+  //       "https://www.linkedin.com/in/vyankatesh-kumbhakarna-480b38229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //     twitterLink: "https://x.com/vyankatesh1444?t=_X93Nj5mOuScD0eYS1qYZw&s=09",
+  //     mailLink: "vyankatesh.22110041@viit.ac.in",
+  //   },
+  // ];
   const marketing = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505786/new%20vp%20compressed/Screenshot_2024-02-09_192333_j912iw_rwlmtc.webp",
-      name: "Parth Sukhia    ",
+      name: "Parth Sukhia",
       whoIsHe: "Marketing",
       linkedinLink: "https://www.linkedin.com/in/parth-sukhia-65935927b",
       twitterLink:
@@ -142,7 +151,7 @@ const TeamPage = () => {
       mailLink: "parth.22110274@viit.ac.in",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708258830/new%20vp%20compressed/drc5c8tyo8lhnjsrbgds.webp",
       name: "Akash Kalshetti",
       whoIsHe: "Marketing",
       linkedinLink: "",
@@ -165,14 +174,14 @@ const TeamPage = () => {
       twitterLink: "",
       mailLink: "",
     },
-    // {
-    //   img: "",
-    //   name: "Deepak Ghume",
-    //   whoIsHe: "Marketing",
-    //   linkedinLink: "https://www.linkedin.com/in/deepak-ghume-35537628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    //   twitterLink: "https://twitter.com/deeapakghume",
-    //   mailLink: "deepak.22220159@viit.ac.in",
-    // }
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708259165/new%20vp%20compressed/ih02hb8yuidhgwueskpq.webp",
+      name: "Deepak Ghume",
+      whoIsHe: "Marketing",
+      linkedinLink: "https://www.linkedin.com/in/deepak-ghume-35537628a",
+      twitterLink: "https://twitter.com/deeapakghume",
+      mailLink: "deepak.22220159@viit.ac.in",
+    }
   ];
   const salesandcust = [
     {
@@ -180,7 +189,7 @@ const TeamPage = () => {
       name: "Kishan Gyamlani",
       whoIsHe: "Sales & Customer Experience",
       linkedinLink:
-        "https://www.linkedin.com/in/kishan-gyamlani-130217227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/kishan-gyamlani-130217227",
       twitterLink: "https://x.com/Kishan_2445?t=_OxfwIHtz-E4c_3bSRz6jQ&s=09",
       mailLink: "kishan.22110802@viit.ac.in",
     },
@@ -189,7 +198,7 @@ const TeamPage = () => {
       name:"Pratham Patil",
       whoIsHe: "Sales & Customer Experience",
       linkedinLink:
-        "https://www.linkedin.com/in/pratham-patil-4826a422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/pratham-patil-4826a422b",
       twitterLink:
         "https://twitter.com/_Pratham18_?t=dH-901vGaqu26r6StnAeAA&s=09",
       mailLink: "pratham.22111326@viit.ac.in ",
@@ -223,7 +232,7 @@ const TeamPage = () => {
   const technical = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505809/new%20vp%20compressed/mayur-new_ovsrpl_fknd6k.webp",
-      name: "Mayur Nimkande",
+      name: "Mayur",
       whoIsHe: "Technical",
       linkedinLink: "http://www.linkedin.com/in/mayur-kailas-nimkande",
       twitterLink: "https://twitter.com/Mayur_nimkande?s=09",
@@ -231,7 +240,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505787/new%20vp%20compressed/rohan_new_ncd8a5.webp",
-      name: "Rohan Vaidya",
+      name: "Rohan",
       whoIsHe: "Technical",
       linkedinLink: "https://www.linkedin.com/in/rohan-vaidya-359680190",
       twitterLink: "https://twitter.com/vaidya_jiii",
@@ -268,15 +277,15 @@ const TeamPage = () => {
   ];
 
   const domainSections = [
-    { title: "Event Heads", members: eventHeads },
+    { title: "Convenors", members: eventHeads },
     { title: "Curation", members: curation },
     { title: "Sponsorship", members: sponsorship },
-    { title: "Marketing", members: marketing },
-    { title: "Sales & Customer Experience", members: salesandcust },
     { title: "Public Relation", members: publicrelation },
     { title: "Human Resource", members: hr },
+    // { title: "Operation & Supply Management", members: opretionandsupply },
+    { title: "Marketing", members: marketing },
+    { title: "Sales & Customer Experiences", members: salesandcust },
     { title: "Technical", members: technical },
-    { title: "Operation & Supply Management", members: opretionandsupply },
   ];
 
   return (
@@ -332,10 +341,10 @@ const TeamPage = () => {
       {/* <br /> */}
       {domainSections.map((section) => (
         <>
-          <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
+          <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-8 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8  mt-7">
             {section.title}
           </h1>
-          <div className="flex items-center justify-around mt-6 mb-16 My_card_wrapper">
+          <div className="flex items-center justify-around mt-16 mb-24 My_card_wrapper">
             {section.members.map((member) => (
               <TeamCard
                 img={member.img}
