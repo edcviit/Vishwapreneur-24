@@ -289,10 +289,10 @@ const TeamPage = () => {
 
   const domainSections = [
     { title: "Convenors", members: eventHeads },
+    {title: "Treasurer", members: finance},
     { title: "Curation", members: curation },
     { title: "Sponsorship", members: sponsorship },
     { title: "Public Relation", members: publicrelation },
-    {title: "Finance", members: finance},
     { title: "Human Resource", members: hr },
     // { title: "Operation & Supply Management", members: opretionandsupply },
     { title: "Marketing", members: marketing },
