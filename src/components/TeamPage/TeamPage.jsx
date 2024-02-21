@@ -243,7 +243,7 @@ const TeamPage = () => {
   const technical = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505809/new%20vp%20compressed/mayur-new_ovsrpl_fknd6k.webp",
-      name: "Mayur",
+      name: "Mayur Nimkande",
       whoIsHe: "Technical",
       linkedinLink: "http://www.linkedin.com/in/mayur-kailas-nimkande",
       twitterLink: "https://twitter.com/Mayur_nimkande?s=09",
@@ -251,7 +251,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505787/new%20vp%20compressed/rohan_new_ncd8a5.webp",
-      name: "Rohan",
+      name: "Rohan Vaidya",
       whoIsHe: "Technical",
       linkedinLink: "https://www.linkedin.com/in/rohan-vaidya-359680190",
       twitterLink: "https://twitter.com/vaidya_jiii",
