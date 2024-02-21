@@ -159,9 +159,11 @@ opacity:0.5;
 
 .sub-heading {
   font-size: 1.8rem;
-  font-family: "Rajdhani", sans-serif;
-  font-weight: 500;
+  font-family: "batmfa__""Rajdhani", sans-serif;
+  font-weight: 800;
   font-style: normal;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .teamPage {
@@ -179,9 +181,23 @@ opacity:0.5;
   width: 100%;
   max-width: 550px;
   height: 250px;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  /* padding: 10rem; */
+  /* margin-top: 15rem; */
+  /* /* background: rgb(220, 174, 174); */
+  /* background: rgba(220, 136, 230, 0.11);  */
+  /* border-radius: 20px; */
+  /* box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15); */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(220, 136, 230, 0.06); */
+background: rgba(170, 158, 220, 0.64);
+border-radius: 20px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(220, 136, 230, 0.06);
+
   transition: 0.5s;
   margin-bottom: 2rem;
 }
@@ -242,7 +258,7 @@ opacity:0.5;
   transition: 0.5s;
   transform: translateY(120px);
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 15px; 
 }
 
 .Teamcard:hover .content .details {
@@ -252,7 +268,7 @@ opacity:0.5;
 .Teamcard .content .details h2 {
   font-size: 1.25em;
   font-weight: 600;
-  color: #555;
+  color: #ffffff;
   line-height: 1.2em;
 }
 
@@ -270,7 +286,7 @@ opacity:0.5;
 
 .Teamcard .content .details .data h3 {
   font-size: 1em;
-  color: #555;
+  color: #ffffff;
   line-height: 1.2em;
   font-weight: 600;
 }

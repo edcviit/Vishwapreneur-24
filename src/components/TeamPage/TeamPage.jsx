@@ -93,6 +93,17 @@ const TeamPage = () => {
       mailLink: "",
     },
   ];
+  const finance= [
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505804/new%20vp%20compressed/photo_2_2024-02-08_12-48-43_uoomou_zyqem6.webp",
+      name: "Kartik Bhage",
+      whoIsHe: "Chief Finance Officer",
+      linkedinLink: "https://www.linkedin.com/in/triambak-kapoor-22bb7b22a/",
+      twitterLink: "",
+      mailLink: "",
+    },
+  ];
+
   const hr = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707506923/new%20vp%20compressed/Screenshot_2024-02-10_005727_bbooph.webp",
@@ -204,7 +215,7 @@ const TeamPage = () => {
       mailLink: "pratham.22111326@viit.ac.in ",
     },
     {
-      img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708502192/new%20vp%20compressed/eqlgtktmuuy8gmzuvseo.webp",
       name: "Kaushik Munde",
       whoIsHe: "Sales & Customer Experience",
       linkedinLink: "https://www.linkedin.com/in/kaushik-munde-18923b22a/",
@@ -281,6 +292,7 @@ const TeamPage = () => {
     { title: "Curation", members: curation },
     { title: "Sponsorship", members: sponsorship },
     { title: "Public Relation", members: publicrelation },
+    {title: "Finance", members: finance},
     { title: "Human Resource", members: hr },
     // { title: "Operation & Supply Management", members: opretionandsupply },
     { title: "Marketing", members: marketing },
@@ -344,7 +356,7 @@ const TeamPage = () => {
           <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-8 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8  mt-7">
             {section.title}
           </h1>
-          <div className="flex items-center justify-around mt-16 mb-24 My_card_wrapper">
+          <div className="flex items-center justify-around mt-16 mb-24 My_card_wrapper space-y-['10rem']">
             {section.members.map((member) => (
               <TeamCard
                 img={member.img}
@@ -378,19 +390,19 @@ const TeamCard = ({ img, name, whoIsHe, linkedinLink, twitterLink, mailLink }) =
   };
   return (
     <>
-      <div className="h-[10rem] flex items-center" style={{ width: "230px", marginTop: "76px" }}>
-        <div className="Teamcard">
+      <div className="h-[10rem] flex items-center" style={{ width: "230px", marginTop: "76px" , paddingTop:"20px",paddingBottom:"225px",}}>
+        <div className="Teamcard" style={{paddingTop:"20px",paddingBottom:"225px",}}>
           <div className="imgBx">
             <img src={img} alt="" />
           </div>
-          <div className="content">
+          <div className="content  ">
             <div className="details">
               <h2>
                 {name} <br />
                 <br />
                 <span>{whoIsHe}</span>
               </h2>
-              <div className="flex w-full justify-between px-10 py-4 ">
+              <div className="flex w-full justify-between px-10 py-4">
                 <a href={linkedinLink} target="_blank" rel="noopener noreferrer" style={{cursor:"pointer"}}>
                   <img className="h-8 rounded-xl" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="" />
                 </a>
@@ -402,7 +414,7 @@ const TeamCard = ({ img, name, whoIsHe, linkedinLink, twitterLink, mailLink }) =
                   style={{ cursor: 'pointer' }}
                 />
                 <a href={twitterLink} target="_blank" rel="noopener noreferrer" style={{cursor:"pointer"}}>
-                  <img className="h-8 rounded-xl" src="https://img.freepik.com/premium-vector/x-new-social-network-black-app-icon-twitter-rebranded-as-x-twitter-s-logo-was-changed_277909-568.jpg" alt="" />
+                  <img className="h-8 rounded-xl" src="https://res.cloudinary.com/di40y80dw/image/upload/v1708499891/jux6j4l8mfige7xx3czd.png" alt="" />
                 </a>
               </div>
             </div>
