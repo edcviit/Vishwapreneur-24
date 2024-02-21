@@ -88,9 +88,9 @@ const TeamPage = () => {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708259353/new%20vp%20compressed/h6caboowxm9gyh1lycjw.webp",
       name: "Shravani Dhobale",
       whoIsHe: "Public Relation",
-      linkedinLink: "",
-      twitterLink: "",
-      mailLink: "",
+      linkedinLink: "https://www.linkedin.com/in/shravani-dhobale-068b7722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitterLink: "https://x.com/shravanidhobale?t=t8GfbrpsQhvBFuZmaH5x1w&s=08",
+      mailLink: "shravnidhobale@gmail.com",
     },
   ];
   const finance= [
