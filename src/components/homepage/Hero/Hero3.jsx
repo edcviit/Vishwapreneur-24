@@ -1,5 +1,6 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './../../../components/homepage/Hero/Hero3.css';
+
 import About from '../About/About';
 import Guest2 from '../Guests/Guest2';
 

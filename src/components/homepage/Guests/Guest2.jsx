@@ -41,12 +41,12 @@ const Guest2 = () => {
       whoIsHe2: "Co-Founder, PharmEasy ",
       content: "",
     },
-    {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108954/Guests/new17/paritosh_anand_1-removebg-preview_a1tpkn.webp",
-      name: "Paritosh Anand",
-      whoIsHe: "Founder, WeSmile Media",
-      content: "",
-    },
+    // {
+    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108954/Guests/new17/paritosh_anand_1-removebg-preview_a1tpkn.webp",
+    //   name: "Paritosh Anand",
+    //   whoIsHe: "Founder, WeSmile Media",
+    //   content: "",
+    // },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108952/Guests/new17/2f2c895f-8212-4b11-af81-2ffda04b5c7e_1-removebg-preview_uaer5g.webp",
       name: "Abhishek Kar",
@@ -59,21 +59,21 @@ const Guest2 = () => {
       whoIsHe: "Director, Masters Union",
       content: "",
     },
-    {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081678/Guests/image_132-removebg-preview_eozu6g.webp",
-      name: "Ankit Madaan",
-      whoIsHe: "Founder, CollabX",
-      whoIsHe2: "Founder, Hasley India",
-      content: "",
-    },
-    {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108953/Guests/new17/image_134-removebg-preview_gdbd3u.webp",
-      name: "Rajesh Desai",
+    // {
+    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081678/Guests/image_132-removebg-preview_eozu6g.webp",
+    //   name: "Ankit Madaan",
+    //   whoIsHe: "Founder, CollabX",
+    //   whoIsHe2: "Founder, Hasley India",
+    //   content: "",
+    // },
+    // {
+    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108953/Guests/new17/image_134-removebg-preview_gdbd3u.webp",
+    //   name: "Rajesh Desai",
 
-      whoIsHe: "CoFounder, CEO &",
-      whoIsHe2: "MD, Lyra Network Asia",
-      content: "",
-    },
+    //   whoIsHe: "CoFounder, CEO &",
+    //   whoIsHe2: "MD, Lyra Network Asia",
+    //   content: "",
+    // },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108974/Guests/new17/channels4_profile_1-removebg-preview_fk8fno.webp",
       name: "Atharva Sudame",
@@ -81,13 +81,13 @@ const Guest2 = () => {
       whoIsHe: "Content Creator",
       content: "",
     },
-    {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108957/Guests/new17/channels4_profile__1__1-removebg-preview_ptfihq.webp",
-      name: "Bhanu Pathak",
+    // {
+    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108957/Guests/new17/channels4_profile__1__1-removebg-preview_ptfihq.webp",
+    //   name: "Bhanu Pathak",
 
-      whoIsHe: "Content Creator",
-      content: "",
-    },
+    //   whoIsHe: "Content Creator",
+    //   content: "",
+    // },
   ];
 
   return (
