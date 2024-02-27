@@ -75,7 +75,7 @@ const Register = () => {
             </li>
             <li>Click on pay</li>
             <li>
-              Select payment option (Cash will be accepted only in person)
+              Select payment option
             </li>
             <li>
               After successful payment of the fees, receipt will be generated
@@ -107,7 +107,7 @@ const Register = () => {
             <li>Select the type of ticket as either VIP or Regular</li>
             <li>Click on pay</li>
             <li>
-              Select payment option (Cash will be accepted only in person)
+              Select payment option
             </li>
             <li>
               After successful payment of the fees, receipt will be generated
