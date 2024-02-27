@@ -65,7 +65,7 @@ const SponsorsMedia = () => {
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/mxjvj21hxlj8pr4vpqz0.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/p3tnwcixgvziwxkgtqjy.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708015947/Parteners/om2mwltvomr8tg35ixke.png",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1709050046/logo_sy_4_kdsogo.png",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708017541/Parteners/eoptm6fv7sersqfmxakb.png",/*tgh*/
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/oenvwavqufn9mnqyqvkd.webp",
@@ -82,7 +82,7 @@ const SponsorsMedia = () => {
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/mxjvj21hxlj8pr4vpqz0.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/p3tnwcixgvziwxkgtqjy.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708015947/Parteners/om2mwltvomr8tg35ixke.png",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1709050046/logo_sy_4_kdsogo.png",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708017541/Parteners/eoptm6fv7sersqfmxakb.png",/*tgh*/
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/oenvwavqufn9mnqyqvkd.webp",

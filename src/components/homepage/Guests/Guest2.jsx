@@ -41,12 +41,12 @@ const Guest2 = () => {
       whoIsHe2: "Co-Founder, PharmEasy ",
       content: "",
     },
-    // {
-    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108954/Guests/new17/paritosh_anand_1-removebg-preview_a1tpkn.webp",
-    //   name: "Paritosh Anand",
-    //   whoIsHe: "Founder, WeSmile Media",
-    //   content: "",
-    // },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708861022/Guests/new17/yajgugl8dei0dqbf36ti.pngT",
+      name: "Suresh Prabhu",
+      whoIsHe: "Former railway minister,India",
+      content: "",
+    },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108952/Guests/new17/2f2c895f-8212-4b11-af81-2ffda04b5c7e_1-removebg-preview_uaer5g.webp",
       name: "Abhishek Kar",
@@ -59,13 +59,13 @@ const Guest2 = () => {
       whoIsHe: "Director, Masters Union",
       content: "",
     },
-    // {
-    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081678/Guests/image_132-removebg-preview_eozu6g.webp",
-    //   name: "Ankit Madaan",
-    //   whoIsHe: "Founder, CollabX",
-    //   whoIsHe2: "Founder, Hasley India",
-    //   content: "",
-    // },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708860718/Guests/new17/axzbnlw7bldhzbsquidd.png",
+      name: "Kushal Lodha",
+      whoIsHe: "Founder, KAGR",
+      // whoIsHe2: "Founder, Hasley India",
+      content: "",
+    },
     // {
     //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108953/Guests/new17/image_134-removebg-preview_gdbd3u.webp",
     //   name: "Rajesh Desai",
