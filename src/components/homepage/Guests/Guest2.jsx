@@ -42,7 +42,7 @@ const Guest2 = () => {
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708861022/Guests/new17/yajgugl8dei0dqbf36ti.pngT",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708861022/Guests/new17/yajgugl8dei0dqbf36ti.png",
       name: "Suresh Prabhu",
       whoIsHe: "Former railway minister,India",
       content: "",
