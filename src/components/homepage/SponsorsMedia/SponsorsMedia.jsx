@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const SponsorCard = ({ img }) => {
   return (
@@ -30,16 +31,13 @@ const SponsorsMedia = () => {
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708014297/Sponsors_webp/j209kuroisn3hd0scp9y.png",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/kyvyyi7gjsgheqsjlnzu.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/oafgn40qgljd2ydfts2w.webp",
-    // "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/zlaq2cgxmphe6u6mnhxl.webp",
+    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/zlaq2cgxmphe6u6mnhxl.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/pvxaq7j6hwzpvcwsvrwg.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/d9dkdoowhgdqovyoada2.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ooz63xbjc9jfjp9j0yww.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/gru2nflgjncvm5s7c7rq.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/daklik83d25fpbjhcptm.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/clkhde4wtshuruzn9b0i.webp",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708843141/Sponsors_webp/sexhjwgbqavvavm7ijqi.webp",
-    // "https://res.cloudinary.com/di40y80dw/image/upload/v1708843748/Sponsors_webp/cn3sidcouq6b37v6bir1.png",
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708844144/Sponsors_webp/tgfpkthsdey6hj5pievb.webp",
     //repeat
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/ghbucwukzav2f63jmqyv.webp",
@@ -94,14 +92,13 @@ const SponsorsMedia = () => {
 
 
   ];
+  const navigate = useNavigate();
   return (
     <>
       <div className=" group mt-44">
-        <div class="nine">
-          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-            Our Sponsors
-          </h1>
-        </div>
+        <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
+          Our Sponsors
+        </h1>
         <div className="relative flex overflow-x-hidden justify-center items-center">
           <div className="py-12 flex animate-marquee  items-center  whitespace-nowrap ">
             {ListOfSponsors.map((img, index) => (
@@ -109,11 +106,21 @@ const SponsorsMedia = () => {
             ))}
           </div>
         </div>
-        <div class="nine">
-          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-            Media Partners
-          </h1>
+        <div className="flex justify-center">
+          {/* <button
+            onClick={() => {
+              navigate('/sponsermedia');
+            }}
+            className="space-button"
+            style={{ marginTop: "10px", borderColor: "#7c008d" }}
+          >
+            All Sponsors
+          </button> */}
         </div>
+
+        <h1 className="main-heading text-4xl font-bold text-center py-8">
+          Media Partners
+        </h1>
         <div className="relative flex overflow-x-hidden bg-black">
           <div className="py-12 animate-marquee2 flex items-center whitespace-nowrap ">
             {ListOfMediaPartners.map((img, index) => (
@@ -121,9 +128,22 @@ const SponsorsMedia = () => {
             ))}
           </div>
         </div>
+        <div className="flex justify-center">
+          {/* <button
+            onClick={() => {
+              // Handle navigation to all media partners page
+            }}
+            className="space-button"
+            style={{ marginTop: "10px", borderColor: "#7c008d" }}
+          >
+            All Media Partners
+          </button> */}
+        </div>
       </div>
     </>
   );
+
+
 };
 
 export default SponsorsMedia;

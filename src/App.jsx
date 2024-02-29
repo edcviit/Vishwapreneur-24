@@ -7,6 +7,7 @@ import Navbar from "./components/homepage/Navbar/Navbar";
 import { Routes, Route, Navigate } from "react-router-dom";
 const Guest3 = lazy(() => import("./components/homepage/Guests/Guest3"));
 import Loader1 from "./components/Preloader/loader1";
+import SponsorMedia1 from "./components/homepage/SponsorsMedia/SponserMedia1";
 const Register = lazy(() =>
   import("./components/homepage/Registeration/Register")
 );
@@ -104,6 +105,7 @@ function App() {
             />
 
             <Route exact path="/team" element={<TeamPage />} />
+            <Route exact path="/sponsermedia" element={<SponsorMedia1 />} />
 
             <Route path="/*" element={<Navigate to="/" />} />
             <Route path="*" element={<Navigate to="/" />} />
