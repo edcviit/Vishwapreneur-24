@@ -9,11 +9,11 @@ const SponsorMedia1 = () => {
       </div>
       <div className="sponsors">
         <div className="main">
-          <a href="https://tradewithjazz.com/">
+          <a href="https://sanspots.com/">
             <div className="logoimg">
               <img
                 className="tokenImage"
-                src="https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp"
+                src="https://res.cloudinary.com/di40y80dw/image/upload/v1708847094/cjc1tlmffcyqien1zwgu.png"
                 alt="title Sponsor"
               />
             </div>
@@ -27,24 +27,24 @@ const SponsorMedia1 = () => {
       <div className="level2">
         <div className="sponsors">
           <div className="main">
-            <a href="https://thekiranacademy.com/">
+            <a href="https://www.time4education.com/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
-                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/oujirgalpbgpkr66aipo.webp"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708002954/PRs_Webp/wdy1pbozb4ade6i9enkr.webp"
                   alt="time"
                 />
               </div>
             </a>
             <h2>T.I.M.E</h2>
             <hr />
-            <p className="description">POWERED SPONSOR</p>
+            <p className="description">GOLD SPONSOR</p>
             <hr />
           </div>
         </div>
         <div className="sponsors">
           <div className="main">
-            <a href="https://herody.in/">
+            <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwibxZyL1KqEAxX9FHsHHY9SDZsYABAAGgJ0bQ&ase=2&gclid=Cj0KCQiA5rGuBhCnARIsAN11vgRbdxZN_26c2D0Fkvv4sbv7UDCWZuQ1Xx8Wv81hV93p23uebjNaDWoaAtAdEALw_wcB&sig=AOD64_0jE-Dc7sJNg1jUI2c-uBz3Jote3Q&q&nis=4&adurl&ved=2ahUKEwiEopWL1KqEAxXBZ_UHHYE7CmEQ0Qx6BAgFEAE">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -55,7 +55,7 @@ const SponsorMedia1 = () => {
             </a>
             <h2>ABHIBUS</h2>
             <hr />
-            <p className="description">POWERED SPONSOR</p>
+            <p className="description">Travel Partner</p>
             <hr />
           </div>
         </div>
