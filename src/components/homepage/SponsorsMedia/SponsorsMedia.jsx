@@ -132,6 +132,7 @@ const SponsorsMedia = () => {
           {/* <button
             onClick={() => {
               // Handle navigation to all media partners page
+              navigate('/mediapartner');
             }}
             className="space-button"
             style={{ marginTop: "10px", borderColor: "#7c008d" }}
