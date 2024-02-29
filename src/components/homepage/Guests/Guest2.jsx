@@ -9,63 +9,122 @@ const Guest2 = () => {
 
   const guests = [
     {
-      img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620798/vpGuests/vivekBhatia-removebg-preview_xjwyec.webp",
-      name: "Mr. Vivek Bhatia",
-      whoIsHe: "MD, Thyssenkrupp Industries",
-      content: "",
-    },
-    {
-      img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620798/vpGuests/chinukala-removebg-preview_cb29sb.webp",
-      name: "Chinu Kala",
-      whoIsHe: "Founder & CEO, Rubans Accessories",
-      content: "",
-    },
-    {
-      img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620797/vpGuests/shreeman-removebg-preview_ubneft.webp",
-      name: "Shreeman Legend",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1709103485/Instagram_post_-_559_1_1_wevg3x.png",
+      name: "Suresh Khopade",
       whoIsHe: "Content Creator",
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108956/Guests/new17/Screenshot__232_-removebg-preview_j4apni.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_544_zoeazp.png",
+      name: "Suresh Prabhu",
+      whoIsHe: "Former railway minister,India",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_551_vfd3js.png",
       name: "V Krishnan",
       whoIsHe: "Co-founder &",
       whoIsHe2: "Group President, JustDial ",
       content: "",
     },
-
     {
-      img: "https://res.cloudinary.com/dwrlwv8gz/image/upload/v1707620797/vpGuests/mikhilInani-removebg-preview_hoxqzk.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_552_fptrg9.png",
+      name: "Vivek Bhatia",
+      whoIsHe: "MD, Thyssenkrupp Industries",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_548_odb2yh.png",
       name: "Mikhil Inani",
       whoIsHe: "CEO, Apollo Finvest, ",
       whoIsHe2: "Co-Founder, PharmEasy ",
       content: "",
     },
-    // {
-    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108954/Guests/new17/paritosh_anand_1-removebg-preview_a1tpkn.webp",
-    //   name: "Paritosh Anand",
-    //   whoIsHe: "Founder, WeSmile Media",
-    //   content: "",
-    // },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108952/Guests/new17/2f2c895f-8212-4b11-af81-2ffda04b5c7e_1-removebg-preview_uaer5g.webp",
-      name: "Abhishek Kar",
-      whoIsHe: "Content Creator",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_554_dptukd.png",
+      name: "Chinu Kala",
+      whoIsHe: "Founder & CEO, Rubans Accessories",
       content: "",
     },
     {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108952/Guests/new17/image_133-removebg-preview_q2keek.webp",
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_550_ba1rla.png",
+      name: "Shreeman Legend",
+      whoIsHe: "Content Creator",
+      content: "",
+    },
+
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899814/vp24%20guest%20app/Instagram_post_-_556_eyereh.png",
+      name: "Shreyans Sancheti",
+      whoIsHe: "Co-Founder, BlueLearn",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899814/vp24%20guest%20app/Instagram_post_-_555_suo5z1.png",
+      name: "Harish Uthayakumar",
+      whoIsHe: "Co-Founder, Bluelearn",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1709103711/Instagram_post_-_559_2_1_lne0j4.png",
+      name: "Sanjay Sethi",
+      whoIsHe:"CEO & Founder, ShopClues.com",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1709112488/Instagram_post_-_559_4_1_szabnr.png",
+      name: "Jay Desai",
+      whoIsHe: "Finance content creator",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_553_sp9ofh.png",
+      name: "Abhishek Kar",
+      whoIsHe: "Finance Influencer",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_545_mlsmmb.png",
+      name: "Nikhil Malhotra",
+      whoIsHe: "CIO, Tech Mahindra",
+      whoIsHe2: "creator, Maker's lab",
+      // whoIsHe2: "Founder, Hasley India", 
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_543_r2vxei.png",
+      name: "Sushant Bindal",
+      whoIsHe: "Founder,Money Monitor",
+      // whoIsHe2: "Founder, Hasley India", 
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_546_xzhqnn.png",
+      name: "Kushal Lodha",
+      whoIsHe: "Founder, KAGR",
+      // whoIsHe2: "Founder, Hasley India", 
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_547_v9atfj.png",
       name: "Mahak Garg",
       whoIsHe: "Director, Masters Union",
       content: "",
     },
-    // {
-    //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708081678/Guests/image_132-removebg-preview_eozu6g.webp",
-    //   name: "Ankit Madaan",
-    //   whoIsHe: "Founder, CollabX",
-    //   whoIsHe2: "Founder, Hasley India",
-    //   content: "",
-    // },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_549_b0q9dq.png",
+      name: "Atharva Sudame",
+      
+      whoIsHe: "Content Creator",
+      content: "",
+    },
+    {
+      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1709108299/Instagram_post_-_559_3_1_qg6fji.png",
+      name: "RJ Soham",
+      whoIsHe: "Content Creator",
+      content: "",
+    },
+    
     // {
     //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108953/Guests/new17/image_134-removebg-preview_gdbd3u.webp",
     //   name: "Rajesh Desai",
@@ -74,13 +133,6 @@ const Guest2 = () => {
     //   whoIsHe2: "MD, Lyra Network Asia",
     //   content: "",
     // },
-    {
-      img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108974/Guests/new17/channels4_profile_1-removebg-preview_fk8fno.webp",
-      name: "Atharva Sudame",
-
-      whoIsHe: "Content Creator",
-      content: "",
-    },
     // {
     //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108957/Guests/new17/channels4_profile__1__1-removebg-preview_ptfihq.webp",
     //   name: "Bhanu Pathak",
