@@ -107,7 +107,7 @@ const SponsorsMedia = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          {/* <button
+          <button
             onClick={() => {
               navigate('/sponsermedia');
             }}
@@ -115,8 +115,8 @@ const SponsorsMedia = () => {
             style={{ marginTop: "10px", borderColor: "#7c008d" }}
           >
             All Sponsors
-          </button> */}
-        </div>
+          </button>
+        </div>RESERVED SEATS
 
         <h1 className="main-heading text-4xl font-bold text-center py-8">
           Media Partners
@@ -129,7 +129,7 @@ const SponsorsMedia = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          {/* <button
+          <button
             onClick={() => {
               // Handle navigation to all media partners page
               navigate('/mediapartner');
@@ -138,7 +138,7 @@ const SponsorsMedia = () => {
             style={{ marginTop: "10px", borderColor: "#7c008d" }}
           >
             All Media Partners
-          </button> */}
+          </button>
         </div>
       </div>
     </>

@@ -87,6 +87,8 @@ canvas {
     justify-content: center;
     cursor: pointer;
     user-select: none;
+    place-content: center;
+    place-items: center;
 }
 .sponsors .main .logoimg img{
     object-fit: cover;
