@@ -10,14 +10,14 @@ const Guest2 = () => {
   const guests = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1709103485/Instagram_post_-_559_1_1_wevg3x.png",
-      name: "Suresh Khopade",
-      whoIsHe: "Content Creator",
+      name: "CID Suresh Khopde(EX IPS)",
+      whoIsHe: "Retired as Special IG",
       content: "",
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_544_zoeazp.png",
       name: "Suresh Prabhu",
-      whoIsHe: "Former railway minister,India",
+      whoIsHe: "Former Railway Minister, India",
       content: "",
     },
     {
@@ -68,7 +68,7 @@ const Guest2 = () => {
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1709103711/Instagram_post_-_559_2_1_lne0j4.png",
       name: "Sanjay Sethi",
-      whoIsHe:"CEO & Founder, ShopClues.com",
+      whoIsHe: "CEO & Founder, ShopClues.com",
       content: "",
     },
     {
@@ -87,22 +87,22 @@ const Guest2 = () => {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_545_mlsmmb.png",
       name: "Nikhil Malhotra",
       whoIsHe: "CIO, Tech Mahindra",
-      whoIsHe2: "creator, Maker's lab",
-      // whoIsHe2: "Founder, Hasley India", 
+      whoIsHe2: "Creator, Maker's lab",
+      // whoIsHe2: "Founder, Hasley India",
       content: "",
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_543_r2vxei.png",
       name: "Sushant Bindal",
-      whoIsHe: "Founder,Money Monitor",
-      // whoIsHe2: "Founder, Hasley India", 
+      whoIsHe: "Founder, Money Monitor",
+      // whoIsHe2: "Founder, Hasley India",
       content: "",
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899812/vp24%20guest%20app/Instagram_post_-_546_xzhqnn.png",
       name: "Kushal Lodha",
       whoIsHe: "Founder, KAGR",
-      // whoIsHe2: "Founder, Hasley India", 
+      // whoIsHe2: "Founder, Hasley India",
       content: "",
     },
     {
@@ -114,7 +114,7 @@ const Guest2 = () => {
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708899813/vp24%20guest%20app/Instagram_post_-_549_b0q9dq.png",
       name: "Atharva Sudame",
-      
+
       whoIsHe: "Content Creator",
       content: "",
     },
@@ -124,7 +124,7 @@ const Guest2 = () => {
       whoIsHe: "Content Creator",
       content: "",
     },
-    
+
     // {
     //   img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708108953/Guests/new17/image_134-removebg-preview_gdbd3u.webp",
     //   name: "Rajesh Desai",
