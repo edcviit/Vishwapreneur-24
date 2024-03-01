@@ -5,7 +5,12 @@ const SponsorMedia1 = () => {
   return (
     <div>
       <div className="headContainer">
-        <h1>SPONSORS</h1>
+      <div class="nine">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 my-10">
+            OUR SPONSORS
+          </h1>
+        </div>
+
       </div>
       <div className="sponsors">
         <div className="main">
@@ -18,7 +23,7 @@ const SponsorMedia1 = () => {
               />
             </div>
           </a>
-          <h2>BMW</h2>
+          <h2>SANSPOTS</h2>
           <hr />
           <p className="description">TITLE SPONSOR</p>
           <hr />
@@ -27,18 +32,18 @@ const SponsorMedia1 = () => {
       <div className="level2">
         <div className="sponsors">
           <div className="main">
-            <a href="https://www.time4education.com/">
+            <a href="https://www.bmw-bavariamotors.in/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
-                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708002954/PRs_Webp/wdy1pbozb4ade6i9enkr.webp"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp"
                   alt="time"
                 />
               </div>
             </a>
-            <h2>T.I.M.E</h2>
+            <h2>BMW</h2>
             <hr />
-            <p className="description">GOLD SPONSOR</p>
+            <p className="description">EXPENDITURE PARTNER</p>
             <hr />
           </div>
         </div>
@@ -55,7 +60,7 @@ const SponsorMedia1 = () => {
             </a>
             <h2>ABHIBUS</h2>
             <hr />
-            <p className="description">Travel Partner</p>
+            <p className="description">TRAVEL PARTNER</p>
             <hr />
           </div>
         </div>
@@ -80,7 +85,7 @@ const SponsorMedia1 = () => {
       <div className="level3">
         <div className="sponsors">
           <div className="main">
-            <a href="https://www.aeccglobal.in/">
+            <a href="https://www.balajiwafers.com/products/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -91,13 +96,13 @@ const SponsorMedia1 = () => {
             </a>
             <h2>BALAJI WAFERS</h2>
             <hr />
-            <p className="description">CO-POWERED SPONSOR</p>
+            <p className="description">MUNCHING PARTNER</p>
             <hr />
           </div>
         </div>
         <div className="sponsors">
           <div className="main">
-            <a href="https://www.newstrides.com/">
+            <a href="https://www.budhanibros.com/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -108,23 +113,11 @@ const SponsorMedia1 = () => {
             </a>
             <h2>BUDHANI BROS</h2>
             <hr />
-            <p className="description">CO-POWERED SPONSOR</p>
+            <p className="description">SNACKING PARTNER</p>
             <hr />
           </div>
         </div>
-        {/* <div className="sponsors">
-          <div className="main">
-            <a href="https://www.edwiseinternational.com/">
-              <div className="logoimg">
-                <img className="tokenImage" src="https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ooz63xbjc9jfjp9j0yww.webp" alt="ed wise" />
-              </div>
-            </a>
-            <h2>ED WISE</h2>
-            <hr />
-            <p className="description">GOLD SPONSOR</p>
-            <hr />
-          </div>
-        </div> */}
+
         <div className="sponsors">
           <div className="main">
             <a href="https://www.imfs.co.in/">
@@ -146,7 +139,7 @@ const SponsorMedia1 = () => {
       <div className="level4">
         <div className="sponsors">
           <div className="main">
-            <a href="https://www.edwiseinternational.com/">
+            <a href="https://www.codingninjas.com/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -155,9 +148,9 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
-            <h2>Coding Ninjas</h2>
+            <h2>CODING NINJA</h2>
             <hr />
-            <p className="description">GOLD SPONSOR</p>
+            <p className="description">KNOWLEDGE PARTNER</p>
             <hr />
           </div>
         </div>
@@ -179,24 +172,10 @@ const SponsorMedia1 = () => {
           </div>
         </div>
 
-        {/* <div className="sponsors">
-          <div className="main">
-            <a href="https://scarters.com/">
-              <div className="logoimg">
-                <img className="tokenImage" src="https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/f9wchu6pvannqhnxom7z.webp" alt="ed wise" />
-              </div>
-            </a>
-            <h2>SCATTERS</h2>
-            <hr />
-            <p className="description">LUXARY PARTNER</p>
-            <hr />
-          </div>
-          
-        </div> */}
 
         <div className="sponsors">
           <div className="main">
-            <a href="https://www.edwiseinternational.com/">
+            <a href="https://alpesaeducationservices.com/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -205,15 +184,180 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
-            <h2>ED WISE</h2>
+            <h2>AES</h2>
             <hr />
             <p className="description">GOLD SPONSOR</p>
             <hr />
           </div>
         </div>
       </div>
-      <div className="level14">
-        
+      <div className="level4">
+        <div className="sponsors">
+          <div className="main">
+            <a href="">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708002954/PRs_Webp/co03rnm95hjnyq7gcigl.webp"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>IMPERIAL</h2>
+            <hr />
+            <p className="description">GOLD SPONSOR</p>
+            <hr />
+          </div>
+        </div>
+        <div className="sponsors">
+          <div className="main">
+            <a href="https://www.juleebags.com/wild_adventure/">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1707389608/Sponsors%20and%20PR/qleucrldkztyn5zbjl4g.webp"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>JULEE</h2>
+            <hr />
+            <p className="description">MERCHENDISE PARTNER</p>
+            <hr />
+          </div>
+        </div>
+
+
+        <div className="sponsors">
+        <div className="main">
+            <a href="https://scarters.com/">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708003324/Sponsors_webp/f9wchu6pvannqhnxom7z.webp"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>SCARTERS</h2>
+            <hr />
+            <p className="description">LUXARY PARTNER</p>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <div className="level4">
+        <div className="sponsors">
+          <div className="main">
+            <a href="https://www.time4education.com/">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1707389633/Sponsors%20and%20PR/ruvxktrtw0qjjcigpor0.webp"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>TIME</h2>
+            <hr />
+            <p className="description">GOLD SPONSOR</p>
+            <hr />
+          </div>
+        </div>
+        <div className="sponsors">
+          <div className="main">
+            <a href="https://www.instagram.com/the_sublimebistro/">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708844144/Sponsors_webp/tgfpkthsdey6hj5pievb.webp"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>SUBLIME</h2>
+            <hr />
+            <p className="description">FOOD PARTNER</p>
+            <hr />
+          </div>
+        </div>
+
+
+        <div className="sponsors">
+        <div className="main">
+            <a href="">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1709277197/ei_1707925273602-removebg-preview_1_d5mfzj.png"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>SPECTRUM</h2>
+            <hr />
+            <p className="description">GOLD SPONSOR</p>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <div className="level4">
+        <div className="sponsors">
+          <div className="main">
+            <a href="https://peterengland.abfrl.in/">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1709278290/203253-min_1_sdepvv.png"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>PETER ENGLAND</h2>
+            <hr />
+            <p className="description">CLOTHING PARTNER</p>
+            <hr />
+          </div>
+        </div>
+        <div className="sponsors">
+          <div className="main">
+            <a href="https://www.instagram.com/the_sublimebistro/">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1708843141/Sponsors_webp/sexhjwgbqavvavm7ijqi.webp"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>FOCUS PIXEL</h2>
+            <hr />
+            <p className="description">PRODUCTION PARTNER</p>
+            <hr />
+          </div>
+        </div>
+
+
+        <div className="sponsors">
+        <div className="main">
+            <a href="">
+              <div className="logoimg">
+                <img
+                  className="tokenImage"
+                  src="https://res.cloudinary.com/di40y80dw/image/upload/v1709277424/20211001_121132_0000_1_c7mz6e.png"
+                  alt="ed wise"
+                />
+              </div>
+            </a>
+            <h2>AMI</h2>
+            <hr />
+            <p className="description"></p>
+            <hr />
+          </div>
+        </div>
+      </div>
+      
+      {/* <div className="level14">
         <div className="sponsors">
           <div className="main">
             <a href="https://scarters.com/">
@@ -231,10 +375,7 @@ const SponsorMedia1 = () => {
             <hr />
           </div>
         </div>
-
-        
-        
-      </div>
+      </div> */}
       
     </div>
   );

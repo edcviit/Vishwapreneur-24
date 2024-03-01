@@ -5,8 +5,12 @@ const SponsorMedia1 = () => {
   return (
     <div>
       <div className="headContainer">
-        <h1>SPONSORS</h1>
-        <h1>MEDIA PARTNERS</h1>
+       
+        <div class="nine">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 my-10">
+            MEDIA PARTNERS
+          </h1>
+        </div>
       </div>
 
       <div className="level2">
@@ -40,7 +44,7 @@ const SponsorMedia1 = () => {
             </a>
             <h2>SAKAL</h2>
             <hr />
-            <p className="description">Media Partner</p>
+            <p className="description">MEDIA PARTNER</p>
             <hr />
           </div>
         </div>
@@ -148,7 +152,7 @@ const SponsorMedia1 = () => {
         </div>
         <div className="sponsors">
           <div className="main">
-            <a href="https://aarnelleducation.com/study-in-usa/">
+            <a href="https://bhau.org/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -220,7 +224,7 @@ const SponsorMedia1 = () => {
 
         <div className="sponsors">
           <div className="main">
-            <a href="https://www.campustimespune.com/">
+            <a href="https://startupsuccessstories.in/">
               <div className="logoimg">
                 <img
                   className="tokenImage"
@@ -239,7 +243,7 @@ const SponsorMedia1 = () => {
       <div className="level4">
         <div className="sponsors">
           <div className="main">
-            <a href="https://businesssphere.co.in/">
+            <a href="https://www.knowafest.com/explore/upcomingfests">
               <div className="logoimg">
                 <img
                   className="tokenImage"
