@@ -116,7 +116,7 @@ const SponsorsMedia = () => {
           >
             All Sponsors
           </button>
-        </div>RESERVED SEATS
+        </div>
 
         <h1 className="main-heading text-4xl font-bold text-center py-8">
           Media Partners
