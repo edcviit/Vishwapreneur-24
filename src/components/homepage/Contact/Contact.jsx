@@ -18,27 +18,27 @@ const Contact = () => {
             subtitle="curation@vishwapreneur.in"
             href="mailto:curation@vishwapreneur.in"
             Icon={FaMicrophone}
-            phone={"+91 8668351747"}
+            phone={"+91 9561211033"}
           />
           <Card
             title="Sponsorship Opportunities"
             subtitle="edcflm.sponsorship@gmail.com "
             href="mailto:edcflm.sponsorship@gmail.com"
             Icon={FaHandsHelping}
-            phone={"+91 9834204591"}
+            phone={"+91 9970007004"}
           />
           <Card
             title="Collaboration Opportunities"
             subtitle="pr@vishwapreneur.in"
             href="mailto:pr@vishwapreneur.in"
             Icon={FaUserFriends}
-            phone={"+91 8799842913"}
+            phone={"+91  8010165540"}
           />
           <Card
             title="Queries"
             subtitle="contact@vishwapreneur.in"
             href="mailto:contact@vishwapreneur.in "
-            phone="+91 8530389474"
+            phone="+91 7499404987"
             Icon={FaEnvelope}
           />
         </div>
