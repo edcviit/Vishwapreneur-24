@@ -110,7 +110,7 @@ const Footer = () => {
                   Email:<a href="mailto:edc@viit.ac.in"> edc@viit.ac.in</a>
                 </p>
                 <p className="hover:scale-105">
-                  Phone:<a href="tel:+918668351747"> +91 8668351747</a>
+                  Phone:<a href="tel:+919561211033"> +91 9561211033</a>
                 </p>
                 <p className="hover:scale-105">
                   Address:
