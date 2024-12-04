@@ -269,14 +269,15 @@ const Media2 = () => {
         link: 'https://www.instagram.com/edcviit/',
         postLink: 'https://www.instagram.com/reel/C0_20RWr5q6/?utm_source=ig_embed&utm_campaign=loading',
         icon: 'ion-logo-instagram',
-        followers:3000
+        followers:3200
       },
       {
         platform: 'linkedin',
         link: 'https://www.linkedin.com/company/entrepreneurship-development-cell-viit/',
         postLink: 'https://www.linkedin.com/embed/feed/update/urn:li:share:7004407189981278208',
         icon: 'ion-logo-linkedin',
-        followers:2000
+        followers:2300
+
       },
         {
           platform: 'twitter',
