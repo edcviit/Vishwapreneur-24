@@ -8,7 +8,7 @@ const SponsorMedia1 = () => {
        
         <div class="nine">
           <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 my-10">
-            MEDIA PARTNERS
+           Previous MEDIA PARTNERS
           </h1>
         </div>
       </div>

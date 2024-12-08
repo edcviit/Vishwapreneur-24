@@ -97,7 +97,7 @@ const SponsorsMedia = () => {
     <>
       <div className=" group mt-44">
         <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
-          Our Sponsors
+          Our Previous Sponsors
         </h1>
         <div className="relative flex overflow-x-hidden justify-center items-center">
           <div className="py-12 flex animate-marquee  items-center  whitespace-nowrap ">
@@ -114,12 +114,12 @@ const SponsorsMedia = () => {
             className="space-button"
             style={{ marginTop: "10px", borderColor: "#7c008d" }}
           >
-            All Sponsors
+            All Previous Sponsors
           </button>
         </div>
 
         <h1 className="main-heading text-4xl font-bold text-center py-8">
-          Media Partners
+          Previous Media Partners
         </h1>
         <div className="relative flex overflow-x-hidden bg-black">
           <div className="py-12 animate-marquee2 flex items-center whitespace-nowrap ">
@@ -137,7 +137,7 @@ const SponsorsMedia = () => {
             className="space-button"
             style={{ marginTop: "10px", borderColor: "#7c008d" }}
           >
-            All Media Partners
+            All Previous Media Partners
           </button>
         </div>
       </div>

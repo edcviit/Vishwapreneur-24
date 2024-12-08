@@ -66,11 +66,12 @@ function Landing() {
               </p> */}
       </div>
       
-      <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
+     {/* comment it out */}
+      {/* <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
                   <Link to="/register" style={{ textDecoration: 'none', color: 'white' , display:'flex' , justifyContent:'center' , alignItems:'center'}}>
                       How to register?
                   </Link>
-              </p>
+              </p> */}
 
 
          {/* <ParticleButton></ParticleButton> */}
