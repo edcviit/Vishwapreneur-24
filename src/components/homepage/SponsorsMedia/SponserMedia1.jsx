@@ -7,7 +7,7 @@ const SponsorMedia1 = () => {
       <div className="headContainer">
       <div class="nine">
           <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 my-10">
-            OUR SPONSORS
+            OUR  Previous SPONSORS
           </h1>
         </div>
 
@@ -23,10 +23,13 @@ const SponsorMedia1 = () => {
               />
             </div>
           </a>
+          <div className="info">
           <h2>SANSPOTS</h2>
           <hr />
           <p className="description">TITLE SPONSOR</p>
           <hr />
+          </div>
+          
         </div>
       </div>
       <div className="level2">
@@ -41,10 +44,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>BMW</h2>
             <hr />
             <p className="description">EXPENDITURE PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -58,10 +64,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>ABHIBUS</h2>
             <hr />
             <p className="description">TRAVEL PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -75,10 +84,14 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+
+            <div className="info">
+
             <h2>HDFC CREDILA</h2>
             <hr />
             <p className="description">FUNDING PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
       </div>
@@ -94,10 +107,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>BALAJI WAFERS</h2>
             <hr />
             <p className="description">MUNCHING PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -111,10 +127,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>BUDHANI BROS</h2>
             <hr />
             <p className="description">SNACKING PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
 
@@ -129,10 +148,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>IMFS</h2>
             <hr />
             <p className="description">CO-POWERED SPONSER</p>
             <hr />
+            </div>
           </div>
         </div>
       </div>
@@ -148,10 +170,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>CODING NINJA</h2>
             <hr />
             <p className="description">KNOWLEDGE PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -165,10 +190,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>AARNELL</h2>
             <hr />
             <p className="description">GOLD SPONSOR</p>
             <hr />
+            </div>
           </div>
         </div>
 
@@ -184,10 +212,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>AES</h2>
             <hr />
             <p className="description">GOLD SPONSOR</p>
             <hr />
+            </div>
           </div>
         </div>
       </div>
@@ -203,10 +234,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>IMPERIAL</h2>
             <hr />
             <p className="description">GOLD SPONSOR</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -220,10 +254,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>JULEE</h2>
             <hr />
             <p className="description">MERCHENDISE PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
 
@@ -239,10 +276,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>SCARTERS</h2>
             <hr />
             <p className="description">LUXARY PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
       </div>
@@ -258,10 +298,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>TIME</h2>
             <hr />
             <p className="description">GOLD SPONSOR</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -275,10 +318,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>SUBLIME</h2>
             <hr />
             <p className="description">FOOD PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
 
@@ -294,10 +340,14 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+
+            <div className="info">
+
             <h2>SPECTRUM</h2>
             <hr />
             <p className="description">GOLD SPONSOR</p>
             <hr />
+            </div>
           </div>
         </div>
       </div>
@@ -313,10 +363,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>PETER ENGLAND</h2>
             <hr />
             <p className="description">CLOTHING PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
         <div className="sponsors">
@@ -330,10 +383,13 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+            <div className="info">
+
             <h2>FOCUS PIXEL</h2>
             <hr />
             <p className="description">PRODUCTION PARTNER</p>
             <hr />
+            </div>
           </div>
         </div>
 
@@ -349,10 +405,14 @@ const SponsorMedia1 = () => {
                 />
               </div>
             </a>
+
+            <div className="info">
+
             <h2>AMI</h2>
             <hr />
             <p className="description"></p>
             <hr />
+            </div>
           </div>
         </div>
       </div>
