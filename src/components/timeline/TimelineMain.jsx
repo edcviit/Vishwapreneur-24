@@ -43,7 +43,7 @@ const TimelineMain = () => {
                 live: true,
                 caseStudy: false,
                 
-                vid: "day1-4.jpg",
+                vid: "Sushant Bindal.jpg",
             },
             {
                 heading: "Filler",
