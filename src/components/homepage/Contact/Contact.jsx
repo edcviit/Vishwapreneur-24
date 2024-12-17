@@ -15,8 +15,8 @@ const Contact = () => {
         <div className="grid gap-4 grid-col-1 md:grid-cols-2 lg:grid-cols-4 px-10">
           <Card
             title="Speaking Opportunities"
-            subtitle="curation.vishwapreneur@gmail.com"
-            href="mailto:curation.vishwapreneur@gmail.com"
+            subtitle="curation.vishwapreneur25@gmail.com"
+            href="mailto:curation.vishwapreneur25@gmail.com"
             Icon={FaMicrophone}
             phone={"+91 9561211033"}
           />
