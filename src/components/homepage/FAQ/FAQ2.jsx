@@ -1,132 +1,96 @@
-import React, { useState } from 'react';
-import FAQItem1 from './FAQItem1';
-import ScrollAnimation1 from '../../Animations/ScrollAnimation1';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import './FAQ.css'; 
+import { useState } from 'react';
+import './FAQ.css';
 
-const FaqAccordion = () => {
-  const [selectedItem, setSelectedItem] = useState(null);
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-  });
+const FAQItem = ({ question, answer, isOpen, onClick }) => {
+  return (
+    <div className={`faq-item ${isOpen ? 'open' : ''}`}>
+      <button className="faq-question" onClick={onClick}>
+        <span className="question-text ">{question}</span>
+        <div className="faq-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M7 10L12 15L17 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </div>
+      </button>
+      <div className="faq-answer">
+        <div className="faq-answer-content">{answer}</div>
+      </div>
+    </div>
+  );
+};
 
-  const faqItems = [
+const ContactButton = () => {
+  return (
+    <button className="contact-support">
+      <span>Contact support</span>
+      <svg className="arrow-icon " width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path 
+          d="M5 12H19M19 12L12 5M19 12L12 19" 
+          stroke="currentColor" 
+          strokeWidth="2" 
+          strokeLinecap="round" 
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  );
+};
+
+const FAQ2 = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const faqs = [
     {
-      id: 1,
       question: "What is Vishwapreneur?",
-      answer:
-        "Vishwapreneur is a National Level Entrepreneurial Summit showcasing entrepreneurs, creators and innovative minds of our century who had the courage to think out of the box. Vishwapreneur is a platform for budding entrepreneurs to seek motivation & guidance through the experiences of successful business tycoons.",
+      answer: "Vishwapreneur is a National Level Entrepreneurial Summit showcasing entrepreneurs, creators and innovative minds of our century who had the courage to think out of the box. Vishwapreneur is a platform for budding entrepreneurs to seek motivation & guidance through the experiences of successful business tycoons."
     },
     {
-      id: 2,
-      question: "Who can participate in the event?",
-      answer:
-        "Anyone and everyone who is interested in entrepreneurship, innovation, and business and wants to do something different from the rest of the people should participate in the event.",
+      question: "Who can participate in the event?.",
+      answer: "The purpose of the summit is to provide a platform for budding entrepreneurs to seek motivation and guidance through the experiences of successful business tycoons."
     },
     {
-        id:3 ,
-        question:"What is the purpose of Vishwapreneur?",
-        answer:"The purpose of the summit is to provide a platform for budding entrepreneurs to seek motivation and guidance through the experiences of successful business tycoons."
+      question: "What is the purpose of Vishwapreneur?",
+      answer: "The purpose of the summit is to provide a platform for budding entrepreneurs to seek motivation and guidance through the experiences of successful business tycoons."
     },
     {
-        id:4,
-        question:"Who will be the speakers this year?",
-        answer:"The Vishwapreneur will feature successful entrepreneurs business leaders, experts in the field of entrepreneurship or anyone who has done something BIG in their life."
+      question: "Who will be the speakers this year?",
+      answer: "The Vishwapreneur will feature successful entrepreneurs business leaders, experts in the field of entrepreneurship or anyone who has done something BIG in their life."
     },
     {
-        id:5,
-        question:"What are the dates and timings?",
-        answer:"Dates are 2nd and 3rd March and stay tuned for the timings."
+      question: "What are the dates and timings?",
+      answer: "Dates are 2nd and 3rd March and stay tuned for the timings."
     },
     {
-        id:6,
-        question:"How can I register for the summit?",
-        answer:"You can register for the summit by visiting the website or directly by signing up on Vishwapreneur."
-    }
-    
+      question: "Who will be the speakers this year?",
+      answer: "The Vishwapreneur will feature successful entrepreneurs business leaders, experts in the field of entrepreneurship or anyone who has done something BIG in their life."
+    },
   ];
 
-  const handleItemClick = (id) => {
-    setSelectedItem(selectedItem === id ? null : id);
-  };
+  return (
+    <div className="faq-wrapper">
+      <div className="stars-background"></div>
+      <div className="faq-content">
+        <div className="faq-left">
+          <h2 className="faq-title">Frequently asked questions</h2>
+          <p className="faq-subtitle">
+            If you have any questions or require further details about our extensive range of Figma vector mockups, don't hesitate to reach out. We're here to help!
+          </p>
+          <ContactButton />
+        </div>
+        <div className="faq-right">
+          {faqs.map((faq, index) => (
+            <FAQItem
+              key={index}
+              question={faq.question}
+              answer={faq.answer}
+              isOpen={openIndex === index}
+              onClick={() => setOpenIndex(openIndex === index ? null : index)}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
-
-  //this is the file for Faq temooraraily disabled for phase 1 VP
-
-  // return (
-  //   <div>
-  //     <div class="nine">
-  //       <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-8">
-  //         FAQ'S
-  //       </h1>
-  //     </div>
-  //     <div className="faqs p-16 pt-1">
-  //       <div className="questions">
-  //         <motion.div
-  //           ref={ref}
-  //           className="top"
-  //           data-aos="fade-right"
-  //           data-aos-duration="2000"
-  //           initial={{ opacity: 0, translateY: 50 }}
-  //           animate={inView ? { opacity: 1, translateY: 0 } : {}}
-  //           transition={{ duration: 0.3, delay: 0.2 }}
-  //         >
-  //           {faqItems.slice(0, 2).map((item) => (
-  //             <FAQItem1
-  //               key={item.id}
-  //               id={item.id}
-  //               question={item.question}
-  //               answer={item.answer}
-  //               isSelected={selectedItem === item.id}
-  //               onItemClick={handleItemClick}
-  //             />
-  //           ))}
-  //         </motion.div>
-  //         <motion.div
-  //           ref={ref}
-  //           className="mid"
-  //           data-aos="fade-right"
-  //           data-aos-duration="2000"
-  //           initial={{ opacity: 0, translateY: 50 }}
-  //           animate={inView ? { opacity: 1, translateY: 0 } : {}}
-  //           transition={{ duration: 0.3, delay: 0.4 }}
-  //         >
-  //           {faqItems.slice(2, 4).map((item) => (
-  //             <FAQItem1
-  //               key={item.id}
-  //               id={item.id}
-  //               question={item.question}
-  //               answer={item.answer}
-  //               isSelected={selectedItem === item.id}
-  //               onItemClick={handleItemClick}
-  //             />
-  //           ))}
-  //         </motion.div>
-  //         <motion.div
-  //           ref={ref}
-  //           className="bottom"
-  //           data-aos="fade-right"
-  //           data-aos-duration="2000"
-  //           initial={{ opacity: 0, translateY: 50 }}
-  //           animate={inView ? { opacity: 1, translateY: 0 } : {}}
-  //           transition={{ duration: 0.3, delay: 0.6 }}
-  //         >
-  //           {faqItems.slice(4).map((item) => (
-  //             <FAQItem1
-  //               key={item.id}
-  //               id={item.id}
-  //               question={item.question}
-  //               answer={item.answer}
-  //               isSelected={selectedItem === item.id}
-  //               onItemClick={handleItemClick}
-  //             />
-  //           ))}
-  //         </motion.div>
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
-    };
-
-export default FaqAccordion;
+export default FAQ2;
