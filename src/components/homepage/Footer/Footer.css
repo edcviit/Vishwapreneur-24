@@ -1,3 +1,37 @@
 .footer-section{
-    transition:all 2s
+    transition:all 2s;
 }
+.instagram:hover{
+    color:#E1306C;
+}
+.linkedin:hover{
+    color:#4267B2;
+}
+.twitter:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.youtube:hover{
+    color:#FF0000
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+}
+.VP-img{
+    height:15vh;
+    margin:0vh 13vw 4vh 13vw;
+}
+.footer-info  p{
+    text-align: center;
+    
+    
+} 
+/* .downloadApp{
+    margin-left:100px ;
+} */
