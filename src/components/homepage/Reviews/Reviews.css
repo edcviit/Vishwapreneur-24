@@ -22,18 +22,20 @@
 
 .review-card {
   /* background: #ffffff; */
-  background:linear-gradient(to bottom right, #000000, #1a1040);
+  /* background:linear-gradient(to bottom right, #000000, #1a1040); */
   padding: 2rem;
   border-radius: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.197);
-  max-width: 600px;
+  max-width: 950px;
   min-height:40vh;
   margin-top: 4rem;
+  
+
 }
 
 .review-text {
   font-size: 1rem;
-  background-color: #1e293b;
+  /* background-color: #1e293b; */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.197);
   color: white;
   margin-bottom: 1.5rem;
@@ -50,6 +52,7 @@
 }
 
 .review-avatar {
+  margin-top: 25px;
   width: 64px;
   height: 64px;
   border-radius: 50%;

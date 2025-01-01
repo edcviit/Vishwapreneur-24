@@ -19,16 +19,12 @@ const Footer = () => {
       {/* <img src={image2} className=' absolute -z-10 bottom-0 h-[39rem] md:h-[50rem] w-[100vw] ' style={{ webkitMaskImage: "-webkit-gradient(linear, top,  bottom,from(rgba(0,0,0,0)),via(rgba(0,0,0,0.5)), to(rgba(0,0,0,1)))"}} alt="" /> */}
       {/* </div> */}
       
-      <footer className=" text-white py-12 border rounded-t-3xl backdrop-blur-sm border-white p-2">
+      <footer className=" text-white py-12 border rounded-3xl backdrop-blur-sm border-white p-2">
         {/* <div className={`z-50    `} style={{ backgroundImage: `url(${image})`, width:screen, height:"20rem"}}></div> */}
         <div className={`w-full h-full  relative m-15 `}>
           <div className="container mx-auto flex flex-col items-center">
             {/* Grid layout and content */}
-              <div className="mx-auto flex flex-col items-center flex-wrap">
-      
-                 <img src="https://www.knowafest.com/files/uploads/Asset%2013-2023012705.png" alt="VIshwapreneur-24" className="VP-img" />
-                  {/* <p>The Entrepreneurship Development Cell (EDC) is a student-run organisation that promotes and nurtures an entrepreneurial spirit among students. It serves as a platform for aspiring entrepreneurs to explore and develop their business ideas, gain practical skills, and connect with industry experts and mentors.</p>  */}
-              </div>
+              
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 mb-0\.5">
             
             <div className="text-center ml-2 md:text-left lg:text-left xl:text-left">

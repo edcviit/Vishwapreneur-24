@@ -130,7 +130,7 @@
 
 /* Instagram styling */
 .instagramSVG {
-  font-size: 25px;
+  /* font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,10 +141,11 @@
     #dc2743 50%,
     #cc2366 75%,
     #bc1888 100%
-  );
+  ); */
+  color:#E1306C;
 }
 .icon:hover .layer span.instagramSVG {
-  box-shadow: -1px 1px 3px #e6683c;
+  box-shadow: -1px 1px 3px #E1306C;
 }
 
 /* LinkedIn styling */
@@ -314,7 +315,7 @@
 
 @media screen and (max-width: 768px) {
   .social-icons-container {
-    gap: 45px;
+    gap: 208px;
     padding: 30px 10px;
     margin: 150px auto;
   }
@@ -338,10 +339,15 @@
     font-size: 1.1em;
   }
 }
-
+@media screen and (max-width:689px){
+  .social-icons-container {
+      gap:169px;
+      
+    }
+}
 @media screen and (max-width: 480px) {
   .social-icons-container {
-    gap: 50px;
+    gap: 86px;
     padding: 20px 5px;
     margin: 40px auto;
   }
