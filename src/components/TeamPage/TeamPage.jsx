@@ -28,13 +28,13 @@ const TeamPage = () => {
       mailLink: "vaibhav.22110326@viit.ac.in",
     },
   ];
+
   const sponsorship = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505802/new%20vp%20compressed/photo_5_2024-02-08_12-48-43_mcsybw_tpsxlj_z6txqe.webp",
       name: "Atharva Shinde",
-      whoIsHe: "sponsorship",
-      linkedinLink:
-        "https://www.linkedin.com/in/atharva-shinde-ab9459228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      whoIsHe: "Sponsorship",
+      linkedinLink: "https://www.linkedin.com/in/atharva-shinde-ab9459228",
       twitterLink:
         "https://twitter.com/Atharva68716615?t=kkxydCRnm_MDSOhqFqnTNg&s=09",
       mailLink: "atharva7110@gmail.com",
@@ -43,8 +43,7 @@ const TeamPage = () => {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505799/new%20vp%20compressed/photo_9_2024-02-08_12-48-43_dx4bt0_nqotky.webp",
       name: "Sakshi Bedmutha",
       whoIsHe: "Sponsorship",
-      linkedinLink:
-        "https://www.linkedin.com/in/sakshi-bedmutha-0a420322a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedinLink: "https://www.linkedin.com/in/sakshi-bedmutha-0a420322a",
       twitterLink:
         "https://x.com/sakshi_bedmutha?t=vAfs63jYKKjGcM6LxhooeA&s=09",
       mailLink: "sakshi.22110686@viit.ac.in",
@@ -52,13 +51,13 @@ const TeamPage = () => {
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505791/new%20vp%20compressed/photo_15_2024-02-08_12-48-43_hzziol_d5opxb_prlrwe.webp",
       name: "Ketan Choudhari",
-      whoIsHe: "sponsorship",
-      linkedinLink:
-        "https://www.linkedin.com/in/ketan-choudhari-101146216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      whoIsHe: "Sponsorship",
+      linkedinLink: "https://www.linkedin.com/in/ketan-choudhari-101146216",
       twitterLink: "",
       mailLink: "ketan.22110060@gmail.com",
     },
   ];
+
   const publicrelation = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505790/new%20vp%20compressed/photo_18_2024-02-08_12-48-43_kvbmi2_my7qqf.webp",
@@ -70,7 +69,7 @@ const TeamPage = () => {
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505800/new%20vp%20compressed/photo_7_2024-02-08_12-48-43_qdeogx_zuvyae.webp",
-      name: "Amey kottawar",
+      name: "Amey Kottawar",
       whoIsHe: "Public Relation",
       linkedinLink: "http://linkedin.com/in/amey-kottawar-b8473b211",
       twitterLink: "https://twitter.com/AmeyKottawar",
@@ -88,12 +87,13 @@ const TeamPage = () => {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708259353/new%20vp%20compressed/h6caboowxm9gyh1lycjw.webp",
       name: "Shravani Dhobale",
       whoIsHe: "Public Relation",
-      linkedinLink: "https://www.linkedin.com/in/shravani-dhobale-068b7722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      twitterLink: "https://x.com/shravanidhobale?t=t8GfbrpsQhvBFuZmaH5x1w&s=08",
+      linkedinLink: "https://www.linkedin.com/in/shravani-dhobale-068b7722a",
+      twitterLink: "https://x.com/shravanidhobale",
       mailLink: "shravnidhobale@gmail.com",
     },
   ];
-  const finance= [
+
+  const finance = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505804/new%20vp%20compressed/photo_2_2024-02-08_12-48-43_uoomou_zyqem6.webp",
       name: "Kartik Bhage",
@@ -113,7 +113,6 @@ const TeamPage = () => {
       twitterLink: "",
       mailLink: "",
     },
-
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505805/new%20vp%20compressed/photo_3_2024-02-08_12-48-43_q34vqh_uttdkj.webp",
       name: "Swarnima Yogi",
@@ -122,35 +121,8 @@ const TeamPage = () => {
       twitterLink: "",
       mailLink: "swarnima.22110483@viit.ac.in",
     },
-   
   ];
-  // const opretionandsupply = [
-  //   {
-  //     img: "",
-  //     name: "Ayush",
-  //     whoIsHe: "Operation & Supply Chain",
-  //     linkedinLink: "",
-  //     twitterLink: "",
-  //     mailLink: "",
-  //   },
-  //   {
-  //     img: " ",
-  //     name: "Aditya Patil",
-  //     whoIsHe: "Operation & Supply Chain",
-  //     linkedinLink: "",
-  //     twitterLink: "",
-  //     mailLink: "",
-  //   },
-  //   {
-  //     img: "https://res.cloudinary.com/djmyvz2mx/image/upload/v1702966714/placeholder-male-min_j4ufpc.webp",
-  //     name: "Vyankatesh ",
-  //     whoIsHe: "Operation & Supply Chain",
-  //     linkedinLink:
-  //       "https://www.linkedin.com/in/vyankatesh-kumbhakarna-480b38229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  //     twitterLink: "https://x.com/vyankatesh1444?t=_X93Nj5mOuScD0eYS1qYZw&s=09",
-  //     mailLink: "vyankatesh.22110041@viit.ac.in",
-  //   },
-  // ];
+
   const marketing = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505786/new%20vp%20compressed/Screenshot_2024-02-09_192333_j912iw_rwlmtc.webp",
@@ -192,24 +164,22 @@ const TeamPage = () => {
       linkedinLink: "https://www.linkedin.com/in/deepak-ghume-35537628a",
       twitterLink: "https://twitter.com/deeapakghume",
       mailLink: "deepak.22220159@viit.ac.in",
-    }
+    },
   ];
   const salesandcust = [
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505792/new%20vp%20compressed/photo_14_2024-02-08_12-48-43_z1xg5b_fck3h4.webp",
       name: "Kishan Gyamlani",
       whoIsHe: "Sales & Customer Experience",
-      linkedinLink:
-        "https://www.linkedin.com/in/kishan-gyamlani-130217227",
+      linkedinLink: "https://www.linkedin.com/in/kishan-gyamlani-130217227",
       twitterLink: "https://x.com/Kishan_2445?t=_OxfwIHtz-E4c_3bSRz6jQ&s=09",
       mailLink: "kishan.22110802@viit.ac.in",
     },
     {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505795/new%20vp%20compressed/photo_12_2024-02-08_12-48-43_w8hlbe_p0vnoi.webp",
-      name:"Pratham Patil",
+      name: "Pratham Patil",
       whoIsHe: "Sales & Customer Experience",
-      linkedinLink:
-        "https://www.linkedin.com/in/pratham-patil-4826a422b",
+      linkedinLink: "https://www.linkedin.com/in/pratham-patil-4826a422b",
       twitterLink:
         "https://twitter.com/_Pratham18_?t=dH-901vGaqu26r6StnAeAA&s=09",
       mailLink: "pratham.22111326@viit.ac.in ",
@@ -273,7 +243,8 @@ const TeamPage = () => {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505798/new%20vp%20compressed/photo_11_2024-02-08_12-48-43_yqn9sz_dvnwrv.webp",
       name: "Parth Chavhan",
       whoIsHe: "Convenor",
-      linkedinLink: "https://www.linkedin.com/in/parth-chavan-46448b210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      linkedinLink:
+        "https://www.linkedin.com/in/parth-chavan-46448b210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       twitterLink: "",
       mailLink: "parthchavan214@gmail.com",
     },
@@ -281,15 +252,28 @@ const TeamPage = () => {
       img: "https://res.cloudinary.com/di40y80dw/image/upload/v1707505794/new%20vp%20compressed/photo_13_2024-02-08_12-48-43_msja0p_uzlrbx.webp",
       name: "Aakash Dudhane",
       whoIsHe: "Co-Convenor",
-      linkedinLink:"https://www.linkedin.com/in/akash-dudhane-b0b30920b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADVC1vsBQ5RCKXZHfYYoSH0QntwLTxXB55Q&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bn9Gb3eqvROy0Yk9GdkrD8g%3D%3D",
+      linkedinLink:
+        "https://www.linkedin.com/in/akash-dudhane-b0b30920b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADVC1vsBQ5RCKXZHfYYoSH0QntwLTxXB55Q&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bn9Gb3eqvROy0Yk9GdkrD8g%3D%3D",
       twitterLink: "",
       mailLink: "",
-    }, 
+    },
   ];
+
+  const categories = {
+    eventHeads,
+    curation,
+    sponsorship,
+    publicrelation,
+    finance,
+    hr,
+    marketing,
+    salesandcust,
+    technical,
+  };
 
   const domainSections = [
     { title: "Convenors", members: eventHeads },
-    {title: "Treasurer", members: finance},
+    { title: "Treasurer", members: finance },
     { title: "Curation", members: curation },
     { title: "Sponsorship", members: sponsorship },
     { title: "Public Relation", members: publicrelation },
@@ -301,127 +285,108 @@ const TeamPage = () => {
   ];
 
   return (
-    <div className="Team ">
-      <br />
-      <br /> <br />
-      <br />
-      <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
-        Our Team
-      </h1>
-      {/* <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">
-       Event heads
-      </h1>
-      <subHeading title="Event Heads" /> */}
-      {/* <div className="flex items-center justify-around mt-6 mb-16 ">
-        <TeamCard
-          img="https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg"
-          name="Parth Chavhan"
-          whoIsHe="Convenor"
-        />
-        <TeamCard
-          img="https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg"
-          name="Parth Chavhan"
-          whoIsHe="Convenor"
-        />
-      </div> */}
-      {/* <h1 className="sub-heading  pt-5  text-transparent bg-clip-text text-2xl font-bold text-center py-8">
-        Curation
-      </h1> */}
-      {/* <div className="flex items-center justify-around mt-6 mb-16 ">
-        <TeamCard
-          img="https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg"
-          name="Parth Chavhan"
-          whoIsHe="Convenor"
-        />
-        <TeamCard
-          img="https://res.cloudinary.com/da5mmxnn3/image/upload/v1675611745/teamimages/parth-01_scajmz.jpg"
-          name="Parth Chavhan"
-          whoIsHe="Convenor"
-        />
-      </div> */}
-      {/* <div className="teamPage">
-        {team.map((member) => (
-          <>
-            <TeamCard
-              img={member.img}
-              name={member.name}
-              whoIsHe={member.whoIsHe}
-            />
-          </>
-        ))}
-      </div> */}
-      {/* <br /> */}
-      {domainSections.map((section) => (
-        <>
-          <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-8 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8  mt-7">
-            {section.title}
+    <div className="team-page">
+      {Object.entries(categories).map(([categoryName, members]) => (
+        <div key={categoryName} className="team-category">
+          <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
+            {categoryName}
           </h1>
-          <div className="flex items-center justify-around mt-16 mb-24 My_card_wrapper space-y-['10rem']">
-            {section.members.map((member) => (
-              <TeamCard
-                img={member.img}
-                name={member.name}
-                whoIsHe={member.whoIsHe}
-                linkedinLink={member.linkedinLink}
-                twitterLink = {member.twitterLink}
-                mailLink = {member.mailLink}
-              />
-            ))}
-          </div>
-        </>
-      ))}
-    </div>
-  );
-};
-
-const subHeading = ({ title }) => {
-  return (
-    <>
-      <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
-        {title}
-      </h1>
-    </>
-  );
-};
-
-const TeamCard = ({ img, name, whoIsHe, linkedinLink, twitterLink, mailLink }) => {
-  const handleMailClick = () => {
-    window.open(`mailto:${mailLink}`, '_blank');
-  };
-  return (
-    <>
-      <div className="h-[10rem] flex items-center" style={{ width: "230px", marginTop: "76px" , paddingTop:"20px",paddingBottom:"225px",}}>
-        <div className="Teamcard" style={{paddingTop:"20px",paddingBottom:"225px",}}>
-          <div className="imgBx">
-            <img src={img} alt="" />
-          </div>
-          <div className="content  ">
-            <div className="details">
-              <h2>
-                {name} <br />
-                <br />
-                <span>{whoIsHe}</span>
-              </h2>
-              <div className="flex w-full justify-between px-10 py-4">
-                <a href={linkedinLink} target="_blank" rel="noopener noreferrer" style={{cursor:"pointer"}}>
-                  <img className="h-8 rounded-xl" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="" />
-                </a>
-                <img
-                  className="h-8 rounded-xl"
-                  src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
-                  alt=""
-                  onClick={handleMailClick}
-                  style={{ cursor: 'pointer' }}
-                />
-                <a href={twitterLink} target="_blank" rel="noopener noreferrer" style={{cursor:"pointer"}}>
-                  <img className="h-8 rounded-xl" src="https://res.cloudinary.com/di40y80dw/image/upload/v1708499891/jux6j4l8mfige7xx3czd.png" alt="" />
-                </a>
-              </div>
+          <div className="team-members">
+            <div
+              className="h-[10rem] flex items-center"
+              style={{
+                marginTop: "150px",
+                paddingTop: "20px",
+                paddingBottom: "225px",
+              }}
+            >
+              {members.map((member, index) => (
+                <div key={index} className="card">
+                  <button className="mail">
+                    <a
+                      href={`mailto:${member.email}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M4 4h16v16H4z" fill="none"></path>
+                        <path d="M4 8l8 5 8-5v8H4V8z"></path>
+                      </svg>
+                    </a>
+                  </button>
+                  <div className="profile-pic">
+                    <img src={member.img} alt={member.name} />
+                  </div>
+                  <div className="bottom">
+                    <div className="content">
+                      <span className="name">{member.name}</span>
+                      <span className="about-me">{member.whoIsHe}</span>
+                    </div>
+                    <div class="bottom-bottom">
+                      <div className="social-links-container">
+                        <a
+                          href={member.instagram}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            viewBox="0 0 16 15.999"
+                            height="15.999"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              transform="translate(6 598)"
+                              d="M6-582H-2a4,4,0,0,1-4-4v-8a4,4,0,0,1,4-4H6a4,4,0,0,1,4,4v8A4,4,0,0,1,6-582ZM2-594a4,4,0,0,0-4,4,4,4,0,0,0,4,4,4,4,0,0,0,4-4A4.005,4.005,0,0,0,2-594Zm4.5-2a1,1,0,0,0-1,1,1,1,0,0,0,1,1,1,1,0,0,0,1-1A1,1,0,0,0,6.5-596ZM2-587.5A2.5,2.5,0,0,1-.5-590,2.5,2.5,0,0,1,2-592.5,2.5,2.5,0,0,1,4.5-590,2.5,2.5,0,0,1,2-587.5Z"
+                              data-name="Subtraction 4"
+                              id="Subtraction_4"
+                            ></path>
+                          </svg>
+                        </a>
+                        <a
+                          href={member.twitterLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                          </svg>
+                        </a>
+                        <a
+                          href={member.linkedinLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="100"
+                            viewBox="0 0 50 50"
+                          >
+                            <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                          </svg>
+                        </a>
+                      </div>
+                      <button className="button">
+                        <a
+                          href={`mailto:${member.email}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Contact Me
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
-      </div>
-    </>
+      ))}
+    </div>
   );
 };
 

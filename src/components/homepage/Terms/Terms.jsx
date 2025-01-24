@@ -1,99 +1,114 @@
-import React from "react";
-import "./Terms.css"; // Import your CSS file for Terms
+import { useState } from 'react';
+import './Terms.css';
 
-const Terms = () => {
-  {/* it should be comment out */}
-  // return (
-  //   <>
-  //     <div class="nine">
-  //       {//it should be comment out
-  //       /* <h1
-  //         name="termsConditions"
-  //         id="termsConditions"
-  //         className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center "
-  //       >
-  //         Terms and Conditions
-  //       </h1> */}
-  //     </div>
+function Terms() {
+  const [transform, setTransform] = useState({ x: 0, y: 0 });
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [borderHighlight, setBorderHighlight] = useState([]);
+
+  const handleMouseMove = (e) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
     
-  //     <div className="px-6 md:px-16 w-screen">
-  //       <div className="flex flex-col md:flex-row  bg-blue-950 px-4 md:px-16 py-12 rounded-3xl text-slate-100  justify-center gap-12  r-gradient">
-  //         <div className="flex flex-col gap-8 md:pr-6 md:border-r ">
-  //           <p className="text-sm">
-  //             {/* it should be comment out */}
-  //             {/* <h3 className="text-xl font-semibold text-pinkish">Age Limit</h3>
-  //             Any person above the age of 13 is allowed to join us for
-  //             Vishwapreneur'24 */}
-  //           </p>
-  //           {/* it should be comment out */}
-  //           {/* <p className="text-sm">
-  //             <h3 className="text-xl font-semibold text-pinkish">
-  //               Privacy Policy
-  //             </h3>
-  //             By registering for Vishwapreneur'24, you consent to the collection
-  //             and use of this information as set forth.
-  //           </p> */}
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    
+    const rotateX = (y - centerY) / 20;
+    const rotateY = -(x - centerX) / 20;
 
-  //           {/* it should be comment out */}
-  //           {/* <p className="text-sm">
-  //             <h3 className="text-xl font-semibold text-pinkish">
-  //               Advertisements & Promotions
-  //             </h3>
-  //             This website may contain links to third-party websites, products,
-  //             or services, which may be posted by our affiliates, our partners,
-  //             or our sponsor any kind of promotion regarding them is not
-  //             allowed.
-  //           </p> */}
+    // Calculate border proximity
+    const borderThreshold = 100; // pixels from border to trigger highlight
+    const fromTop = y;
+    const fromBottom = rect.height - y;
+    const fromLeft = x;
+    const fromRight = rect.width - x;
 
-  //           {/* should be comment out */}
-            
-  //           {/* <p className="text-sm">
-  //             <h3 className="text-xl font-semibold text-pinkish">
-  //               Ticket Booking Policy
-  //             </h3>
-  //             Once you book a seat for this event, it can not be cancelled under
-  //             any circumstances and any request for fare refund will not be
-  //             entertained.
-  //           </p> */}
-  //         </div>
-  //         <div className="flex flex-col gap-4">
-  //           {/* should be comment it outside */}  
-  //           {/* <h3 className="text-xl font-semibold text-pinkish">
-  //             Following actions are impermissible
-  //           </h3> */}
+    // Calculate which borders should be highlighted
+    const highlightedBorders = [];
 
-  //             {/* it should be comment out */}
-  //           {/* <ol className="text-sm">
-  //             <li>
-  //               Use the information in any manner that could interfere with,
-  //               disable, disrupt, overburden, or otherwise impair the Service
-  //             </li>
-  //             <br />
-  //             <li>
-  //               Use the website in any manner that we reasonably believe to be
-  //               an abuse of or fraud on any payment system.
-  //             </li>
-  //             <br />
-  //             <li>
-  //               Access, search, or collect data about Vishwapreneur by any means
-  //               (automated or otherwise) except as permitted in these Terms or
-  //               in a separate agreement with EDC VIIT.
-  //             </li>
-  //             <br />
-  //             <li>
-  //               Any political comment will not be tolerated regarding
-  //               Vishwapreneur.
-  //             </li>
-  //             <br />
-  //             <li>
-  //               Legal actions will be taken if any kind of malpractice is found.
-  //             </li>
-  //           </ol> */}
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </>
-  // );
-};
+    if (fromTop < borderThreshold) highlightedBorders.push('top');
+    if (fromBottom < borderThreshold) highlightedBorders.push('bottom');
+    if (fromLeft < borderThreshold) highlightedBorders.push('left');
+    if (fromRight < borderThreshold) highlightedBorders.push('right');
+
+    setBorderHighlight(highlightedBorders);
+    setTransform({ x: rotateX, y: rotateY });
+    setMousePosition({ x, y });
+  };
+
+  const handleMouseLeave = () => {
+    setTransform({ x: 0, y: 0 });
+    setMousePosition({ x: 0, y: 0 });
+    setBorderHighlight([]);
+  };
+
+  const getBorderClasses = () => {
+    const classes = ['terms-card'];
+    borderHighlight.forEach(border => {
+      classes.push(`border-highlight-${border}`);
+    });
+    return classes.join(' ');
+  };
+
+  return (
+    <div className="terms-container">
+      <div 
+        className={getBorderClasses()}
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+        style={{
+          transform: `perspective(10000px) rotateX(${transform.x}deg) rotateY(${transform.y}deg)`
+        }}
+      >
+        <div 
+          className="glow-effect"
+          style={{
+            left: `${mousePosition.x}px`,
+            top: `${mousePosition.y}px`,
+            opacity: mousePosition.x && mousePosition.y ? 1 : 0
+          }}
+        />
+        <h1>TERMS AND CONDITIONS</h1>
+        
+        <div className="terms-content">
+          <div className="terms-left">
+            <section>
+              <h2>Age Limit</h2>
+              <p>Any person above the age of 13 is allowed to join us for Vishwapreneur'24</p>
+            </section>
+
+            <section>
+              <h2>Privacy Policy</h2>
+              <p>By registering for Vishwapreneur'24, you consent to the collection and use of this information as set forth.</p>
+            </section>
+
+            <section>
+              <h2>Advertisements & Promotions</h2>
+              <p>This website may contain links to third-party websites, products, or services, which may be posted by our affiliates, our partners, or our sponsor any kind of promotion regarding them is not allowed.</p>
+            </section>
+
+            <section>
+              <h2>Ticket Booking Policy</h2>
+              <p>Once you book a seat for this event, it can not be cancelled under any circumstances and any request for fare refund will not be entertained.</p>
+            </section>
+          </div>
+
+          <div className="terms-right">
+            <h2>Following actions are impermissible</h2>
+            <ul >
+              <li>Use the information in any manner that could interfere with, disable, disrupt, overburden, or otherwise impair the Service</li>
+              <li>Use the website in any manner that we reasonably believe to be an abuse of or fraud on any payment system.</li>
+              <li>Access, search, or collect data about Vishwapreneur by any means (automated or otherwise) except as permitted in these Terms or in a separate agreement with EDC VIIT.</li>
+              <li>Any political comment will not be tolerated regarding Vishwapreneur.</li>
+              <li>Legal actions will be taken if any kind of malpractice is found.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default Terms;

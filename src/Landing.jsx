@@ -2,6 +2,7 @@ import Hero from "./components/homepage/Hero/Hero";
 import Hero2 from "./components/homepage/Hero/Hero2";
 import Hero3 from "./components/homepage/Hero/Hero3";
 import Hero4 from "./components/homepage/Hero/Hero4";
+import Hero5 from "./components/homepage/Hero/Hero5"
 import About from "./components/homepage/About/About";
 // import Media from "./components/homepage/Media/media";
 import Media2 from "./components/homepage/Media/media2";
@@ -57,9 +58,11 @@ function Landing() {
 
   return (
     <div>
-      {isMobileView ? <Hero4 /> : <Hero3 />}
+      {isMobileView ? <Hero5 /> : <Hero5 />}
 
-      {!isMobileView && <div className="bg-black w-screen h-screen"></div>}
+      <Hero5/>
+
+      {!isMobileView && <div className="bg-white w-screen h-screen"> <Hero5/> </div>}
       <div className="with_register_buttton">
         <div className="flex justify-center items-center" style={{ marginTop: '50px' }}>
           <ParticleButton link="https://vishwapreneur.in/register" />

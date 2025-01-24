@@ -33,25 +33,41 @@ const Reviews = () => {
 
   return (
     <div className="reviews-container">
-       <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8">Reviews</h1>
-      <h1 className="reviews-title">A word from our Guests</h1>
-      
+  <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-2 mt-20">
+    Reviews
+  </h1>
+  <h1 className="reviews-title">A word from our Guests</h1>
 
-      <div className={`review-card ${transitioning ? 'transitioning' : ''}`}>
-        <blockquote className="review-text ${transitioning ? 'slide-up' : ''}    rounded-md">"{currentReview.review}"</blockquote>
-        <div className="review-details">
-          <img
-            src={currentReview.avatar}
-            alt={`${currentReview.name}'s avatar`}
-            className={`review-avatar ${transitioning ? 'slide-up' : ''}`}
-          />
-          <div className={`review-info ${transitioning ? 'slide-up' : ''}`}>
-            <p className="review-name">{currentReview.name}</p>
-            <p className="review-role">{currentReview.role}</p>
-          </div>
-        </div>
+  <div className={`review-card ${transitioning ? 'transitioning' : ''}`}>
+    <blockquote
+      className={`review-text ${transitioning ? 'slide-up' : ''} 
+        bg-gradient-to-r from-[#b74b9b] to-white text-black rounded-md p-6 text-sm relative isolate
+        before:absolute
+        before:w-4
+        before:h-4
+        before:bg-[#DCA6CF]
+        before:rotate-45
+        before:-bottom-2
+        before:left-1/2
+        before:-translate-x-1/2
+        before:-z-10`}
+    >
+      "{currentReview.review}"
+    </blockquote>
+    <div className="review-details">
+      <img
+        src={currentReview.avatar}
+        alt={`${currentReview.name}'s avatar`}
+        className={`review-avatar ${transitioning ? 'slide-up' : ''}`}
+      />
+      <div className={`review-info ${transitioning ? 'slide-up' : ''}`}>
+        <p className="review-name">{currentReview.name}</p>
+        <p className="review-role">{currentReview.role}</p>
       </div>
     </div>
+  </div>
+</div>
+
   );
 };
 

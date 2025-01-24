@@ -31,13 +31,13 @@ const Hero3 = () =>{
             <ParallaxLayer offset={0} speed={1.8}>
               <div class="animation_layer parallax" id="land"></div>
             </ParallaxLayer>
-            <div class="bg">
+            {/* <div class="bg">
                 <div class="star-field">
                   <div class="layer"></div>
                   <div class="layer"></div>
                   <div class="layer"></div>
                 </div>
-            </div>
+            </div> */}
               <ParallaxLayer offset={0} speed={-2.5}>
                  <div className="animation_layer parallax" id="VPname"></div>
               </ParallaxLayer>

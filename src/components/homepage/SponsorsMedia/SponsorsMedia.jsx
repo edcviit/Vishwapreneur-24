@@ -86,88 +86,101 @@ const SponsorsMedia = () => {
 
   return (
     <div className="sponsors-container">
-      <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 Previous">
-        Our Previous Sponsors
-      </h1>
-      <div className="swiper-container">
-        <Swiper
-          effect="coverflow"
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView="auto"
-          loop={true}
-          autoplay={{ delay: 3000 }}
-          coverflowEffect={{
-            rotate: 15,
-            stretch: 0,
-            depth: 300,
-            modifier: 1,
-            slideShadows: true,
-          }}
-        >
-          {ListOfSponsors.map((img, index) => (
-            <SwiperSlide key={index}>
-              <div className="rounded overflow-hidden shadow-lg backdrop-blur-sm bg-white">
-                <img
-                  className="brightness-75"
-                  src={img}
-                  alt={`Sponsor ${index}`}
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-      <div className="flex justify-center">
-        <button
-          onClick={() => navigate("/sponsermedia")}
-          className="space-button"
-          style={{ marginTop: "10px", borderColor: "#7c008d" }}
-        >
-          All Sponsors
-        </button>
+      <div className="relative">
+        <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 Previous">
+          Our Previous Sponsors 
+        </h1>
+        <div className="swiper-container">
+
+          <div className="absolute left-0 top-0 h-full w-[400px] bg-gradient-to-r from-black via-black to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute right-0 top-0 h-full w-[400px] bg-gradient-to-l from-black via-black to-transparent z-10 pointer-events-none"></div>
+
+          <Swiper
+            effect="coverflow"
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView="auto"
+            loop={true}
+            autoplay={{ delay: 1000 }}
+            coverflowEffect={{
+              rotate: 15,
+              stretch: 0,
+              depth: 300,
+              modifier: 1,
+              slideShadows: true,
+            }}
+          >
+            {ListOfSponsors.map((img, index) => (
+              <SwiperSlide key={index}>
+                <div className="rounded-2xl overflow-hidden shadow-lg backdrop-blur-sm bg-white">
+                  <img
+                    className="brightness-75"
+                    src={img}
+                    alt={`Sponsor ${index}`}
+                  />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+        <div className="flex justify-center">
+          <button
+            onClick={() => navigate("/sponsermedia")}
+            className="space-button"
+            style={{ marginTop: "50px", borderColor: "#7c008d" }}
+          >
+            All Sponsors
+          </button>
+        </div>
       </div>
 
-      <h1 className="main-heading to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 Previous">
-        Previous Media Partners
-      </h1>
-      <div className="swiper-container">
-        <Swiper
-          effect="coverflow"
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView="auto"
-          loop={true}
-          autoplay={{ delay: 3000 }}
-          coverflowEffect={{
-            rotate: 15,
-            stretch: 0,
-            depth: 300,
-            modifier: 1,
-            slideShadows: true,
-          }}
-        >
-          {ListOfMediaPartners.map((img, index) => (
-            <SwiperSlide key={index}>
-              <div className="rounded overflow-hidden shadow-lg backdrop-blur-sm bg-white">
-                <img
-                  className="brightness-75"
-                  src={img}
-                  alt={`Media Partner ${index}`}
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-      <div className="flex justify-center">
-        <button
-          onClick={() => navigate("/mediapartner")}
-          className="space-button"
-          style={{ marginTop: "10px", borderColor: "#7c008d" }}
-        >
-          All Media Partners
-        </button>
+      
+      <div className="relative">
+        <h1 className="main-heading to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 Previous">
+          Previous Media Partners
+        </h1>
+        <div className="swiper-container">
+
+          <div className="absolute left-0 top-0 h-full w-[400px] bg-gradient-to-r from-black via-black to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute right-0 top-0 h-full w-[400px] bg-gradient-to-l from-black via-black to-transparent z-10 pointer-events-none"></div>
+
+          <Swiper
+            effect="coverflow"
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView="auto"
+            loop={true}
+            autoplay={{ delay: 1000 }}
+            coverflowEffect={{
+              rotate: 15,
+              stretch: 0,
+              depth: 300,
+              modifier: 1,
+              slideShadows: true,
+            }}
+          >
+            {ListOfMediaPartners.map((img, index) => (
+              <SwiperSlide key={index}>
+                <div className="rounded-2xl overflow-hidden shadow-lg backdrop-blur-sm bg-white">
+                  <img
+                    className="brightness-75"
+                    src={img}
+                    alt={`Media Partner ${index}`}
+                  />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+        <div className="flex justify-center">
+          <button
+            onClick={() => navigate("/mediapartner")}
+            className="space-button"
+            style={{ marginTop: "50px", borderColor: "#7c008d" }}
+          >
+            All Media Partners
+          </button>
+        </div>
       </div>
     </div>
   );};

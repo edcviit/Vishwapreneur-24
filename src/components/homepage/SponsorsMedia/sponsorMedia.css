@@ -202,6 +202,66 @@ h1 {
   transition: transform 0.3s ease-in-out;
 }
 
+
+
+
+
+
+/* Add a wrapper div around your swiper container in JSX */
+.sponsor-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Edge shadows */
+.sponsor-wrapper::before,
+.sponsor-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.sponsor-wrapper::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 20%,
+    rgba(0, 0, 0, 0.7) 40%,
+    transparent 100%
+  );
+}
+
+.sponsor-wrapper::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 20%,
+    rgba(0, 0, 0, 0.7) 40%,
+    transparent 100%
+  );
+}
+
+/* Ensure swiper container doesn't hide the shadows */
+.swiper-container {
+  position: relative;
+  overflow: visible !important;
+}
+
+/* Adjust slide visibility */
+.swiper-slide {
+  opacity: 1 !important;
+}
+
+
+
+
+
 .swiper-slide:hover {
   transform: scale(1.05);
 }
