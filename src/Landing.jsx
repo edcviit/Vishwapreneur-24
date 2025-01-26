@@ -58,11 +58,11 @@ function Landing() {
 
   return (
     <div>
-      {isMobileView ? <Hero5 /> : <Hero5 />}
+      {/* //{isMobileView ? <Hero5 /> : <Hero5 />} */}
 
-      <Hero5/>
+      
 
-      {!isMobileView && <div className="bg-white w-screen h-screen"> <Hero5/> </div>}
+      {!isMobileView && <div className="w-screen h-screen"> <Hero5/> </div>}
       <div className="with_register_buttton">
         <div className="flex justify-center items-center" style={{ marginTop: '50px' }}>
           <ParticleButton link="https://vishwapreneur.in/register" />

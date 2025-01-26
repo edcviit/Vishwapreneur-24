@@ -291,13 +291,16 @@ const TeamPage = () => {
           <h1 className="sub-heading bg-gradient-to-r from-[#b74b9b] pt-5 to-white text-transparent bg-clip-text text-2xl font-bold text-center py-8">
             {categoryName}
           </h1>
-          <div className="team-members">
+          <div className="team-members" >
             <div
               className="h-[10rem] flex items-center"
               style={{
                 marginTop: "150px",
                 paddingTop: "20px",
                 paddingBottom: "225px",
+                display: "flex",
+                justifyContent: "center",
+                gap: "1rem",
               }}
             >
               {members.map((member, index) => (

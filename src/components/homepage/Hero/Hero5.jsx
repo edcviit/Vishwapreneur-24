@@ -8,7 +8,7 @@ function Hero5() {
   const INPUT_NAME = "Switch";
 
   const { rive, RiveComponent } = useRive({
-    src: "https://editor.rive.app/file/vp/1164198",
+    src: "achivex.riv",
     stateMachines: STATE_MACHINE_NAME,
     autoplay: true,
   });
@@ -42,8 +42,8 @@ export default Hero5;
 // function App() {
 //   return (
 //     <div>
-//       <Rive src="vp.riv" 
-//       animations={['Slice 166']}
+//       <Rive src="achievex.riv" 
+//       animations={['Artboard']}
 //       autoplay/>
 //     </div>
 //   );
