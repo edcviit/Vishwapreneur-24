@@ -148,7 +148,7 @@ const Navbar = () => {
         >
           Timeline
         </li> */}
-        <li
+        {/* <li
           key={links.length}
           className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-white transition duration-300"
           onClick={() => {
@@ -156,7 +156,7 @@ const Navbar = () => {
           }}
         >
           Team
-        </li>
+        </li> */}
       
       </ul>
       <div
