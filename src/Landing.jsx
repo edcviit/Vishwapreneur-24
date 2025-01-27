@@ -28,6 +28,7 @@ import ParticleButton from "./components/Button/Btn";
 import Timeline from "./components/timeline/Timeline.jsx";
 import SponsorMain from "./components/homepage/SponsorsMedia/SponsorMain.jsx";
 import { Link } from 'react-router-dom';
+// import BackgroundTheme from "./components/Background/BackgroundTheme.jsx";
 
 import Gallery from "./components/gallery/Gallery";
 
@@ -58,13 +59,52 @@ function Landing() {
 
   return (
     <div>
-      {/* //{isMobileView ? <Hero5 /> : <Hero5 />} */}
+      {/* {isMobileView ? <Hero5 /> : <Hero5 />} */}
 
-      
+      <Hero5/>
 
-      {!isMobileView && <div className="w-screen h-screen"> <Hero5/> </div>}
+      {/* <div className="w-screen h-screen"> 
+          <video
+            className="absolute top-0 left-0 w-screen h-screen object-cover"
+            autoPlay
+            muted
+            playsInline
+            style={{
+              width: "110vw", 
+              height: "110vh",
+            }}
+          >
+            <source src="/rive/new.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+      </div> */}
+
+
+    {/* <div className="relative w-screen h-screen overflow-hidden">
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        muted
+        playsInline
+      >
+        <source src="/rive/new5.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div> */}
+
+
+
+
+
+
+
+
+
+
+
       <div className="with_register_buttton">
-        <div className="flex justify-center items-center" style={{ marginTop: '50px' }}>
+        <div className="flex justify-center items-center" style={{ marginTop: '180px' }}>
           <ParticleButton link="https://vishwapreneur.in/register" />
         </div>
         {/* <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
@@ -75,11 +115,11 @@ function Landing() {
       </div>
 
        {/* comment it out only to show how to register? */}
-      {/* <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
+      <p id="tutorial" style={{ color: 'white', paddingTop: "0.8rem" }}>
                   <Link to="/register" style={{ textDecoration: 'none', color: 'white' , display:'flex' , justifyContent:'center' , alignItems:'center'}}>
                       How to register?
                   </Link>
-              </p> */}
+              </p>
 
 
       {/* <ParticleButton></ParticleButton> */}

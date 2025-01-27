@@ -89,7 +89,8 @@ const Navbar = () => {
     <nav className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div onClick={() => navigate("/")}>
         <img
-          src="https://res.cloudinary.com/da5mmxnn3/image/upload/v1703221409/VP%2724/Vishwapreneur_24_nfl766.png"
+          // src="https://res.cloudinary.com/da5mmxnn3/image/upload/v1703221409/VP%2724/Vishwapreneur_24_nfl766.png"
+          src="/image/tagline.png"
           className="w-[10rem] md:w-[27rem] lg:w-[30rem] filter brightness-120 contrast-150 cursor-pointer"
           alt="Logo"
         />

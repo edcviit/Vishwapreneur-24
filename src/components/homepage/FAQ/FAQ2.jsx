@@ -71,7 +71,7 @@ const FAQ2 = () => {
       <div className="stars-background"></div>
       <div className="faq-content">
         <div className="faq-left">
-          <h2 className="faq-title">Frequently asked questions</h2>
+          <h2 className="faq-title main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 mb-5">Frequently asked questions</h2>
           <p className="faq-subtitle">
             If you have any questions or require further details about our extensive range of Figma vector mockups, don't hesitate to reach out. We're here to help!
           </p>

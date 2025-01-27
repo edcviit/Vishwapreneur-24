@@ -84,16 +84,16 @@ const Media2 = () => {
 
   const testimonials = [
     {
-      name: 'Lucie.F',
-      role: 'Passenger',
-      quote: 'Thanks to Karos I spend 40 to 20 minutes of travel and in addition I met that cool people!',
-      avatar: '/api/placeholder/32/32'
+      // name: 'Lucie.F',
+      // role: 'Passenger',
+      quote: 'It was very inspiring perspective on how drive of being better each day is the important',
+      // avatar: '/api/placeholder/32/32'
     },
     {
-      name: 'Antoine.O',
-      role: 'Passenger',
-      quote: 'Very good carpooling app for everyday life. Hyper simple and without detours. I recommend!',
-      avatar: '/api/placeholder/32/32'
+      // name: 'Antoine.O',
+      // role: 'Passenger',
+      quote: 'Attended an incredible session at Vishwapreneur EDC VIIT today, Co-founder of JustDial!',
+      // avatar: '/api/placeholder/32/32'
     }
   ];
     
@@ -168,7 +168,7 @@ const Media2 = () => {
         }}
       ></div> */}
 
-      <div
+      {/* <div
         className="mb-6 rounded-lg shadow-lg bg-cover bg-center"
         style={{
           backgroundImage: `linear-gradient(to bottom right, rgba(128, 0, 128, 0.6), rgba(255, 105, 180, 0.6)), url('/image/Post1.jpg')`,
@@ -178,7 +178,7 @@ const Media2 = () => {
           height: '200px', // Height of the div
           width: '100%', // Width of the div
         }}
-      ></div>
+      ></div> */}
 
 
 
@@ -197,11 +197,11 @@ const Media2 = () => {
               <div className="flex-1">
                 <p className="text-lg mb-4">{testimonial.quote}</p>
                 <div className="flex items-center space-x-3">
-                  <img
+                  {/* <img
                     src={testimonial.avatar}
                     alt={testimonial.name}
                     className="w-8 h-8 rounded-full"
-                  />
+                  /> */}
                   <div>
                     <p className="font-semibold">{testimonial.name}</p>
                     <p className="text-sm opacity-75">{testimonial.role}</p>

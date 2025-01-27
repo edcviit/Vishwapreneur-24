@@ -15,7 +15,7 @@ const ParticleButton = ({link}) => {
         {/* </label> */}
 
         {/* comment it out for Register button */}
-        {/* <button className="btn rounded-xl py-3" onClick={handleClick}>Register
+        <button className="btn rounded-xl py-3" onClick={handleClick}>Register
          
           <span className="flex justify-centrer items-center" aria-hidden="true">
             <span
@@ -67,7 +67,7 @@ const ParticleButton = ({link}) => {
               style={{ transform: 'rotate(30deg)', left: '70%', top: '80%', '--d': '6.5em', '--f': '0.75', '--t': '0.92' }}
             ></span>
           </span>
-          </button> */}
+          </button> 
       </div>
       
     );
