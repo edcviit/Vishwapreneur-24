@@ -140,7 +140,7 @@ const Media2 = () => {
 
   return (
     <div>
-      <h1 className="main-heading mb-2">Social Media</h1>
+      <h1 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8 mt-20 mb-2">Social Media</h1>
       <div className="max-w-4xl mx-auto p-4">
  
       {/* <div className="mb-6 rounded-lg bg-gradient-to-br from-purple-600 to-pink-500 text-white p-8 shadow-lg">
@@ -251,7 +251,7 @@ const Media2 = () => {
                       {social.icon}
                     </span>
                   </div>
-                  <div className="text text2">{social.name}</div>
+                  {/* <div className="text text2">{social.name}</div> */}
                 </a>
               </div>
               <div className="follower-count" style={{ color: social.color }}>

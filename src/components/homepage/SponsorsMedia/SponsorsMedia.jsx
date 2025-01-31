@@ -87,7 +87,7 @@ const SponsorsMedia = () => {
   return (
     <div className="sponsors-container">
       <div className="relative">
-        <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 Previous">
+        <h1 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 Previous">
           Our Previous Sponsors 
         </h1>
         <div className="swiper-container">
@@ -136,7 +136,7 @@ const SponsorsMedia = () => {
 
       
       <div className="relative">
-        <h1 className="main-heading to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 Previous">
+        <h1 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 Previous">
           Previous Media Partners
         </h1>
         <div className="swiper-container">

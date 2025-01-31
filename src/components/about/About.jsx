@@ -7,7 +7,7 @@ const About = () => {
       <div id="About ">
         <div className="pb-12 min-h-screen bg-fixed bg-cover bg-center bgImage">
           <div className="aboutCard ">
-            <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-3xl font-bold text-center py-8">
+            <h1 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8">
               About
             </h1>
 

@@ -58,7 +58,7 @@ const FAQ2 = () => {
     },
     {
       question: "What are the dates and timings?",
-      answer: "Dates are 2nd and 3rd March and stay tuned for the timings."
+      answer: "Dates are 1st and 2nd March and stay tuned for the timings."
     },
     {
       question: "Who will be the speakers this year?",
@@ -71,9 +71,9 @@ const FAQ2 = () => {
       <div className="stars-background"></div>
       <div className="faq-content">
         <div className="faq-left">
-          <h2 className="faq-title main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 mb-5">Frequently asked questions</h2>
+          <h2 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-5">Frequently asked questions</h2>
           <p className="faq-subtitle">
-            If you have any questions or require further details about our extensive range of Figma vector mockups, don't hesitate to reach out. We're here to help!
+          If you have any questions or need further details about our programs, feel free to reach out to us through our official email or social media platforms. We're here to help!
           </p>
           <ContactButton />
         </div>

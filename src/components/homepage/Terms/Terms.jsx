@@ -70,34 +70,48 @@ function Terms() {
             opacity: mousePosition.x && mousePosition.y ? 1 : 0
           }}
         />
-        <h1>TERMS AND CONDITIONS</h1>
+        <h1 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-10 mt-2 Previous">
+          TERMS AND CONDITIONS 
+        </h1>
         
         <div className="terms-content">
           <div className="terms-left">
             <section>
               <h2>Age Limit</h2>
-              <p>Any person above the age of 13 is allowed to join us for Vishwapreneur'24</p>
+              {/* <p>Any person above the age of 13 is allowed to join us for Vishwapreneur'24</p> */}
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Any person above the age of 13 is allowed to join us for Vishwapreneur'24</li>
+              </ul>
             </section>
 
             <section>
               <h2>Privacy Policy</h2>
-              <p>By registering for Vishwapreneur'24, you consent to the collection and use of this information as set forth.</p>
+              {/* <p>By registering for Vishwapreneur'24, you consent to the collection and use of this information as set forth.</p> */}
+              <ul className="list-disc pl-5 space-y-2">
+                <li>By registering for Vishwapreneur'24, you consent to the collection and use of this information as set forth.</li>
+              </ul>
             </section>
 
             <section>
               <h2>Advertisements & Promotions</h2>
-              <p>This website may contain links to third-party websites, products, or services, which may be posted by our affiliates, our partners, or our sponsor any kind of promotion regarding them is not allowed.</p>
+              {/* <p>This website may contain links to third-party websites, products, or services, which may be posted by our affiliates, our partners, or our sponsor any kind of promotion regarding them is not allowed.</p> */}
+              <ul className="list-disc pl-5 space-y-2">
+                <li>This website may contain links to third-party websites, products, or services, which may be posted by our affiliates, our partners, or our sponsor. Any kind of promotion regarding them is not allowed.</li>
+              </ul>
             </section>
 
             <section>
               <h2>Ticket Booking Policy</h2>
-              <p>Once you book a seat for this event, it can not be cancelled under any circumstances and any request for fare refund will not be entertained.</p>
+              {/* <p>Once you book a seat for this event, it can not be cancelled under any circumstances and any request for fare refund will not be entertained.</p> */}
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Once you book a seat for this event, it cannot be cancelled under any circumstances, and any request for fare refund will not be entertained.</li>
+              </ul>
             </section>
           </div>
 
           <div className="terms-right">
             <h2>Following actions are impermissible</h2>
-            <ul >
+            <ul className="list-disc pl-5 space-y-2">
               <li>Use the information in any manner that could interfere with, disable, disrupt, overburden, or otherwise impair the Service</li>
               <li>Use the website in any manner that we reasonably believe to be an abuse of or fraud on any payment system.</li>
               <li>Access, search, or collect data about Vishwapreneur by any means (automated or otherwise) except as permitted in these Terms or in a separate agreement with EDC VIIT.</li>

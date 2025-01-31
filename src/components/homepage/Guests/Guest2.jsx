@@ -144,7 +144,7 @@ const Guest2 = () => {
   return (
     <div className="main-container pt-12" name="guest2" id="guest">
       <div className="nine">
-        <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 mb-5">
+        <h1 className="main-heading pt-28 bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-2xl font-bold text-center py-8 mb-5">
           Guests
         </h1>
       </div>

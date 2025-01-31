@@ -116,7 +116,7 @@ const About = () => {
     setHours(2);
     setMinutes(30);
     setSeconds(0);
-    setCurrentMode("VISHWAPRENEUR'24");
+    setCurrentMode("VISHWAPRENEUR'25");
     beepSound.pause();
     beepSound.currentTime = 0;
   };
@@ -128,23 +128,26 @@ const About = () => {
           <ScrollAnimation1>
             <motion.div className="aboutCard ">
               <div class="nine">
-                <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16 mb-10">
+                <h1 className="bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-2xl font-bold text-center py-8 mb-10 mt-20">
                   About
                 </h1>
               </div>
 
               <div className=" flex flex-col md:flex-row items-center justify-center">
                 <div className="md:w-1/2 lg:w-1/2 lg:ml-32 w-1/6">
-                  <iframe
+                  {/* <iframe
                     width="530"
                     height="300"
                     src="https://www.youtube.com/embed/ZBqbC8Kdg60?si=3xAuLcNd8Z_obVoJ"
+                    // src="https://www.youtube.com/watch?v=EhW9pmgim3c"
                     title="YouTube video player"
                     // frameborder="0"
                     allowFullScreen={true}
                     allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     className="border border-1 rounded-lg -ml-28 w-[18rem] h-[15rem] mb-12 md:h-[16rem] md:w-[25rem] md:ml-12 lg:h-[16rem] lg:w-[30rem]"
-                  ></iframe>
+                  ></iframe> */}
+
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EhW9pmgim3c?si=UCGSSxtAVkPuDoEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div className=" lg:py-10">

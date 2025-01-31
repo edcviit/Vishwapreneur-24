@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="p-4 ">
         {/* <div className="p-4 bg-black"> */}
         <div class="nine">
-          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#b74b9b] to-[#ffb3eb] text-transparent bg-clip-text text-3xl font-bold text-center py-16">
+          <h1 className="main-heading pt-28 bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-2xl font-bold text-center py-8">
             Contact Us
           </h1>
         </div>

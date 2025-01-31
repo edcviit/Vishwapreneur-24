@@ -34,7 +34,7 @@ const Reviews = () => {
   return (
     <div className="reviews-container">
 
-  <h1 className="main-heading bg-gradient-to-r from-[#b74b9b] to-white text-transparent bg-clip-text text-4xl font-bold text-center py-8 mb-2 mt-20">
+  <h1 className="main-heading bg-gradient-to-r from-[#FF4669] to-[#CE1790] text-transparent bg-clip-text text-4xl font-bold text-center py-8 mt-20 mb-10">
     Reviews
   </h1>
   <h1 className="reviews-title">A word from our Guests</h1>

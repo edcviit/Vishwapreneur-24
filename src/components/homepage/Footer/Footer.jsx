@@ -37,7 +37,7 @@ const Footer = () => {
                     color: "transparent",
                   }}
                 >
-                  Info
+                  Information
                 </p>
                 
                 <p>The Entrepreneurship Development Cell (EDC) is a student-run organisation that promotes and nurtures an entrepreneurial spirit among students.</p>

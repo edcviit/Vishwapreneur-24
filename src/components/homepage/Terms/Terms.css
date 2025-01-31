@@ -95,14 +95,14 @@
     transition: opacity 0.3s ease;
   }
   
-  .terms-card h1 {
+  /* .terms-card h1 {
     color: #E066FF;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px rgba(224, 102, 255, 0.3);
     position: relative;
-  }
+  } */
   
   .terms-content {
     display: flex;
@@ -164,10 +164,10 @@
       padding: 1.5rem;
     }
     
-    .terms-card h1 {
+    /* .terms-card h1 {
       font-size: 2rem;
     }
-  
+   */
     .glow-effect {
       width: 200px;
       height: 200px;
