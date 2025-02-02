@@ -32,7 +32,7 @@ const Footer = () => {
                   className="font-bold mb-2 text-lg hover:underline"
                   style={{
                     backgroundImage:
-                      "linear-gradient(to right, #bb57a1, #6766b4)",
+                      "linear-gradient(to right, #E52383, #FE7958)",
                     WebkitBackgroundClip: "text",
                     color: "transparent",
                   }}
@@ -50,7 +50,7 @@ const Footer = () => {
                   className="font-bold mb-2 text-lg hover:underline"
                   style={{
                     backgroundImage:
-                      "linear-gradient(to right, #bb57a1, #6766b4)",
+                      "linear-gradient(to right, #E52383, #FE7958)",
                     WebkitBackgroundClip: "text",
                     color: "transparent",
                   }}
@@ -82,7 +82,7 @@ const Footer = () => {
                   className="font-bold mb-2 text-lg transform hover:underline"
                   style={{
                     backgroundImage:
-                      "linear-gradient(to right, #bb57a1, #6766b4)",
+                      "linear-gradient(to right, #E52383, #FE7958)",
                     WebkitBackgroundClip: "text",
                     color: "transparent",
                   }}
@@ -123,7 +123,7 @@ const Footer = () => {
                   className="font-bold mb-2 text-lg hover:underline"
                   style={{
                     backgroundImage:
-                      "linear-gradient(to right, #bb57a1, #6766b4)",
+                      "linear-gradient(to right, #E52383, #FE7958)",
                     WebkitBackgroundClip: "text",
                     color: "transparent",
                   }}
@@ -155,7 +155,7 @@ const Footer = () => {
                   className=" font-bold mb-2 text-lg "
                   style={{
                     backgroundImage:
-                      "linear-gradient(to right, #bb57a1, #6766b4)",
+                      "linear-gradient(to right, #E52383, #FE7958)",
                     WebkitBackgroundClip: "text",
                     color: "transparent",
                      

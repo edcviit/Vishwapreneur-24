@@ -19,13 +19,13 @@
   /* background-color: #a655d8; */
   margin: 1em;
   /* background-color: #23429e; */
-  border: color #7942be;;
+  border: color #F8317F;;
   border: solid 1px ;
   padding: 1.5em 3.25em;
   border-radius: 5em;
   background-color: #7942be;
-  box-shadow: inset 0 0 2rem #a655d8;
-  background: radial-gradient(#7a8095, #6201d9) padding-box, radial-gradient(#a0c2ed, 35%, #a0c2ed00 70%) 50% 0/80% 50% repeat-y;
+  box-shadow: inset 0 0 2rem #FE4C6A;
+  background: radial-gradient(#7a8095, #FE4C6A) padding-box, radial-gradient(#FF5861, 35%, #a0c2ed00 70%) 50% 0/80% 50% repeat-y;
   color: #ffffff;
   font: 700  montserrat, sans-serif;
   /* width: 15rem;
@@ -75,7 +75,7 @@
   transform: skew(var(--sa), var(--sa));
   opacity: var(--low-c);
   filter: Saturate(var(--low-c));
-  background: radial-gradient(at 85% 85%, #bad9fa, #3e66a4 75%);
+  background: radial-gradient(at 85% 85%, #bad9fa, #FF5861 75%);
   content: "";
 }
 .particle::after {
