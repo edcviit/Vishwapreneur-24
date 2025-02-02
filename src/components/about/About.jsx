@@ -28,17 +28,15 @@ const About = () => {
 
 
 
-
-
-              <div className="w-full px-4 lg:w-1/2 lg:ml-32">
-                <div className="relative" style={{ paddingTop: "56.25%" }}> {/* 16:9 Aspect Ratio */}
+              <div className="w-full flex justify-center">
+                <div className="relative w-[90%] md:w-[80%] lg:w-[60%] aspect-w-16 aspect-h-9">
                   <iframe
+                    className="w-full h-full rounded-lg"
                     src="https://www.youtube.com/embed/ZBqbC8Kdg60?si=3xAuLcNd8Z_obVoJ"
                     title="YouTube video player"
-                    // frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    frameBorder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                    className="absolute top-0 left-0 w-full h-full rounded-lg"
                   ></iframe>
                 </div>
               </div>

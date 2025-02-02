@@ -147,7 +147,24 @@ const About = () => {
                     className="border border-1 rounded-lg -ml-28 w-[18rem] h-[15rem] mb-12 md:h-[16rem] md:w-[25rem] md:ml-12 lg:h-[16rem] lg:w-[30rem]"
                   ></iframe> */}
 
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EhW9pmgim3c?si=UCGSSxtAVkPuDoEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/EhW9pmgim3c?si=UCGSSxtAVkPuDoEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+
+
+                  <div className="w-full flex justify-center">
+                    <div className="relative  h-[200px] w-[300px]  sm:w-[500px] md:w-[500px] lg:w-[360px] aspect-video">
+                      <iframe
+                        className="w-full sm:h-[200px] md:h-[350px] lg:h-[315px] rounded-lg"
+                        src="https://www.youtube.com/embed/EhW9pmgim3c?si=UCGSSxtAVkPuDoEz"
+                        title="YouTube video player"
+                        // frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+
+
                 </div>
 
                 <div className=" lg:py-10">

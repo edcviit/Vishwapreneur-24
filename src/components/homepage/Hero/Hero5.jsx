@@ -12,7 +12,7 @@ const ResponsiveVideo = () => {
         // Mobile size
         console.log("mobile");
         
-        setVideoSource("/rive/mobile.mp4");
+        setVideoSource("/rive/mobile2.mp4");
       } else if (screenWidth <= 1024) {
         // Tablet size
         console.log("tab");
