@@ -84,11 +84,11 @@
   /* margin:10px 120px; */
 }
 
-.contact-support:hover {
+/* .contact-support:hover {
   /* background: rgba(255, 255, 255, 0.2); */
   /* border-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 12px rgba(183, 148, 244, 0.3); */
-}
+  box-shadow: 0 4px 12px rgba(183, 148, 244, 0.3); 
+} */
 
 .arrow-icon {
   transition: transform 0.3s ease;
