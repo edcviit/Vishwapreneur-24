@@ -214,7 +214,7 @@ h1 {
 }
 
 /* Edge shadows */
-.sponsor-wrapper::before,
+/* .sponsor-wrapper::before,
 .sponsor-wrapper::after {
   content: '';
   position: absolute;
@@ -247,16 +247,20 @@ h1 {
   );
 }
 
-/* Ensure swiper container doesn't hide the shadows */
 .swiper-container {
   position: relative;
   overflow: visible !important;
 }
 
-/* Adjust slide visibility */
 .swiper-slide {
   opacity: 1 !important;
-}
+} */
+
+
+
+
+
+
 
 
 

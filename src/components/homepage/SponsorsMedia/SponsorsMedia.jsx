@@ -92,8 +92,8 @@ const SponsorsMedia = () => {
         </h1>
         <div className="swiper-container">
 
-          <div className="absolute left-0 top-0 h-full w-[400px] bg-gradient-to-r from-black via-black to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute right-0 top-0 h-full w-[400px] bg-gradient-to-l from-black via-black to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute left-0 top-0 h-full w-[80px] bg-gradient-to-r from-black via-black to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute right-0 top-0 h-full w-[80px] bg-gradient-to-l from-black via-black to-transparent z-10 pointer-events-none"></div>
 
           <Swiper
             effect="coverflow"
@@ -112,7 +112,7 @@ const SponsorsMedia = () => {
           >
             {ListOfSponsors.map((img, index) => (
               <SwiperSlide key={index}>
-                <div className="rounded-2xl overflow-hidden shadow-lg backdrop-blur-sm bg-white">
+                <div className="rounded-2xl overflow-hidden backdrop-blur-sm bg-white">
                   <img
                     className="brightness-75"
                     src={img}
@@ -141,8 +141,8 @@ const SponsorsMedia = () => {
         </h1>
         <div className="swiper-container">
 
-          <div className="absolute left-0 top-0 h-full w-[400px] bg-gradient-to-r from-black via-black to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute right-0 top-0 h-full w-[400px] bg-gradient-to-l from-black via-black to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute left-0 top-0 h-full w-[80px] bg-gradient-to-r from-black via-black to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute right-0 top-0 h-full w-[80px] bg-gradient-to-l from-black via-black to-transparent z-10 pointer-events-none"></div>
 
           <Swiper
             effect="coverflow"
@@ -161,7 +161,7 @@ const SponsorsMedia = () => {
           >
             {ListOfMediaPartners.map((img, index) => (
               <SwiperSlide key={index}>
-                <div className="rounded-2xl overflow-hidden shadow-lg backdrop-blur-sm bg-white">
+                <div className="rounded-2xl overflow-hidden bg-white">
                   <img
                     className="brightness-75"
                     src={img}

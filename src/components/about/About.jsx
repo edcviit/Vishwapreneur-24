@@ -12,7 +12,7 @@ const About = () => {
             </h1>
 
             <div className=" flex flex-col md:flex-row items-center justify-center">
-              <div className="md:w-1/2 lg:w-1/2 lg:ml-32 w-1/6">
+              {/* <div className="md:w-1/2 lg:w-1/2 lg:ml-32 w-1/6">
                 <iframe
                   width="530"
                   height="300"
@@ -23,7 +23,30 @@ const About = () => {
                   allowfullscreen
                   className="border border-1 rounded-lg -ml-28 w-[18rem] h-[15rem] mb-12 md:h-[16rem] md:w-[25rem] md:ml-12 lg:h-[16rem] lg:w-[30rem]"
                 ></iframe>
+              </div> */}
+
+
+
+
+
+
+              <div className="w-full px-4 lg:w-1/2 lg:ml-32">
+                <div className="relative" style={{ paddingTop: "56.25%" }}> {/* 16:9 Aspect Ratio */}
+                  <iframe
+                    src="https://www.youtube.com/embed/ZBqbC8Kdg60?si=3xAuLcNd8Z_obVoJ"
+                    title="YouTube video player"
+                    // frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                  ></iframe>
+                </div>
               </div>
+
+
+
+
+
 
               <div className=" lg:py-10 text-center">
                 <p className="text-gray-300 mx-6 text-lg lg:text-xl lg:mx-16 lg:pl-10">
