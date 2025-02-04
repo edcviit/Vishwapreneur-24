@@ -29,6 +29,7 @@ import Timeline from "./components/timeline/Timeline.jsx";
 import SponsorMain from "./components/homepage/SponsorsMedia/SponsorMain.jsx";
 import { Link } from 'react-router-dom';
 // import BackgroundTheme from "./components/Background/BackgroundTheme.jsx";
+import Guest4 from "./components/homepage/Guests/Guest4.jsx";
 
 import Gallery from "./components/gallery/Gallery";
 
@@ -147,7 +148,7 @@ function Landing() {
 
       <div className="mt-0">
 
-        <Guest2></Guest2>
+        <Guest4></Guest4>
 
       </div>
 

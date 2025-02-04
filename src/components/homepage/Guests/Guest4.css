@@ -1,0 +1,143 @@
+/* Main card container */
+.cardG-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Profile Card */
+  .cardG {
+    background: linear-gradient(180deg, #220022, #1e1e2f); /* Adjusted to match image */
+    border-radius: 15px;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .cardG:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px rgba(255, 70, 105, 0.7);
+  }
+  
+  /* Profile Image Wrapper */
+  .cardG-images {
+    position: relative;
+    display: inline-block;
+    /* border-radius: 50px; */
+    border-radius: 20%;
+    overflow: hidden;
+    width: 170px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Profile Image */
+  .cardG-figure {
+    width: 300px;
+    height: 190px;
+    /* border-radius: 20px; */
+    border-radius: 20%;
+    clip-path: ellipse(90% 95% at center top); /* Curved effect */
+    border: 5px solid #fabc5e;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Glowing Border */
+  .glowing-border {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px; /* Only at the bottom */
+    background: linear-gradient(to right, #ff4669, #ce1790);
+    z-index: -1;
+  }
+  
+  /* Left and Right Borders */
+  .glowing-border::before,
+  .glowing-border::after {
+    content: "";
+    position: absolute;
+    width: 10px; /* Width of the side glow */
+    height: 100%;
+    background: linear-gradient(to bottom, #ff4669, #ce1790);
+  }
+  
+  .glowing-border::before {
+    left: 0;
+  }
+  
+  .glowing-border::after {
+    right: 0;
+  }
+  
+  /* Show glowing effect on hover */
+  .cardG:hover .glowing-border {
+    opacity: 1;
+    box-shadow: 0px 0px 15px 3px rgba(255, 70, 105, 0.8);
+  }
+  
+  /* Name Styling */
+  .cardG-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4669;
+    margin-top: 10px;
+  }
+  
+  /* Description */
+  .cardG-description {
+    color: white;
+    font-size: 16px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  /* Show description on hover */
+  .cardG-info.show .cardG-description {
+    opacity: 1;
+  }
+  
+  /* Button */
+  /* .space-button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #7c008d;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .space-button:hover {
+    background: #7c008d;
+    color: white;
+  } */
+
+
+
+
+
+
+  .space-button {
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #292b2c;
+    border: 2px solid #00afb9;
+    padding: 15px 30px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color .3s, color .3s, border-color .3s;
+  }
+
+
+  
+  
