@@ -45,6 +45,7 @@ const ResponsiveVideo = () => {
         autoPlay
         muted
         playsInline
+        preload="auto"
       >
         
         <source src={videoSource} type="video/mp4" />

@@ -11,77 +11,52 @@ SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 const SponsorsMedia = () => {
   const navigate = useNavigate();
 
-  const ListOfSponsors = [
 
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965527/VP-23/sponsors-photo/twj-01_o9auxe.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965467/VP-23/sponsors-photo/kiranacademy-01_jsoztm.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677048887/VP-23/sponsors-photo/herody-01_brshxy.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965714/VP-23/sponsors-photo/aecc-01_rsiu2e.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677048887/VP-23/sponsors-photo/newstride-01_hhrx5e.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677479947/VP-23/sponsors-photo/edwise-01_tvwxnw.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676206111/VP-23/sponsors-photo/peterengland-01_sgqpek.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/ather-01_vapcah.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677481571/VP-23/sponsors-photo/hero_new-01_etsbgs.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/stackos-01_mhietf.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676870630/VP-23/sponsors-photo/balaji-01_akpawr.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/haldiram-01_ki7j2w.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676870630/VP-23/sponsors-photo/budhani-01_h2vmka.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/smita-01_rudjre.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/growthschool-01_mhrxpp.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676204645/VP-23/sponsors-photo/bliss_coffee-01_z9wsyq.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965398/VP-23/sponsors-photo/interview_buddy-01_yd0371.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677038643/VP-23/sponsors-photo/wellness-01_xaj2v6.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677481571/VP-23/sponsors-photo/my_nutrition-01_jajigx.png",
-    "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677478746/VP-23/sponsors-photo/nufurn-01_umzvwp.png",
+
+
+
+  const ListOfSponsors = [
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965527/VP-23/sponsors-photo/twj-01_o9auxe.png", link: "https://twj.example.com" },
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965467/VP-23/sponsors-photo/kiranacademy-01_jsoztm.png", link: "https://kiranacademy.com" },
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677048887/VP-23/sponsors-photo/herody-01_brshxy.png", link: "https://herody.in" },
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965714/VP-23/sponsors-photo/aecc-01_rsiu2e.png", link: "https://aeccglobal.com" },
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677048887/VP-23/sponsors-photo/newstride-01_hhrx5e.png", link: "https://www.newstrides.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677479947/VP-23/sponsors-photo/edwise-01_tvwxnw.png", link: "https://www.edwiseinternational.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676206111/VP-23/sponsors-photo/peterengland-01_sgqpek.png", link: "https://www.peter-england.co.uk/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/ather-01_vapcah.png", link: "https://www.atherenergy.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677481571/VP-23/sponsors-photo/hero_new-01_etsbgs.png", link: "https://www.heromotors.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/stackos-01_mhietf.png", link: "https://docs.stackos.io/stackos-docs"}, // Confuse
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676870630/VP-23/sponsors-photo/balaji-01_akpawr.png", link: "https://www.balajiwafers.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677419203/VP-23/sponsors-photo/haldiram-01_ki7j2w.png", link: "https://www.haldiram.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676870630/VP-23/sponsors-photo/budhani-01_h2vmka.png", link: "https://www.budhanibros.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093105/VP-23/mediap-photos/smita-01_rudjre.png", link: "https://smitaholidays.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676093104/VP-23/mediap-photos/growthschool-01_mhrxpp.png", link: "https://www.growthschool.io/in"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676204645/VP-23/sponsors-photo/bliss_coffee-01_z9wsyq.png", link: "https://www.blisscoffeebar.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1676965398/VP-23/sponsors-photo/interview_buddy-01_yd0371.png", link: "https://interviewbuddy.net/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677038643/VP-23/sponsors-photo/wellness-01_xaj2v6.png", link: "https://www.wellnessforever.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677481571/VP-23/sponsors-photo/my_nutrition-01_jajigx.png", link: "https://www.mjnutritionist.com/"},
+    { img: "https://res.cloudinary.com/da5mmxnn3/image/upload/v1677478746/VP-23/sponsors-photo/nufurn-01_umzvwp.png", link: "https://www.nufurn.com/"},
+    // Add more sponsors with their respective links
   ];
 
   const ListOfMediaPartners = [
-    
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/plsqklqh8yhtec6mqpyv.webp",/*redfm*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733689178/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_7_coo8yx.png",/*abp*/
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp",/*campus india*/
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/plcxyf7gsgtdm4y0awvc.webp",/*EOE*/
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp",/*kumarSpecific*/
+    { img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/plsqklqh8yhtec6mqpyv.webp", link: "https://redfm.com" }, /* RedFM */
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733689178/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_7_coo8yx.png", link: "https://abpnews.com" }, /* ABP */
+    { img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp", link: "https://campusindia.com" }, /* Campus India */
+    { img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/plcxyf7gsgtdm4y0awvc.webp", link: "https://eoe.in" }, /* EOE */
+    { img: "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp", link: "http://www.kumarpacificmall.com/"},/*kumarSpecific*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687421/Untitled_design_10_vnvn9l.png", link: "https://www.startupindia.gov.in/"},/*startupindia*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688561/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_6_zirmcd.png", link: "https://theglobalhues.com/"},/*tgh*/  
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688479/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_5_i827oc.png", link: "https://epaper.prabhatkhabar.com/"},/*prabhat*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688406/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_4_uzo8nd.png", link: "https://epaper.esakal.com/smartepaper/UI/?q=Pune/Main/2025-02-06/1"},/*sakal*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688332/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_3_pryu7x.png", link: "https://homebusinessmag.com/"},/*BusinessSphMag*/      
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688252/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_2_u99caj.png", link: "https://www.saamana.com/"},/*samna*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688173/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_1_gqc92l.png", link: "https://unstop.com/"},/*0unstop*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688067/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_fynb4d.png", link: "https://www.siliconindia.com/"},/*silicon india*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687943/Untitled_design_13_aspjv3.png", link: "https://bootstart.in/"},/*bootstrap*/
+    { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687812/Untitled_design_12_isyjc8.png", link: "https://startupnews.fyi/"},/*startupnews*/
    
-
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687421/Untitled_design_10_vnvn9l.png",/*startupindia*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688561/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_6_zirmcd.png",/*tgh*/
-
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688479/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_5_i827oc.png",/*prabhat*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688406/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_4_uzo8nd.png",/*sakal*/
-    
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688332/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_3_pryu7x.png",/*BusinessSphMag*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688252/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_2_u99caj.png",/*samna*/
-
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688173/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_1_gqc92l.png", /*0unstop*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688067/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_fynb4d.png",/*silicon india*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687943/Untitled_design_13_aspjv3.png",/*bootstrap*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687812/Untitled_design_12_isyjc8.png",/*startupnews*/
-
-    //repeat
-    
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003437/Parteners/plsqklqh8yhtec6mqpyv.webp",/*redfm*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733689178/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_7_coo8yx.png",/*abp*/
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/wvwcgh8xmxawuypxxugl.webp",/*campus india*/
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/plcxyf7gsgtdm4y0awvc.webp",/*EOE*/
-    "https://res.cloudinary.com/di40y80dw/image/upload/v1708003435/Parteners/uft1xsnuzizuxnagbjgk.webp",/*kumarSpecific*/
-   
-
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687421/Untitled_design_10_vnvn9l.png",/*startupindia*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688561/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_6_zirmcd.png",/*tgh*/
-
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688479/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_5_i827oc.png",/*prabhat*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688406/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_4_uzo8nd.png",/*sakal*/
-    
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688332/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_3_pryu7x.png",/*BusinessSphMag*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688252/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_2_u99caj.png",/*samna*/
-
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688173/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_1_gqc92l.png", /*0unstop*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688067/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_fynb4d.png",/*silicon india*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687943/Untitled_design_13_aspjv3.png",/*bootstrap*/
-    "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687812/Untitled_design_12_isyjc8.png",/*startupnews*/
-
-    // Add more media partner image URLs...
+    // Add more media partners with their respective links
   ];
 
   return (
@@ -110,18 +85,19 @@ const SponsorsMedia = () => {
               slideShadows: true,
             }}
           >
-            {ListOfSponsors.map((img, index) => (
+            {ListOfSponsors.map((sponsor, index) => (
               <SwiperSlide key={index}>
                 <div className="rounded-2xl overflow-hidden backdrop-blur-sm bg-white">
-                  <img
-                    className="brightness-75"
-                    src={img}
-                    alt={`Sponsor ${index}`}
-                  />
+                  <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
+                    <img src={sponsor.img} alt={`Sponsor ${index + 1}`} />
+                  </a>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
+
+
+
         </div>
         <div className="flex justify-center">
           <button
@@ -159,18 +135,18 @@ const SponsorsMedia = () => {
               slideShadows: true,
             }}
           >
-            {ListOfMediaPartners.map((img, index) => (
+            {ListOfMediaPartners.map((partner, index) => (
               <SwiperSlide key={index}>
                 <div className="rounded-2xl overflow-hidden bg-white">
-                  <img
-                    className="brightness-75"
-                    src={img}
-                    alt={`Media Partner ${index}`}
-                  />
+                  <a href={partner.link} target="_blank" rel="noopener noreferrer">
+                    <img src={partner.img} alt={`Media Partner ${index + 1}`} />
+                  </a>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
+
+
         </div>
         <div className="flex justify-center">
           <button

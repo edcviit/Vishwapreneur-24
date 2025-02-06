@@ -68,7 +68,7 @@ const Register = () => {
             </li>
             <li>Click on Pay Event Fees</li>
             <li>Select Organising institute as VIIT,Pune from dropdown menu</li>
-            <li>Select event as VISHWAPRENEUR 24 from dropdown</li>
+            <li>Select event as VISHWAPRENEUR 25 from dropdown</li>
             <li>
               Select the type of ticket as either VIP-external or
               Regular-external
@@ -103,7 +103,7 @@ const Register = () => {
             <li>Select accounts section</li>
             <li>Click on pay event fees from the dropdown</li>
             <li>Select Organising institute as VIIT,Pune from dropdown menu</li>
-            <li>Select event as VISHWAPRENEUR 24 from dropdown</li>
+            <li>Select event as VISHWAPRENEUR 25 from dropdown</li>
             <li>Select the type of ticket as either VIP or Regular</li>
             <li>Click on pay</li>
             <li>
