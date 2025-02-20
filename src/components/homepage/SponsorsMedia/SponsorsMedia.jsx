@@ -55,6 +55,7 @@ const SponsorsMedia = () => {
     { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688067/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_fynb4d.png", link: "https://www.siliconindia.com/"},/*silicon india*/
     { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687943/Untitled_design_13_aspjv3.png", link: "https://bootstart.in/"},/*bootstrap*/
     { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687812/Untitled_design_12_isyjc8.png", link: "https://startupnews.fyi/"},/*startupnews*/
+    { img: "https://res.cloudinary.com/edcviitcom/image/upload/v1740042537/range-p_pqt2od.jpg", link: "https://www.rangepublicity.com/"} /*range publicity*/
    
     // Add more media partners with their respective links
   ];
