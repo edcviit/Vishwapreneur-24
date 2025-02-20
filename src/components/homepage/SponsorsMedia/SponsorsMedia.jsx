@@ -88,7 +88,7 @@ const SponsorsMedia = () => {
           >
             {ListOfSponsors.map((sponsor, index) => (
               <SwiperSlide key={index}>
-                <div className="rounded-2xl overflow-hidden backdrop-blur-sm bg-white">
+                <div className="rounded-2xl overflow-hidden backdrop-blur-sm bg-white justify-center">
                   <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
                     <img src={sponsor.img} alt={`Sponsor ${index + 1}`} />
                   </a>
