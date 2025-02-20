@@ -10,13 +10,13 @@ const Contact = () => {
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-10">
         <Card
           title="Speaking Opportunities"
-          subtitle="curation@vishwapreneur.in"
-          href="mailto:curation@vishwapreneur.in"
+          subtitle="curation@vishwapreneur.com"
+          href="mailto:curation@vishwapreneur.com"
           Icon={FaMicrophone}
           phone={"+91 8668351747"}
         />
         <Card title="Sponsorship Opportunities" subtitle="edcflm.sponsorship@gmail.com " href="mailto:edcflm.sponsorship@gmail.com" Icon={FaHandsHelping} phone={"+91 9834204591"} />
-        <Card title="Collaboration Opportunities" subtitle='pr@vishwapreneur.in' href="mailto:pr@vishwapreneur.in" Icon={FaUserFriends} phone={"+91 8799842913"} />
+        <Card title="Collaboration Opportunities" subtitle='pr@vishwapreneur.com' href="mailto:pr@vishwapreneur.com" Icon={FaUserFriends} phone={"+91 8799842913"} />
         <Card
           title="Queries"
           subtitle="sales@vishwapreneur.in"
