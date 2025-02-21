@@ -55,7 +55,17 @@ const SponsorsMedia = () => {
     { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733688067/httpsres.cloudinary.comdi40y80dwimageuploadv1708018193Partenersmgkcx8khmcrtuiihm3aw.png_fynb4d.png", link: "https://www.siliconindia.com/"},/*silicon india*/
     { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687943/Untitled_design_13_aspjv3.png", link: "https://bootstart.in/"},/*bootstrap*/
     { img: "https://res.cloudinary.com/dtqrzxyef/image/upload/v1733687812/Untitled_design_12_isyjc8.png", link: "https://startupnews.fyi/"},/*startupnews*/
-    { img: "https://res.cloudinary.com/edcviitcom/image/upload/v1740043548/range-p-removebg-preview_csjzsw.png", link: "https://www.rangepublicity.com/"} /*range publicity*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740149364/Range_oqldun.png", link: "https://www.rangepublicity.com/"}, /*range publicity*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740147597/ZEE_qpwlx5.png", link: "https://zeenews.india.com/marathi/"}, /*zee-24*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740148437/D_Lunch_Box_jrkfzr.png", link: "https://dlunchbox.com/"}, /*dlunch-box*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740148536/digital_prabhat_vs2vdh.png", link: "https://www.dainikprabhat.com/"}, /*digital-prabhat*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740148627/Golden_papaya_q9i7y1.png", link: "https://www.instagram.com/goldenpapaya.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="}, /*golden-papaya*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740148741/Marksmen_dhe6ow.png", link: "https://marksmendaily.com/"}, /*marks-men*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740149192/Punyanagri_z9trju.png", link: "https://epaper.punyanagari.in/"}, /*punyanagari*/
+    { img: "https://res.cloudinary.com/dntep5naz/image/upload/v1740149550/The_Newsage_yn4clz.png", link: "https://www.instagram.com/thenewsagepune?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="}, /*newsage*/
+      
+    
+      
    
     // Add more media partners with their respective links
   ];
