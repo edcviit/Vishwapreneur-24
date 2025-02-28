@@ -157,7 +157,7 @@ function Landing() {
       </div>
 
       {/* <Gallery3 /> */}
-      <SponsorsMedia></SponsorsMedia>
+      {/* <SponsorsMedia></SponsorsMedia> */}
       {/* <SponsorMain /> */}
       <Reviews></Reviews>
       <Media2></Media2>
