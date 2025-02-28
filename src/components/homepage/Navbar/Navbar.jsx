@@ -194,19 +194,7 @@ const Navbar = () => {
                   </button>
                 </motion.li>
               ))}
-              <motion.li
-                variants={itemVarients}
-                className="px-4 cursor-pointer capitalize py-6 text-4xl"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                key={links.length}
-                onClick={() => {
-                  navigate("/team");
-                  setNav(!nav);
-                }}
-              >
-                Team
-              </motion.li>
+              
             </motion.div>
           ) : (
             <motion.div variants={varients1} className="my_links">
@@ -231,19 +219,7 @@ const Navbar = () => {
                   </Link>
                 </motion.li>
               ))}
-              <motion.li
-                variants={itemVarients}
-                className="px-4 cursor-pointer capitalize py-6 text-4xl"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                key={links.length}
-                onClick={() => {
-                  navigate("/team");
-                  setNav(!nav);
-                }}
-              >
-                Team
-              </motion.li>
+              
             </motion.div>
           )}
         </motion.ul>

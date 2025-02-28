@@ -78,17 +78,17 @@ function Terms() {
           <div className="terms-left">
             <section>
               <h2>Age Limit</h2>
-              {/* <p>Any person above the age of 13 is allowed to join us for Vishwapreneur'24</p> */}
+              {/* <p>Any person above the age of 13 is allowed to join us for Vishwapreneur'25</p> */}
               <ul className="list-disc pl-5 space-y-2">
-                <li>Any person above the age of 13 is allowed to join us for Vishwapreneur'24</li>
+                <li>Any person above the age of 13 is allowed to join us for Vishwapreneur'25</li>
               </ul>
             </section>
 
             <section>
               <h2>Privacy Policy</h2>
-              {/* <p>By registering for Vishwapreneur'24, you consent to the collection and use of this information as set forth.</p> */}
+              {/* <p>By registering for Vishwapreneur'25, you consent to the collection and use of this information as set forth.</p> */}
               <ul className="list-disc pl-5 space-y-2">
-                <li>By registering for Vishwapreneur'24, you consent to the collection and use of this information as set forth.</li>
+                <li>By registering for Vishwapreneur'25, you consent to the collection and use of this information as set forth.</li>
               </ul>
             </section>
 

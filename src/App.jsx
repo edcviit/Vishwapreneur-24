@@ -135,16 +135,8 @@ particles.pause();
                 </Suspense>
               }
             />
-            <Route
-              path="/team"
-              element={
-                <Suspense fallback={<Loader1 />}>
-                  <TeamPage />
-                </Suspense>
-              }
-            />
+          
 
-            <Route exact path="/team" element={<TeamPage />} />
             <Route exact path="/sponsermedia" element={<SponsorMedia1 />} />
             <Route exact path="/mediapartner" element={<Mediapartner1 />} />
 

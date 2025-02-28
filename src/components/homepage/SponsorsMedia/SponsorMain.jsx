@@ -23,7 +23,6 @@ export const SponsorMain = () => {
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/gru2nflgjncvm5s7c7rq.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/daklik83d25fpbjhcptm.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/clkhde4wtshuruzn9b0i.webp",
-    
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003322/Sponsors_webp/ezflynldz6c5e1pnbcw3.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/ghbucwukzav2f63jmqyv.webp",
     "https://res.cloudinary.com/di40y80dw/image/upload/v1708003323/Sponsors_webp/indtdbdyvuqne7jqt8xz.webp",
