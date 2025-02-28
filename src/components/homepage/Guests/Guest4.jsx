@@ -34,50 +34,6 @@ const Guest4 = () => {
         name: "Raj Vikramaditya (Striver)",
         whoIsHe: "Founder & Educator, TakeUForward",
     },
-
-    {
-      img: "/image/Upcoming.webp", // Update with actual image path
-      name: "Coming Soon",
-    //   whoIsHe: "Artificial Intelligence",
-    //   whoIsHe2: "Researcher",
-    },
-    {
-        img: "/image/Upcoming.webp", // Update with actual image path
-        name: "Coming Soon",
-        // whoIsHe: "Artificial Intelligence",
-        // whoIsHe2: "Researcher",
-    },
-    {
-        img: "/image/Upcoming.webp", // Update with actual image path
-        name: "Coming Soon",
-        // whoIsHe: "Artificial Intelligence",
-        // whoIsHe2: "Researcher",
-    },
-    {
-        img: "/image/Upcoming.webp", // Update with actual image path
-        name: "Coming Soon",
-        // whoIsHe: "Artificial Intelligence",
-        // whoIsHe2: "Researcher",
-    },
-    {
-        img: "/image/Upcoming.webp", // Update with actual image path
-        name: "Coming Soon",
-        // whoIsHe: "Artificial Intelligence",
-        // whoIsHe2: "Researcher",
-    },
-    {
-        img: "/image/Upcoming.webp", // Update with actual image path
-        name: "Coming Soon",
-        // whoIsHe: "Artificial Intelligence",
-        // whoIsHe2: "Researcher",
-    },
-    {
-        img: "/image/Upcoming.webp", // Update with actual image path
-        name: "Coming Soon",
-        // whoIsHe: "Artificial Intelligence",
-        // whoIsHe2: "Researcher",
-    },
-    // Add more guests as needed
   ];
 
   return (
